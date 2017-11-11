@@ -5,7 +5,7 @@ export default function Greeting() {
         <div 
             style={{borderBottom:'9px solid #000'}}
         >
-            <h5>Welcome to the official website of ItzHayst</h5>
+            <h5>Welcome to the official website of Hayst Studios</h5>
         </div>
     )
 }

@@ -8,11 +8,17 @@ export default function myModal({onHide}) {
             onHide={onHide}
         >
             <Modal.Header>
-                <h4>Recent Channel Update!</h4>
+                <h4>Recent Website Update</h4>
             </Modal.Header>
             <Modal.Body>
-                <h15>The New Video Project: 'Minecraft "Max=Newb" [Hypixel Bedwars] /w Max Comics' Is Being Made!</h15>
-                <h1> Hayst Is Still Working On It, please be patient! :D </h1>
+                <h15>NEW Tab: Shop!
+                    <div>
+                        <h15>
+                           Buy And Download Goods In The Store Section (Some Are Free, Some Needs Purchase) 
+                        </h15>
+                    </div>
+                </h15>
+                <h1> This Tab Is Still In A Construction Level, Wait A While For It To Be Officially Released! </h1>
                 <div  
                 style={{
                     borderTop: '2px solid #000'

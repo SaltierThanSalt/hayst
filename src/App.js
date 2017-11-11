@@ -9,6 +9,7 @@ import what from './img/whatttt.png';
 import Home from './containers/Home';
 import SocialMedia from './containers/SocialMedia';
 import RecentUploads from './containers/RecentUploads';
+import Shop from './containers/Shop';
 
 import {Route, Switch} from 'react-router-dom';
 
@@ -54,6 +55,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/socialmedia" component={SocialMedia} />
             <Route path="/uploads" component={RecentUploads} />
+            <Route path="/shop" component={Shop} />
           </Switch>
       </div>
       </div>

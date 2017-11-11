@@ -4,9 +4,9 @@ export default class Bot extends Component {
   render() {
     return (
       <div style={{textAlign: 'center'}}>
-        <h1>Talk to me. I'm a Haystbot! </h1>
+        <h1>Talk to me. I'm Your Manager </h1>
         <input
-          placeholder="commands: Hello, Hi, Bye, Good Night, Wassap, Subcribe To Hayst, I'm Still Alllliiiveee!"
+          placeholder="Hello, Say Anything You Want."
           style={{
             width: '50%',
             marginLeft: '25%',

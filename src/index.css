@@ -70,5 +70,26 @@ h16 {
 .btn btn-success {
   font-size: 50px;
 }
-
-
+.storelinks {
+  font-size: 50px;  
+}
+h22 {
+  font-size: 50px;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+h23 {
+  background-size: 30px;
+}
+h25 {
+  font-size: '4vw';
+  color: #ffffff;
+}
+h26 {
+  color: #ffffff;
+}
+.Hello {
+  color: #ffffff;
+}
+.wassaphi {
+  color: #ffffff;
+}

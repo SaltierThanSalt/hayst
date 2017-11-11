@@ -1,6 +1,6 @@
 import React from 'react'
-import GenerationImage from '../img/lolol.png';
-import svgimg from '../img/mincraft_axe1600.png';
+import GenerationImage from '../img/anotherbannerwoohoo.png';
+import svgimg from '../img/Hayst-Logo.png';
 
 export default function Header() {
     return (
