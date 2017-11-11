@@ -2,6 +2,7 @@ import React from 'react'
 import Blender_Sky from '../../img/skyimageblender.jpg'
 import Image from '../../Image';
 import blender_preview_duh from '../../img/yeah.jpg'
+import haystprofesionallogo from '../../img/Hayst-Logo.png'
 
 export default function Shop() {
   return (
@@ -41,11 +42,7 @@ export default function Shop() {
         <h23
           style={{
           }}>
-          <img src="http://haytersite/static/media/Hayst-Logo.77c4a3c3.png"
-            style={{
-                  fontsize: '10vw',
-                }}>
-          </img>
+          <Image src={haystprofesionallogo}/>           
           <h25>
             Description: This is a free usable Hayst Logo, Made By HaystStudios.
           </h25>
