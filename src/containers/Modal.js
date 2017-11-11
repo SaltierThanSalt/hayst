@@ -11,14 +11,14 @@ export default function myModal({onHide}) {
                 <h4>Recent Website Update</h4>
             </Modal.Header>
             <Modal.Body>
-                <h15>NEW Tab: Shop!
+                <h15>Update v 1.1 Is Out! (The Merch Update!)
                     <div>
                         <h15>
                            Buy And Download Goods In The Store Section (Some Are Free, Some Needs Purchase) 
                         </h15>
                     </div>
                 </h15>
-                <h1> This Tab Is Still In A Construction Level, Wait A While For It To Be Officially Released! </h1>
+                <h1> Enjoy your time! :D </h1>
                 <div  
                 style={{
                     borderTop: '2px solid #000'
@@ -29,7 +29,7 @@ export default function myModal({onHide}) {
                     </h16>
                 </div>
                 <div>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/QlIWtKEaBkA" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/KelwcKq7Bbg" frameborder="0" allowfullscreen></iframe>
                 </div>
             </Modal.Body>
             <Modal.Footer>

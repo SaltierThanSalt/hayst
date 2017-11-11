@@ -6,6 +6,22 @@ export default function Home() {
       <h14>
         Recent Uploads
       </h14>
+      <div
+        style={{
+          borderTop: '2px solid #000'
+        }}
+      >
+        <h16>
+          Hayst Practices Fur Elise Dubstep Remix #2
+        </h16>
+      </div>
+      <div
+        style={{
+          borderTop: '2px solid #000'
+        }}
+      >
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/KelwcKq7Bbg" frameborder="0" allowfullscreen></iframe>
+      </div>
       <div  
         style={{
           borderTop: '2px solid #000'

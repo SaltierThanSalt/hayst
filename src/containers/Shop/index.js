@@ -34,18 +34,11 @@ export default function Shop() {
         style={{
         }}>
         <h24>
-          Preview
+          No Preview Unavaliable
         </h24>
       </div>
       <div>
-        <h23
-          style={{
-          }}>
-          <img src="http://localhost:3000/static/media/Hayst-Logo.77c4a3c3.png"
-            style={{
-                  fontsize: '10vw',
-                }}>
-          </img>
+        <h23>
           <h25>
             Description: This is a free usable Hayst Logo, Made By HaystStudios.
           </h25>
@@ -78,13 +71,21 @@ export default function Shop() {
             <h23>
             <Image src={blender_preview_duh} />
             </h23>
-            <h26
-              style={{
-              }}>
+            <h26>
               Description: This Is A Sky Material That You Can Use In Blender. (Enviroment)
             </h26>
           </div>
         </div>
+        <div>
+          <h28
+            style={{
+              borderTop: '2px solid white',
+            }}
+          >
+          Tutorial By Abriter617:
+          </h28>
+        </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/0-gA7O6SCdw" frameborder="0" allowfullscreen></iframe> 
       </div>  
     </div>
   )
