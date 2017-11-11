@@ -17,6 +17,17 @@ export default function RecentUploads() {
             color: 'white',
             fontSize: '30px',
           }}
+          to="/uploads"
+        >
+          To Page TwOne
+        </Link>
+      </div>
+      <div className="btn btn-success">
+        <Link
+          style={{
+            color: 'white',
+            fontSize: '30px',
+          }}
           to="/uploads/1"
         >
           To Page Two
