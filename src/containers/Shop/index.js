@@ -41,7 +41,7 @@ export default function Shop() {
         <h23
           style={{
           }}>
-          <img src="http://localhost:3000/static/media/Hayst-Logo.77c4a3c3.png"
+          <img src="http://haytersite/static/media/Hayst-Logo.77c4a3c3.png"
             style={{
                   fontsize: '10vw',
                 }}>
