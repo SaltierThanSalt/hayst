@@ -19,7 +19,7 @@ export default function RecentUploads() {
           }}
           to="/uploads"
         >
-          To Page TwOne
+          To Page One
         </Link>
       </div>
       <div className="btn btn-success">
