@@ -47,7 +47,7 @@ export default function Shop() {
                 }}>
           </img>
           <h25>
-            Description: This is a free usable Hayst Logo, Made By Hayst.
+            Description: This is a free usable Hayst Logo, Made By HaystStudios.
           </h25>
         </h23>
         <div>
