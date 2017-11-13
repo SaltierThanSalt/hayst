@@ -104,3 +104,15 @@ h24 {
   color: white;
   font-size: '4vw';
 }
+
+.headerofinfo1 {
+  color: black;
+  font-family: "Times New Roman", Georgia, Serif;
+  background-color: rgb(67, 163, 253);
+}
+.liofinfo1 {
+  Font-size: 2vw
+}
+.liofinfo2 {
+  Font-size: 1vw
+}

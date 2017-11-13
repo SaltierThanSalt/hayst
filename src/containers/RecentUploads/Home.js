@@ -54,9 +54,21 @@ export default function Home() {
       >
       <iframe width="560" height="315" src="https://www.youtube.com/embed/wq2qE1cFt64" frameborder="0" allowfullscreen></iframe>
       </div>
-        <h20>
-
-        </h20>
+      <div
+        style={{
+          borderTop:"90px solid #ffffff",
+          display: 'flex',
+          justifyContent: 'center'
+        }}>
+        Copyright Hayst 2017
+      </div>
+      <div
+        style={{
+            display: 'flex',
+            justifyContent: 'center'
+        }}>
+        All rights reserved.
+      </div>
     </div>
   )
 }

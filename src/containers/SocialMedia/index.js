@@ -22,6 +22,21 @@ export default function SocialMedia() {
       <div>
         <li> <a href="https://www.twin-kle.com/users/alexlee">🇹 Twinkle</a> </li>
       </div>
+      <div
+        style={{
+          borderTop:"90px solid #ffffff",
+          display: 'flex',
+          justifyContent: 'center'
+        }}>
+        Copyright Hayst 2017
+      </div>
+      <div
+        style={{
+            display: 'flex',
+            justifyContent: 'center'
+        }}>
+        All rights reserved.
+      </div>
     </div>
   )
 }

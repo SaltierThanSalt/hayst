@@ -86,7 +86,51 @@ export default function Shop() {
           </h28>
         </div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/0-gA7O6SCdw" frameborder="0" allowfullscreen></iframe> 
-      </div>  
-    </div>
+        </div> 
+        <div>
+          <div>
+            <h22>
+              <a
+                className="wassaphi"
+                href = "https://www.mediafire.com/file/w4w0wh282bxz6w7/Youtuber%27s%20Improvements%20Package%231%20-%20Hayst.zip"
+                style={{
+                  borderTop: '2px solid #ffffff',
+                  fontStyle: ('Bold'),
+                  borderBottom: '2px solid #ffffff'
+                }}
+              >
+                Youtubers Improvement Package (0$)
+              </a>
+            </h22>
+          </div> 
+          <div>
+            <h24>
+              Preview Unavaliable
+            </h24>
+          </div>
+          <div>
+            <h26>
+              Description: This Is A Special Sound effects/ Meme Images for Youtubers. (improvement)
+            </h26>
+          </div>
+        </div>
+        <div
+          style={{
+            borderTop:"90px solid black",
+            display: 'flex',
+            justifyContent: 'center',
+            color:'white'
+          }}>
+          Copyright Hayst 2017
+        </div>
+        <div
+          style={{
+              display: 'flex',
+              justifyContent: 'center',
+              color:'white'
+          }}>
+          All rights reserved.
+        </div> 
+      </div>
   )
 }

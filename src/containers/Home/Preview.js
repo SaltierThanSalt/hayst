@@ -24,6 +24,18 @@ export default class Preview extends Component {
     return (
       <div>
         <div>
+          <h12>
+            New: SHOP SECTION
+          </h12>
+        </div>
+        <div>
+          <h12>
+            New: INFO SECTION
+          </h12>
+        </div>
+        <div style={{
+          borderTop:'20px solid #000',
+        }}>
           <h12> Subcribe For </h12>
         </div>
         <div
@@ -105,7 +117,7 @@ export default class Preview extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </div>      
     )
   }
 

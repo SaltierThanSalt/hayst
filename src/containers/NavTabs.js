@@ -7,7 +7,8 @@ export default function NavTabs() {
             <li><Link to="/">🏠 Home </Link></li>
             <li><Link to="/socialmedia">📋 Social Media </Link></li>
             <li><Link to="/uploads">▶ Recent Uploads </Link></li>
-            <li><Link to="/shop">🛍 Shop (NEW!) </Link></li>
+            <li><Link to="/shop">🛍 Shop </Link></li>
+            <li><Link to="/info">ℹ️ Infos (NEW!) </Link></li>
         </ul>
     )
 }
