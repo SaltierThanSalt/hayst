@@ -11,10 +11,10 @@ export default function myModal({onHide}) {
                 <h4>Recent Website Update</h4>
             </Modal.Header>
             <Modal.Body>
-                <h15>Update v 1.1 Is Out! (The Merch Update!)
+                <h15>Update v 2 Is Out! (The Rights Update!)
                     <div>
                         <h15>
-                           Buy And Download Goods In The Store Section (Some Are Free, Some Needs Purchase) 
+                           More changes! 
                         </h15>
                     </div>
                 </h15>
