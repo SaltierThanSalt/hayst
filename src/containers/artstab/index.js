@@ -10,39 +10,56 @@ export default function Arts() {
           style={{
             backgroundColor: 'black'
           }}>
-          <h2 className="titleofartsssss"
+            <h2 className="titleofartsssss"
+              style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  borderBottom: 'solid 5px white',
+                  color: 'white'
+              }}>
+              Hayst's Art Section
+            </h2>
+            <h1 className="Anything"
+              style={{
+                color: 'white'
+              }}>
+              Hayst Drawing
+            </h1>
+            <Image src={art1} />
+            Description: Just an art of myself that I drew.
+            <h1 className="Anything"
+              style={{
+                color: 'white'
+              }}>
+              Max Drawing
+            </h1>
+            <Image src={art3} />
+            Description: Just an art of Max, my best friend in school that I drew.
+            <h1 className="Anything"
+              style={{
+                color: 'white'
+              }}>
+              Jinny Drawing
+            </h1>
+            <Image src={art2} />
+            Description: Just an art of Jinny, my friend that I drew.
+            <div
+            style={{
+              borderTop:"90px solid black",
+              display: 'flex',
+              justifyContent: 'center',
+              color:'white'
+            }}>
+            Copyright Hayst 2017
+          </div>
+          <div
             style={{
                 display: 'flex',
                 justifyContent: 'center',
-                borderBottom: 'solid 5px white',
-                color: 'white'
+                color:'white'
             }}>
-            Hayst's Art Section
-          </h2>
-          <h1 className="Anything"
-            style={{
-              color: 'white'
-            }}>
-            Hayst Drawing
-          </h1>
-          <Image src={art1} />
-          Description: Just an art of myself that I drew.
-          <h1 className="Anything"
-            style={{
-              color: 'white'
-            }}>
-            Max Drawing
-          </h1>
-          <Image src={art2} />
-          Description: Just an art of Max, my best friend in school that I drew.
-          <h1 className="Anything"
-            style={{
-              color: 'white'
-            }}>
-            Jinny Drawing
-          </h1>
-          <Image src={art3} />
-          Description: Just an art of Jinny, my friend that I drew.
+            All rights reserved.
+          </div>
         </div>
   )
 }
