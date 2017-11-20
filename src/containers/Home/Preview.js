@@ -25,12 +25,7 @@ export default class Preview extends Component {
       <div>
         <div>
           <h12>
-            New: SHOP SECTION
-          </h12>
-        </div>
-        <div>
-          <h12>
-            New: INFO SECTION
+            New: ARTS Section!
           </h12>
         </div>
         <div style={{
@@ -95,7 +90,7 @@ export default class Preview extends Component {
               </h16>
             </div>
             <div>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/59iMmXm2QmY" frameborder="0" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/PK-NnLbvTqE" frameborder="0" allowfullscreen></iframe>
             </div>
             
             <div
