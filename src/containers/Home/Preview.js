@@ -10,6 +10,7 @@ import P7 from '../../img/7th_page.png';
 import P8 from '../../img/whatttt.png';
 import Image from '../../Image';
 import Bot from '../../components/Bot';
+import Audio from 'react-audioplayer';
 
 export default class Preview extends Component {
   constructor() {
@@ -25,7 +26,7 @@ export default class Preview extends Component {
       <div>
         <div>
           <h12>
-            New: ARTS Section!
+            New: Photos Section!
           </h12>
         </div>
         <div style={{

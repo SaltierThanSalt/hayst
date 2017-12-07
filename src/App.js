@@ -29,7 +29,7 @@ class App extends Component {
         style={{
         }}
       >
-      <div 
+      <div className="yasslol"
         style={{ 
           borderTop: '10px solid #474647'                   
         }}

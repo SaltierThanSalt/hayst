@@ -7,6 +7,7 @@
     "morgan": "^1.8.2",
     "path": "^0.12.7",
     "react": "^15.6.1",
+    "react-audioplayer": "^0.3.1",
     "react-bootstrap": "^0.31.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.2",

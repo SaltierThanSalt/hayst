@@ -9,7 +9,7 @@ export default function NavTabs() {
             <li><Link to="/uploads">▶ Recent Uploads </Link></li>
             <li><Link to="/shop">🛍 Shop </Link></li>
             <li><Link to="/info">ℹ️ Infos </Link></li>
-            <li><Link to="/arts">🎨 Arts (NEW!) </Link></li>
+            <li><Link to="/arts">🎨 Arts </Link></li>
         </ul>
     )
 }
