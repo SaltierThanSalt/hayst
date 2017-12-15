@@ -35,6 +35,7 @@ export default class Preview extends Component {
           <h12> Subcribe For </h12>
         </div>
         <div
+          className="h1appjs"
           style={{
             fontSize: '4vw',
             fontFamily: 'Impact, Charcoal, sans-serif',
