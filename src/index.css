@@ -6,17 +6,17 @@ body {
 p {
   color: rgb(58, 242, 73);
   font-size: 56px;
-  font-family: Palatino, 'Palatino Linotype', serif
+  font-family: Palatino, "Palatino Linotype", serif;
 }
 h2 {
-  font-family: Palatino, 'Palatino Linotype', serif;
-      font-size: 2vw;
+  font-family: Palatino, "Palatino Linotype", serif;
+  font-size: 2vw;
 }
 img {
   size: 20px;
 }
 h4 {
-  font-family: Palatino, 'Palatino Linotype', serif
+  font-family: Palatino, "Palatino Linotype", serif;
 }
 h7 {
   color: rgb(66, 134, 244);
@@ -25,53 +25,53 @@ h7 {
 
 h5 {
   color: rgb(300, 125, 40);
-  font-family: "Arial Black", Gadget, sans-serif
+  font-family: "Arial Black", Gadget, sans-serif;
 }
 h10 {
-  font-family: Palatino, 'Palatino Linotype', serif;
-      font-size: 2vw;
-      color: rgb(0,0,0);
+  font-family: Palatino, "Palatino Linotype", serif;
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
 }
 h11 {
-font-family: Palatino, 'Palatino Linotype', serif;
-    font-size: 2vw;
-          color: rgb(0,0,0);
+  font-family: Palatino, "Palatino Linotype", serif;
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
 }
 h12 {
-    font-size: 2vw;
-    font-family:Impact, Charcoal, sans-seri;
-          color: rgb(0,0,0);
+  font-size: 2vw;
+  font-family: Impact, Charcoal, sans-seri;
+  color: rgb(0, 0, 0);
 }
 
 backgroundImage {
-  font-size: 1vw
+  font-size: 1vw;
 }
 li {
-        color: rgb(0,0,0);
+  color: rgb(0, 0, 0);
 }
 h14 {
-    font-size: 3vw;
-    font-family:Impact, Charcoal, sans-serif;
-  color: rgb(0, 0, 0) 
+  font-size: 3vw;
+  font-family: Impact, Charcoal, sans-serif;
+  color: rgb(0, 0, 0);
 }
 li {
-  font-size: 2vw
+  font-size: 2vw;
 }
 h15 {
   font-size: 50px;
   color: rgb(58, 242, 73);
-  font-family: Palatino, 'Palatino Linotype', serif
+  font-family: Palatino, "Palatino Linotype", serif;
 }
 h16 {
   font-size: 50px;
-  font-family: Palatino, 'Palatino Linotype', serif
+  font-family: Palatino, "Palatino Linotype", serif;
 }
 
 .btn btn-success {
   font-size: 50px;
 }
 .storelinks {
-  font-size: 50px;  
+  font-size: 50px;
 }
 h22 {
   font-size: 50px;
@@ -81,7 +81,7 @@ h23 {
   background-size: 30px;
 }
 h25 {
-  font-size: '4vw';
+  font-size: "4vw";
   color: #ffffff;
 }
 h26 {
@@ -94,15 +94,15 @@ h26 {
   color: #ffffff;
 }
 .btn btn-success {
-  background-color: blue
+  background-color: blue;
 }
 h28 {
   color: white;
-  font-size: '4vw';
+  font-size: "4vw";
 }
 h24 {
   color: white;
-  font-size: '4vw';
+  font-size: "4vw";
 }
 
 .headerofinfo1 {
@@ -111,27 +111,31 @@ h24 {
   background-color: rgb(67, 163, 253);
 }
 .liofinfo1 {
-  Font-size: 2vw
+  font-size: 2vw;
 }
 .liofinfo2 {
-  Font-size: 1vw
+  font-size: 1vw;
 }
 .Anything {
   font-family: "Times New Roman", Georgia, Serif;
 }
 .h1appjs {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  transition-timing-function: ease;
-  transition-property: sliding-vertically;
-}
-.h1appjs {
-  font-size: 14px;
-  transition-property: font-size;
+  font-size: 45px;
+  transition-property: font-size, color;
   transition-duration: 2s;
   transition-delay: 0s;
 }
 
 .h1appjs:hover {
-  font-size: 36px;
+  font-size: 50px;
+  color: rgb(48, 116, 189);
 }
-
+.titleofartsssss {
+  font-size: 36px;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 0s;
+}
+.titleofartsssss:hover {
+  font-size: 50px;
+}

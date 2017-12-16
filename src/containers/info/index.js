@@ -1,35 +1,38 @@
-import React from 'react'
-import randomimage1 from '../../img/wh.png'
-import Image from '../../Image';
+import React from "react";
+import randomimage1 from "../../img/wh.png";
+import Image from "../../Image";
 
 export default function Information() {
   return (
     <div>
       <div>
-        <h1 className="headerofinfo1"
+        <h1
+          className="headerofinfo1"
           style={{
-            borderBottom: '10px solid #474647',
-            borderTop: '10px solid #474647'
-          }}>
+            borderBottom: "10px solid #474647",
+            borderTop: "10px solid #474647"
+          }}
+        >
           INFO
         </h1>
       </div>
       <div>
-        <h1 className="liofinfo1"
+        <h1
+          className="liofinfo1"
           style={{
-            fontStyle: 'Italic',
-          }}>
+            fontStyle: "Italic"
+          }}
+        >
           About This Website
         </h1>
-      <div
-        style={{
-          float: 'right',
-        }}>
-        <Image src={randomimage1} />
-      </div>
-        <li className="liofinfo2">
-          This Website Is Made Using React
-        </li>
+        <div
+          style={{
+            float: "right"
+          }}
+        >
+          <Image src={randomimage1} />
+        </div>
+        <li className="liofinfo2">This Website Is Made Using React</li>
         <li className="liofinfo2">
           This Website Is Made By A 5th Grader (2017)
         </li>
@@ -38,48 +41,55 @@ export default function Information() {
         </li>
       </div>
       <div>
-        <h1 className="liofinfo1"
-            style={{
-              fontStyle: 'Italic',
-            }}>
-            About Hayst
-          </h1>
-          <li className="liofinfo2">
-            Did You Know That I Used To Play AngryBirds When I was Young?
-          </li>
-          <li className="liofinfo2">
-            Did You Know That I Was The First One To Upload A  Minecraft StoryMode Season 1 Episode 4 Gameplay?
-          </li>
-          <li className="liofinfo2">
-            Did You Know That I Used To Upload Minecraft PE Videos?
-          </li>
-      </div>
-      <div>
-        <h1 className="liofinfo1"
-              style={{
-                fontStyle: 'Italic',
-              }}>
-              About How You Should Use Shop Materials
+        <h1
+          className="liofinfo1"
+          style={{
+            fontStyle: "Italic"
+          }}
+        >
+          About Hayst
         </h1>
         <li className="liofinfo2">
-           All Rights Belongs To Hayst. These Materials Should Not Be Abused.
+          Did You Know That I Used To Play AngryBirds When I was Young?
+        </li>
+        <li className="liofinfo2">
+          Did You Know That I Was The First One To Upload A Minecraft StoryMode
+          Season 1 Episode 4 Gameplay?
+        </li>
+        <li className="liofinfo2">
+          Did You Know That I Used To Upload Minecraft PE Videos?
+        </li>
+      </div>
+      <div>
+        <h1
+          className="liofinfo1"
+          style={{
+            fontStyle: "Italic"
+          }}
+        >
+          About How You Should Use Shop Materials
+        </h1>
+        <li className="liofinfo2">
+          All Rights Belongs To Hayst. These Materials Should Not Be Abused.
         </li>
       </div>
       <div
         style={{
-          borderTop:"90px solid #ffffff",
-          display: 'flex',
-          justifyContent: 'center'
-        }}>
+          borderTop: "90px solid #ffffff",
+          display: "flex",
+          justifyContent: "center"
+        }}
+      >
         Copyright Hayst 2017
       </div>
       <div
         style={{
-            display: 'flex',
-            justifyContent: 'center'
-        }}>
+          display: "flex",
+          justifyContent: "center"
+        }}
+      >
         All rights reserved.
       </div>
     </div>
-  )
+  );
 }
