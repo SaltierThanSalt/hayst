@@ -34,6 +34,23 @@ export default function RecentUploads() {
           </Link>
         </div>
       </h30>
+      <div
+        style={{
+          borderTop: "90px solid #ffffff",
+          display: "flex",
+          justifyContent: "center"
+        }}
+      >
+        Copyright Hayst 2017
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center"
+        }}
+      >
+        All rights reserved.
+      </div>
     </div>
   );
 }

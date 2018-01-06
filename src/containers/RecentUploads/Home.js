@@ -3,7 +3,8 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <h14>Recent Uploads</h14>
+      <h14
+        className="lolh14">Recent Uploads</h14>
       <div
         style={{
           borderTop: "2px solid #000"
@@ -86,23 +87,6 @@ export default function Home() {
           frameborder="0"
           allowfullscreen
         />
-      </div>
-      <div
-        style={{
-          borderTop: "90px solid #ffffff",
-          display: "flex",
-          justifyContent: "center"
-        }}
-      >
-        Copyright Hayst 2017
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center"
-        }}
-      >
-        All rights reserved.
       </div>
     </div>
   );

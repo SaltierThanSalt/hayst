@@ -109,6 +109,12 @@ h24 {
   color: black;
   font-family: "Times New Roman", Georgia, Serif;
   background-color: rgb(67, 163, 253);
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 0s;
+}
+.headerofinfo1:hover {
+  font-size: 65px;
 }
 .liofinfo1 {
   font-size: 2vw;
@@ -128,7 +134,7 @@ h24 {
 
 .h1appjs:hover {
   font-size: 50px;
-  color: rgb(48, 116, 189);
+  color: rgb(100, 194, 231);
 }
 .titleofartsssss {
   font-size: 36px;
@@ -139,3 +145,50 @@ h24 {
 .titleofartsssss:hover {
   font-size: 50px;
 }
+.left {
+  background-size: 1000px 
+}
+.btn-default {
+  font-size: 15px;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 0s;
+}
+.btn-default:hover {
+  font-size: 20px;
+}
+.btn-default {
+  color:"white";
+  background-color:"black"; 
+  font-size: 15px;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 0s;
+}
+.btn-default:hover {
+  font-size: 20px;
+}
+.lolh14 {
+  font-size: 40px;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 0s;
+}
+.lolh14:hover {
+  font-size: 60px;
+}
+.titleofsocialmedia {
+  font-size: 35px;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 0s;
+}
+.titleofsocialmedia:hover {
+  font-size: 40px;
+}
+.lolsocialmediamc {
+  position: center;
+  color: white;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+

@@ -1,42 +1,83 @@
-import React from 'react'
+import React from "react";
+import ytlogo from "../../img/yt.png";
+import Image from "../../Image";
 
 export default function SocialMedia() {
   return (
-    <div>
-      <div
-       style={{
-         borderBottom: '5px solid #000'
-       }}
-      >
-      <h14>Social Media:</h14>
-      </div>
+    <div
+      style={{
+        backgroundColor: "black"
+      }}
+    >
       <div>
-        <li> <a href="https://twitter.com/Hayter_YT">🐦 Twitter</a> </li>
-      </div>      
-      <div>
-        <li> <a href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw">▶ Youtube</a> </li>
-      </div>
-      <div>
-        <li> <a href="https://hypixel.net/members/hayst.1616630/">♋ Hypixel</a> </li>
-      </div>
-      <div>
-        <li> <a href="https://www.twin-kle.com/users/alexlee">🇹 Twinkle</a> </li>
-      </div>
-      <div
-        style={{
-          borderTop:"90px solid #ffffff",
-          display: 'flex',
-          justifyContent: 'center'
-        }}>
-        Copyright Hayst 2017
-      </div>
-      <div
-        style={{
-            display: 'flex',
-            justifyContent: 'center'
-        }}>
-        All rights reserved.
+        <div
+          className="titleofsocialmedia"
+          style={{
+            color: "white",
+            fontStyle: "italic",
+            borderBottom: "5px solid white"
+          }}
+        >
+          Social Medias
+        </div>
+        <div>
+          <h1
+            className="lolsocialmediamc"
+            style={{
+              position: "center"
+            }}
+          >
+            Minecraft Username: Hayst
+          </h1>
+          <h1
+            className="lolsocialmediamcrank"
+            style={{
+              position: "center",
+              color: "skyblue",
+              borderBottom: "5px solid white"
+            }}
+          >
+            Rank: MVP ++
+          </h1>
+          <h12
+            className="lolsocialmediayt"
+            style={{
+              position: "center",
+              color: "red"
+            }}
+          >
+            You
+          </h12>
+          <h12
+            className="lolsocialmediayt"
+            style={{
+              position: "center",
+              color: "white"
+            }}
+          >
+            tube
+          </h12>
+        </div>
+        <div
+          style={{
+            borderTop: "90px solid #ffffff",
+            display: "flex",
+            justifyContent: "center",
+            color: "white"
+          }}
+        >
+          Copyright Hayst 2017
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            color: "white"
+          }}
+        >
+          All rights reserved.
+        </div>
       </div>
     </div>
-  )
+  );
 }

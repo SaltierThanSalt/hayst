@@ -30,7 +30,9 @@ export default function Information() {
             float: "right"
           }}
         >
-          <Image src={randomimage1} />
+          <Image 
+            className="thingyt"
+            src={randomimage1} />
         </div>
         <li className="liofinfo2">This Website Is Made Using React</li>
         <li className="liofinfo2">
