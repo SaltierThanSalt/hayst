@@ -17,23 +17,6 @@ export default function PageOne() {
           allowfullscreen
         />
       </div>
-      <div
-        style={{
-          borderTop: "90px solid #ffffff",
-          display: "flex",
-          justifyContent: "center"
-        }}
-      >
-        Copyright Hayst 2017
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center"
-        }}
-      >
-        All rights reserved.
-      </div>
     </div>
   );
 }

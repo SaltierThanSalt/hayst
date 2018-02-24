@@ -58,7 +58,8 @@ class App extends Component {
           </div>
           <NavTabs />
           <Header />
-          <Switch>
+          <Switch
+            className="Navigation">
             <Route exact path="/" component={Home} />
             <Route path="/socialmedia" component={SocialMedia} />
             <Route path="/uploads" component={RecentUploads} />

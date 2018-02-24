@@ -11,8 +11,7 @@ export default function Home() {
         }}
       >
         <h16>
-          How To Connect Your LaunchPad To Your Phone Using Unipad - Hayst
-          Tutorials
+        Minecraft New Year Skywars Special: THE JUMP 
         </h16>
       </div>
       <div
@@ -23,7 +22,7 @@ export default function Home() {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/PK-NnLbvTqE"
+          src="https://www.youtube.com/embed/srckTnIj-q8"
           frameborder="0"
           allowfullscreen
         />
@@ -33,7 +32,7 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
-        <h16>Hayst Practices Fur Elise Dubstep Remix #2</h16>
+        <h16>Hayst Plays The Spectre In Front Of Class (AGAIN!!!) </h16>
       </div>
       <div
         style={{
@@ -43,7 +42,7 @@ export default function Home() {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/KelwcKq7Bbg"
+          src="https://www.youtube.com/embed/ST6JzA-U7S8"
           frameborder="0"
           allowfullscreen
         />

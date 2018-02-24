@@ -65,10 +65,13 @@ h15 {
 h16 {
   font-size: 50px;
   font-family: Palatino, "Palatino Linotype", serif;
+  display: flex;
+  justify-content: center;
 }
 
 .btn btn-success {
   font-size: 50px;
+  color: rgb(30, 130, 224)
 }
 .storelinks {
   font-size: 50px;
@@ -182,6 +185,9 @@ h24 {
   transition-property: font-size;
   transition-duration: 2s;
   transition-delay: 0s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .titleofsocialmedia:hover {
   font-size: 40px;
@@ -190,5 +196,57 @@ h24 {
   position: center;
   color: white;
   font-family: "Times New Roman", Georgia, Serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-
+.lolsocialmediamcrank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.HaystNewb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.HaystGreetings {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.VideoStuff {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.BetterVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Navigation {
+  display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
+}
+.Channelyaysm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

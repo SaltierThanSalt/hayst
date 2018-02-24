@@ -8,9 +8,9 @@ export default function Header() {
           className="App-header"
           style={{
             backgroundImage: `url(${GenerationImage})`,
-            backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center center'
+            backgroundPosition: 'center center',
+            backgroundSize: '8 %'
           }}
         >
             <div>

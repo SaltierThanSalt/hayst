@@ -41,7 +41,7 @@ export default function RecentUploads() {
           justifyContent: "center"
         }}
       >
-        Copyright Hayst 2017
+        Copyright Hayst 2018
       </div>
       <div
         style={{

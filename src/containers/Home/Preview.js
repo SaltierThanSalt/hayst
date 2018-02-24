@@ -11,8 +11,8 @@ import P8 from "../../img/whatttt.png";
 import Image from "../../Image";
 import Bot from "../../components/Bot";
 import Audio from "react-audioplayer";
-import Clock from "./Clock"
-import './Clock.css';
+import Clock from "./Clock";
+import "./Clock.css";
 
 export default class Preview extends Component {
   constructor() {
@@ -25,9 +25,10 @@ export default class Preview extends Component {
   render() {
     const { titleColor } = this.state;
     return (
-      <div>
+      <div
+          className="HaystNewb">
         <div>
-        <Clock />
+          <Clock />
         </div>
         <div
           style={{
@@ -91,11 +92,11 @@ export default class Preview extends Component {
             >
               <h16>My Recent Videos</h16>
             </div>
-            <div>
+            <div className="BetterVideo">
               <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/PK-NnLbvTqE"
+                width="680"
+                height="415"
+                src="https://www.youtube.com/embed/IUo3zWTcXCA"
                 frameborder="0"
                 allowfullscreen
               />
@@ -107,7 +108,7 @@ export default class Preview extends Component {
                 justifyContent: "center"
               }}
             >
-              Copyright Hayst 2017
+              © Copyright Hayst 2018
             </div>
             <div
               style={{

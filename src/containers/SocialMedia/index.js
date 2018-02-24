@@ -39,34 +39,50 @@ export default function SocialMedia() {
           >
             Rank: MVP ++
           </h1>
-          <h12
-            className="lolsocialmediayt"
+        </div>
+        <div
+            className="Channelyaysm"
+          style={{
+            size: "2px",
+            borderBottom: "2px solid white"
+          }}
+        >
+          <a
+            className="wassaphi"
+            href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw"
             style={{
-              position: "center",
-              color: "red"
+              fontStyle: "Bold"
             }}
           >
-            You
-          </h12>
-          <h12
-            className="lolsocialmediayt"
-            style={{
-              position: "center",
-              color: "white"
-            }}
-          >
-            tube
-          </h12>
+            <h1>Click Here To Visit My</h1>
+            <h12
+              className="lolsocialmediayt"
+              style={{
+                position: "center",
+                color: "red"
+              }}
+            >
+              You
+            </h12>
+            <h12
+              className="lolsocialmediayt"
+              style={{
+                position: "center",
+                color: "white"
+              }}
+            >
+              tube
+            </h12>
+          </a>
         </div>
         <div
           style={{
-            borderTop: "90px solid #ffffff",
             display: "flex",
             justifyContent: "center",
             color: "white"
           }}
         >
-          Copyright Hayst 2017
+          © Copyright Hayst 2018
         </div>
         <div
           style={{

@@ -121,7 +121,7 @@ export default function Shop() {
             justifyContent: 'center',
             color:'white'
           }}>
-          Copyright Hayst 2017
+          Copyright Hayst 2018
         </div>
         <div
           style={{
