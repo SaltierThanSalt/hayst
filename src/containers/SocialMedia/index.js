@@ -41,7 +41,7 @@ export default function SocialMedia() {
           </h1>
         </div>
         <div
-            className="Channelyaysm"
+          className="Channelyaysm"
           style={{
             size: "2px",
             borderBottom: "2px solid white"

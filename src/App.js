@@ -25,7 +25,8 @@ class App extends Component {
   render() {
     const { modalOn } = this.state;
     return (
-      <div style={{}}>
+      <div className="nerdallofit"
+        style={{}}>
         <div
           className="yasslol"
           style={{
@@ -58,8 +59,7 @@ class App extends Component {
           </div>
           <NavTabs />
           <Header />
-          <Switch
-            className="Navigation">
+          <Switch className="Navigation">
             <Route exact path="/" component={Home} />
             <Route path="/socialmedia" component={SocialMedia} />
             <Route path="/uploads" component={RecentUploads} />

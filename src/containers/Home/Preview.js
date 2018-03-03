@@ -25,8 +25,7 @@ export default class Preview extends Component {
   render() {
     const { titleColor } = this.state;
     return (
-      <div
-          className="HaystNewb">
+      <div className="HaystNewb">
         <div>
           <Clock />
         </div>
