@@ -43,10 +43,10 @@ export default class Preview extends Component {
             color: titleColor
           }}
         >
-          <h1 className="h1appjs">More Cool Videos</h1>
+          <h1 className="h1appjs">More Minecraft Videos</h1>
         </div>
         <div className="btn btn-success" onClick={this.onColorChange}>
-          Click Me To Change The Text To Another Random Color
+          Click Me To Change The Text Above To Another Random Color
         </div>
         <div className="App-intro">
           <div
@@ -86,16 +86,18 @@ export default class Preview extends Component {
             <Bot />
             <div
               style={{
-                borderTop: "10px solid #000"
+                borderTop: "10px solid #000",
+                  fontFamily: "Impact, Charcoal, sans-serif"
               }}
             >
-              <h16>My Recent Videos</h16>
+              <h16>
+                Recent Videos</h16>
             </div>
             <div className="BetterVideo">
               <iframe
                 width="680"
                 height="415"
-                src="https://www.youtube.com/embed/IUo3zWTcXCA"
+                src="https://www.youtube.com/embed/ui2IiIwvcRE"
                 frameborder="0"
                 allowfullscreen
               />

@@ -5,7 +5,7 @@ import { Route, Switch, Link } from "react-router-dom";
 
 export default function RecentUploads() {
   return (
-    <div>
+    <div className="recentupload">
       <Switch>
         <Route exact path="/uploads/" component={Home} />
         <Route path="/uploads/1" component={PageOne} />

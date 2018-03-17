@@ -71,7 +71,7 @@ h16 {
 
 .btn btn-success {
   font-size: 50px;
-  color: rgb(30, 130, 224)
+  background-color: #8064A2 !important;
 }
 .storelinks {
   font-size: 50px;
@@ -151,12 +151,6 @@ h24 {
 .left {
   background-size: 1000px 
 }
-.btn-default {
-  font-size: 15px;
-  transition-property: font-size;
-  transition-duration: 2s;
-  transition-delay: 0s;
-}
 .btn-default:hover {
   font-size: 20px;
 }
@@ -196,12 +190,13 @@ h24 {
   position: center;
   color: white;
   font-family: "Times New Roman", Georgia, Serif;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .lolsocialmediamcrank {
   display: flex;
@@ -251,6 +246,31 @@ h24 {
   padding-right: 1rem;
 }
 .nerdallofit {
-  font-size: 16px; 
-  height: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.recentupload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.shopmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+.artsmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 2rem;  
 }

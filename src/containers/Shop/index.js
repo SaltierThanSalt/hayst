@@ -6,6 +6,7 @@ import blender_preview_duh from '../../img/yeah.jpg'
 export default function Shop() {
   return (
     <div
+      className = "shopmain"
       style={{
         fontStyle: 'italic',
         backgroundColor: 'black'
