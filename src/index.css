@@ -4,69 +4,20 @@ body {
   font-family: sans-serif;
 }
 p {
-  color: rgb(58, 242, 73);
-  font-size: 56px;
+  font-size: 1.1rem;
   font-family: Palatino, "Palatino Linotype", serif;
 }
-h2 {
-  font-family: Palatino, "Palatino Linotype", serif;
-  font-size: 2vw;
-}
+
 img {
   size: 20px;
 }
-h4 {
-  font-family: Palatino, "Palatino Linotype", serif;
-}
-h7 {
-  color: rgb(66, 134, 244);
-  font-size: 30px;
-}
 
-h5 {
-  color: rgb(300, 125, 40);
-  font-family: "Arial Black", Gadget, sans-serif;
-}
-h10 {
-  font-family: Palatino, "Palatino Linotype", serif;
-  font-size: 2vw;
-  color: rgb(0, 0, 0);
-}
-h11 {
-  font-family: Palatino, "Palatino Linotype", serif;
-  font-size: 2vw;
-  color: rgb(0, 0, 0);
-}
-h12 {
-  font-size: 2vw;
-  font-family: Impact, Charcoal, sans-seri;
-  color: rgb(0, 0, 0);
-}
-
-backgroundImage {
-  font-size: 1vw;
-}
 li {
   color: rgb(0, 0, 0);
 }
-h14 {
-  font-size: 3vw;
-  font-family: Impact, Charcoal, sans-serif;
-  color: rgb(0, 0, 0);
-}
+
 li {
   font-size: 2vw;
-}
-h15 {
-  font-size: 50px;
-  color: rgb(58, 242, 73);
-  font-family: Palatino, "Palatino Linotype", serif;
-}
-h16 {
-  font-size: 50px;
-  font-family: Palatino, "Palatino Linotype", serif;
-  display: flex;
-  justify-content: center;
 }
 
 .btn btn-success {
@@ -76,20 +27,7 @@ h16 {
 .storelinks {
   font-size: 50px;
 }
-h22 {
-  font-size: 50px;
-  font-family: "Times New Roman", Georgia, Serif;
-}
-h23 {
-  background-size: 30px;
-}
-h25 {
-  font-size: "4vw";
-  color: #ffffff;
-}
-h26 {
-  color: #ffffff;
-}
+
 .Hello {
   color: #ffffff;
 }
@@ -98,14 +36,6 @@ h26 {
 }
 .btn btn-success {
   background-color: blue;
-}
-h28 {
-  color: white;
-  font-size: "4vw";
-}
-h24 {
-  color: white;
-  font-size: "4vw";
 }
 
 .headerofinfo1 {
@@ -128,17 +58,6 @@ h24 {
 .Anything {
   font-family: "Times New Roman", Georgia, Serif;
 }
-.h1appjs {
-  font-size: 45px;
-  transition-property: font-size, color;
-  transition-duration: 2s;
-  transition-delay: 0s;
-}
-
-.h1appjs:hover {
-  font-size: 50px;
-  color: rgb(100, 194, 231);
-}
 .titleofartsssss {
   font-size: 36px;
   transition-property: font-size;
@@ -147,9 +66,6 @@ h24 {
 }
 .titleofartsssss:hover {
   font-size: 50px;
-}
-.left {
-  background-size: 1000px 
 }
 .btn-default:hover {
   font-size: 20px;
@@ -206,20 +122,6 @@ h24 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.HaystNewb {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.HaystGreetings {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-}
 .VideoStuff {
   display: flex;
   flex-direction: column;
@@ -244,11 +146,6 @@ h24 {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-}
-.nerdallofit {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .recentupload {
   display: flex;
