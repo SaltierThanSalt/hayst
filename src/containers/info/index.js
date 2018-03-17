@@ -1,5 +1,5 @@
 import React from "react";
-import randomimage1 from "../../img/wh.png";
+import randomimage1 from "../../img/mc_char_looking_left.png";
 import Image from "../../Image";
 
 export default function Information() {
