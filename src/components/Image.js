@@ -1,15 +1,14 @@
 import React from "react";
 
-export default function Image({ src }) {
+export default function Image({src, style }) {
   return (
-    <div>
       <img
         src={src}
         style={{
-          width: "40em"
+          width: "100%",
+          ...style
         }}
         rel=""
       />
-    </div>
   );
 }

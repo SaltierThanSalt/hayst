@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Video from '../../components/Video';
 import McCharLookingLeft from '../../img/mc_char_looking_left.png';
 import McCharLookingRight from '../../img/mc_char_looking_right.png';
-import Image from '../../Image';
+import Image from '../../components/Image';
 import Bot from '../../components/Bot';
 import Audio from 'react-audioplayer';
 import Clock from './Clock';
@@ -31,11 +31,11 @@ export default class Preview extends Component {
           }
           button {
             padding: 2rem;
-            font-size: 2rem;
+            font-size: 1.7rem;
             color: #fff;
             background: rgb(0, 205, 249);
             margin: 1rem 0;
-            border-radius: 5px;
+            border-radius: 10rem;
             border: 1px solid rgb(0, 205, 249);
             &:hover {
               background: rgb(0, 184, 250);

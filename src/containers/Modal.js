@@ -8,13 +8,13 @@ export default function myModal({onHide}) {
             onHide={onHide}
         >
             <Modal.Header>
-                <h4>Recent Website Update</h4>
+                <h1>Recent Website Update</h1>
             </Modal.Header>
             <Modal.Body>
-                <h15>Update v 4 Is Out! (The CSS Update!)
+                <h15>Update v 5.5 Is Out! (Better GUI)
                     <div>
                         <h15>
-                           Now You Can Play Around With The New Stuff And Enjoy Them.
+                           Now there are cleaner GUIs.
                         </h15>
                     </div>
                 </h15>
@@ -29,11 +29,11 @@ export default function myModal({onHide}) {
                     </h16>
                 </div>
                 <div>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/PK-NnLbvTqE" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/d8rIVjIa9E4" frameborder="0" allowfullscreen></iframe>
                 </div>
             </Modal.Body>
             <Modal.Footer>
-                <div className="btn btn-default">Got it! :D</div>
+                <div className="btn btn-default">Alright! :D</div>
             </Modal.Footer>
         </Modal>
     )

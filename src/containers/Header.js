@@ -1,6 +1,6 @@
 import React from 'react'
 import GenerationImage from '../img/anotherbannerwoohoo.png';
-import svgimg from '../img/Hayst-Logo.png';
+import svgimg from '../img/reallprofilepicyayxddddddd.png';
 
 export default function Header() {
     return (
@@ -10,7 +10,7 @@ export default function Header() {
             backgroundImage: `url(${GenerationImage})`,
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            backgroundSize: '8 %'
+            backgroundSize: '150rem',
           }}
         >
             <div>

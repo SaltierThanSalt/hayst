@@ -1,6 +1,6 @@
 import React from 'react'
 import Blender_Sky from '../../img/skyimageblender.jpg'
-import Image from '../../Image';
+import Image from '../../components/Image';
 import blender_preview_duh from '../../img/yeah.jpg'
 
 export default function Shop() {

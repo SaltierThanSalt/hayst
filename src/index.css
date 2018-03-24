@@ -93,14 +93,14 @@ li {
 .titleofsocialmedia {
   font-size: 35px;
   transition-property: font-size;
-  transition-duration: 2s;
+  transition-duration: 1.789876s;
   transition-delay: 0s;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .titleofsocialmedia:hover {
-  font-size: 40px;
+  font-size: 55px;
 }
 .lolsocialmediamc {
   position: center;

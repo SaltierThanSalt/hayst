@@ -1,6 +1,6 @@
 import React from "react";
 import randomimage1 from "../../img/mc_char_looking_left.png";
-import Image from "../../Image";
+import Image from "../../components/Image";
 
 export default function Information() {
   return (
