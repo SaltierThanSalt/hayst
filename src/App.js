@@ -1,19 +1,20 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Modal from './containers/Modal';
-import NavTabs from './containers/NavTabs';
-import Header from './containers/Header';
-import McCharLookingRight from './img/mc_char_looking_right.png';
-import Home from './containers/Home';
-import SocialMedia from './containers/SocialMedia';
-import RecentUploads from './containers/RecentUploads';
-import Shop from './containers/Shop';
-import Information from './containers/info';
-import Arts from './containers/artstab';
-import { css } from 'emotion';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Modal from "./containers/Modal";
+import NavTabs from "./containers/NavTabs";
+import Header from "./containers/Header";
+import McCharLookingRight from "./img/mc_char_looking_right.png";
+import Home from "./containers/Home";
+import SocialMedia from "./containers/SocialMedia";
+import RecentUploads from "./containers/RecentUploads";
+import Shop from "./containers/Shop";
+import Information from "./containers/info";
+import Arts from "./containers/artstab";
+import Comics from "./containers/Comics";
+import { css } from "emotion";
 
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch } from "react-router-dom";
 
 class App extends Component {
   state = {
@@ -32,7 +33,7 @@ class App extends Component {
       >
         <div
           style={{
-            borderTop: '10px solid #474647'
+            borderTop: "10px solid #474647"
           }}
         >
           <div
@@ -52,7 +53,7 @@ class App extends Component {
             className="btn btn-default"
             onClick={() => this.setState({ modalOn: true })}
           >
-            {' '}
+            {" "}
             ⬆ Updates
           </div>
           <div />
@@ -65,6 +66,7 @@ class App extends Component {
             <Route path="/shop" component={Shop} />
             <Route path="/info" component={Information} />
             <Route path="/arts" component={Arts} />
+            <Route path="/comics" component={Comics}/>
           </Switch>
         </div>
       </div>

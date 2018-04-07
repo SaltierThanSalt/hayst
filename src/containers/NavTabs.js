@@ -22,6 +22,9 @@ export default function NavTabs() {
       <li>
         <Link to="/arts">🎨 Arts </Link>
       </li>
+      <li>
+        <Link to="/comics">📰 Comics </Link>
+      </li>
     </ul>
   );
 }

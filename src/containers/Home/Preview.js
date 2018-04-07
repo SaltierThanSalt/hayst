@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
-import Video from '../../components/Video';
-import McCharLookingLeft from '../../img/mc_char_looking_left.png';
-import McCharLookingRight from '../../img/mc_char_looking_right.png';
-import Image from '../../components/Image';
-import Bot from '../../components/Bot';
-import Audio from 'react-audioplayer';
-import Clock from './Clock';
-import './Clock.css';
-import { css } from 'emotion';
+import React, { Component } from "react";
+import Video from "../../components/Video";
+import banner_2 from "../../img/Screenshot_2018-03-31-15-37-57.png";
+import Image from "../../components/Image";
+import Bot from "../../components/Bot";
+import Audio from "react-audioplayer";
+import Clock from "./Clock";
+import "./Clock.css";
+import { css } from "emotion";
 
 export default class Preview extends Component {
   state = {
-    titleColor: 'rgb(237, 125, 40)'
+    titleColor: "rgb(237, 125, 40)"
   };
   render() {
     const { titleColor } = this.state;
@@ -49,15 +48,15 @@ export default class Preview extends Component {
         </div>
         <div
           style={{
-            borderTop: '20px solid #000'
+            borderTop: "20px solid #000"
           }}
         >
           <h2>Subcribe For:</h2>
         </div>
         <div
           style={{
-            fontSize: '3rem',
-            fontFamily: 'Impact, Charcoal, sans-serif',
+            fontSize: "3rem",
+            fontFamily: "Impact, Charcoal, sans-serif",
             color: titleColor
           }}
         >
@@ -73,7 +72,7 @@ export default class Preview extends Component {
               }
             `}
           >
-            More Minecraft Videos
+            More Videos
           </h1>
         </div>
         <button onClick={this.onColorChange}>
@@ -83,39 +82,21 @@ export default class Preview extends Component {
           className={css`
             display: flex;
             width: 100;
+            flex-direction: column;
           `}
         >
           <div
             style={{
-              borderTop: '20px solid #000',
-              borderLeft: '30px solid #474647',
-              borderBottom: '20px solid #000',
-              width: '50%'
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              borderTop: "20px solid #000",
+              borderLeft: "30px solid #474647",
+              borderBottom: "20px solid #000"
             }}
           >
-            <Image src={McCharLookingLeft} />
+            <Image src={banner_2} />
           </div>
-          <div
-            style={{
-              borderTop: '20px solid #000',
-              borderLeft: '20px solid #000',
-              borderBottom: '20px solid #000',
-              borderRight: '30px solid #474647',
-              width: '50%'
-            }}
-          >
-            <Image src={McCharLookingRight} />
-          </div>
-        </div>
-        <div
-          className="right col-xs-12"
-          style={{
-            position: 'center',
-            borderTop: '40px solid #000',
-            borderBottom: '20px solid #001',
-            float: 'center center'
-          }}
-        >
           <Bot />
           <div
             className={css`
@@ -127,7 +108,7 @@ export default class Preview extends Component {
               margin-bottom: 1.5rem;
             `}
           >
-            Recent Videos
+            Recent Video
           </div>
           <div className="BetterVideo">
             <iframe
@@ -140,17 +121,17 @@ export default class Preview extends Component {
           </div>
           <div
             style={{
-              borderTop: '90px solid #ffffff',
-              display: 'flex',
-              justifyContent: 'center'
+              borderTop: "90px solid #ffffff",
+              display: "flex",
+              justifyContent: "center"
             }}
           >
             © Copyright Hayst 2018
           </div>
           <div
             style={{
-              display: 'flex',
-              justifyContent: 'center'
+              display: "flex",
+              justifyContent: "center"
             }}
           >
             All rights reserved.
@@ -165,13 +146,12 @@ export default class Preview extends Component {
     // Math.floor(2123.434324324324) equals 13
     // const colors = ['pink', 'blue', 'red'] then colors[0] === 'pink' colors[1] === 'blue'
     const colors = [
-      'blue',
-      'pink',
-      'red',
-      'purple',
-      'rgb(237, 125, 40)',
-      'lime',
-      'orange'
+      "pink",
+      "red",
+      "purple",
+      "rgb(237, 125, 40)",
+      "lime",
+      "orange"
     ];
     let number = Math.random() * colors.length;
     this.setState({ titleColor: colors[Math.floor(number)] });

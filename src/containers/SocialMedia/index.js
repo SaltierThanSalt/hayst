@@ -82,6 +82,24 @@ export default function SocialMedia() {
           </a>
         </div>
         <div
+          className="twitter__socialmedia"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            fontSize: "15rem",
+            fontFamily: "Impact, Charcoal, sens-sarif",
+            color: "skyblue",
+            marginLeft: "9rem",
+            marginRight: "9rem",
+            borderTop: "1.2rem solid white",
+          }}>
+          <a
+            href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw"
+          >
+            Twitter
+          </a>
+        </div>
+        <div
           style={{
             display: "flex",
             justifyContent: "center",

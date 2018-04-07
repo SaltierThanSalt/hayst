@@ -1,5 +1,6 @@
 import React from 'react'
 import {Modal} from 'react-bootstrap';
+import { Route, Switch, Link } from "react-router-dom";
 
 export default function myModal({onHide}) {
     return (
@@ -33,7 +34,17 @@ export default function myModal({onHide}) {
                 </div>
             </Modal.Body>
             <Modal.Footer>
-                <div className="btn btn-default">Alright! :D</div>
+                <div className="btn btn-default">
+                <Link
+            style={{
+              color: "black",
+              fontSize: "30px"
+            }}
+            to="/"
+          >
+          Alright! :D
+          </Link>
+          </div>
             </Modal.Footer>
         </Modal>
     )

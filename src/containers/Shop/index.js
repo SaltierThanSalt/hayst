@@ -9,7 +9,8 @@ export default function Shop() {
       className = "shopmain"
       style={{
         fontStyle: 'italic',
-        backgroundColor: 'black'
+        backgroundColor: 'black',
+        marginBottom: "2rem",
       }}
     >
       <h1 className = 'wthlol'>
