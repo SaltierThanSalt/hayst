@@ -94,7 +94,7 @@ export default function SocialMedia() {
             borderTop: "1.2rem solid white",
           }}>
           <a
-            href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw"
+            href="https://twitter.com/Hayter_YT"
           >
             Twitter
           </a>
