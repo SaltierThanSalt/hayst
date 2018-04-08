@@ -13,8 +13,8 @@ export default function PageOne() {
           width="560"
           height="315"
           src="https://www.youtube.com/embed/RIMFxN3djMA"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         />
       </div>
       <h16>"👊 Nock Em 💥" A Minecraft Montage</h16>
@@ -27,8 +27,8 @@ export default function PageOne() {
           width="560"
           height="315"
           src="https://www.youtube.com/embed/d8rIVjIa9E4"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         />
       </div>
     </div>

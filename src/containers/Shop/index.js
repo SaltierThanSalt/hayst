@@ -87,7 +87,7 @@ export default function Shop() {
           Tutorial By Abriter617:
           </h28>
         </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/0-gA7O6SCdw" frameborder="0" allowfullscreen></iframe> 
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/0-gA7O6SCdw" frameBorder="0" allowFullScreen></iframe> 
         </div> 
         <div>
           <div>

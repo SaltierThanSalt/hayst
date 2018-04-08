@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Video from "../../components/Video";
-import banner_2 from "../../img/Screenshot_2018-03-31-15-37-57.png";
-import Image from "../../components/Image";
-import Bot from "../../components/Bot";
+import Video from "../../../components/Video";
+import banner_2 from "../../../img/Screenshot_2018-03-31-15-37-57.png";
+import Image from "../../../components/Image";
+import MsgBoard from "./MsgBoard";
 import Audio from "react-audioplayer";
-import Clock from "./Clock";
-import "./Clock.css";
+import Clock from "../Clock";
+import "../Clock.css";
 import { css } from "emotion";
 
 export default class Preview extends Component {
@@ -97,7 +97,7 @@ export default class Preview extends Component {
           >
             <Image src={banner_2} />
           </div>
-          <Bot />
+          <MsgBoard />
           <div
             className={css`
               border-top: 10px solid #000;
@@ -115,8 +115,8 @@ export default class Preview extends Component {
               width="680"
               height="415"
               src="https://www.youtube.com/embed/ui2IiIwvcRE"
-              frameborder="0"
-              allowfullscreen
+              frameBorder="0"
+              allowFullScreen
             />
           </div>
           <div

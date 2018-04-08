@@ -23,8 +23,8 @@ export default function Home() {
           width="560"
           height="315"
           src="https://www.youtube.com/embed/srckTnIj-q8"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         />
       </div>
       <div
@@ -43,8 +43,8 @@ export default function Home() {
           width="560"
           height="315"
           src="https://www.youtube.com/embed/ST6JzA-U7S8"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         />
       </div>
       <div
@@ -63,8 +63,8 @@ export default function Home() {
           width="560"
           height="315"
           src="https://www.youtube.com/embed/QlIWtKEaBkA"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         />
       </div>
       <div
@@ -83,8 +83,8 @@ export default function Home() {
           width="560"
           height="315"
           src="https://www.youtube.com/embed/wq2qE1cFt64"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         />
       </div>
     </div>

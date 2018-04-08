@@ -7,8 +7,8 @@ export default function Video({ videoCode }) {
       height="700"
       className="VideoStuff"
       src={`https://www.youtube.com/embed/${videoCode}`}
-      frameborder="0"
-      allowfullscreen
+      frameBorder="0"
+      allowFullScreen
     />
   );
 }
