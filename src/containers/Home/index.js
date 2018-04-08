@@ -1,14 +1,14 @@
 import React from "react";
 import Greeting from "./Greeting";
 import Thanks from "./Thanks";
-import Preview from "./Preview";
+import Main from "./Main";
 
 export default function Home() {
   return (
     <div>
       <Greeting />
       <Thanks />
-      <Preview />
+      <Main />
     </div>
   );
 }
