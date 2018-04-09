@@ -17,6 +17,7 @@ export default function Arts() {
         color: white;
         font-size: 12rem;
         font-family:Impact, Charcoal, sens-sarif;
+        
       `}>
         HEROS
       </div>
@@ -52,15 +53,18 @@ export default function Arts() {
       <div
         className={css `
           border-bottom: 12rem solid black;
-          margin-left: 2rem;
-          margin-right: 2rem;
+          margin-left: 10rem;
+          margin-right: 10rem;
           display: flex;
           justify-content: center;
           color: white;
-          font-size: 5rem;
+          font-size: 4rem;
           font-family:Impact, Charcoal, sens-sarif;
         `}>
-        More Coming Soon...
+        Story: The Main Character Is Searching For The Strongest Weapon In The World For The Military Of StickVille,
+        His Home. But As He Meets A Group Of Super Heros With Their Own Particular Powers, He Starts To Think Of Jo
+        ining The Group To Help Keep Peace In The Alternative-Verses By Keeping The Uni-Pearl Safe, But As They Go
+        Through Some Hardships, Some Death Came Along The Journey...
       </div>
       <div>
         <div
