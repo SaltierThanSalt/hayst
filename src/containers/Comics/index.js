@@ -2,6 +2,7 @@ import React from "react";
 import { css } from "emotion";
 import Image from "../../components/Image";
 import preview2 from "../../img/heros_preview_page.png";
+import cover from "../../img/cover.png";
 
 export default function Arts() {
   return (
@@ -42,13 +43,13 @@ export default function Arts() {
         font-size: 5rem;
         font-family:Impact, Charcoal, sens-sarif;
       `}>
-        (Preview Of The 'Heros: Born Within')
+        (Cover)
       </div>
       <div className={css `
         padding-left: 6rem;
         padding-right: 6rem;
       `}>
-        <Image src={preview2} />
+        <Image src={cover} />
       </div>
       <div
         className={css `
