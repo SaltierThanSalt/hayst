@@ -1,8 +1,11 @@
 import React from "react";
 import { css } from "emotion";
 import Image from "../../components/Image";
-import preview2 from "../../img/heros_preview_page.png";
-import cover from "../../img/cover.png";
+import preview1 from "../../img/p1ofheroes.png";
+import preview2 from "../../img/p2ofheroes.png";
+import preview3 from "../../img/p3ofheroes.png";
+import cover from "../../img/newcover.png";
+import nextup__tfatb from "../../img/nextup.png";
 
 export default function Arts() {
   return (
@@ -43,13 +46,31 @@ export default function Arts() {
         font-size: 5rem;
         font-family:Impact, Charcoal, sens-sarif;
       `}>
-        (Cover)
+        (Preview)
       </div>
       <div className={css `
         padding-left: 6rem;
         padding-right: 6rem;
       `}>
         <Image src={cover} />
+      </div>
+      <div className={css `
+        padding-left: 6rem;
+        padding-right: 6rem;
+      `}>
+        <Image src={preview1} />
+      </div>
+      <div className={css `
+        padding-left: 6rem;
+        padding-right: 6rem;
+      `}>
+        <Image src={preview2} />
+      </div>
+      <div className={css `
+        padding-left: 6rem;
+        padding-right: 6rem;
+      `}>
+        <Image src={preview3} />
       </div>
       <div
         className={css `
@@ -67,6 +88,32 @@ export default function Arts() {
         ining The Group To Help Keep Peace In The Alternative-Verses By Keeping The Uni-Pearl Safe, But As They Go
         Through Some Hardships, Some Death Came Along The Journey...
       </div>
+      <div className={css `
+        border-top: 2rem solid white;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 12rem;
+        font-family:Impact, Charcoal, sens-sarif;
+        
+      `}>
+        NEXT UP...
+      </div>
+      <div className={css `
+        margin-left: 2rem;
+        margin-right: 2rem;
+        border-bottom: 2rem solid white;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 7rem;
+        font-family:Impact, Charcoal, sens-sarif;
+      `}>
+        The Fall And The Beginning
+      </div>
+      <Image src={nextup__tfatb}/>
       <div>
         <div
             style={{

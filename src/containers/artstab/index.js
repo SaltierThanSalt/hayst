@@ -3,6 +3,7 @@ import Image from "../../components/Image";
 import art1 from "../../img/yasfatb1.png";
 import art2 from "../../img/jinnnnyyyyyy.png";
 import art3 from "../../img/yasanoobss.png";
+import art4 from "../../img/thanosbyhayst.png";
 import { css } from "emotion";
 
 export default function Arts() {
@@ -58,6 +59,20 @@ export default function Arts() {
       </h1>
       <Image src={art2} />
       Description: Just an art of Jinny, my friend that I drew.
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Thanos Drawing By Hayst
+      </h1>
+      <Image 
+        className={css`
+          size: 30%;
+        `}
+        src={art4} />
+      Description: Just an art of Thanos That I Drew Using Krita
       <div
         style={{
           borderTop: "90px solid black",

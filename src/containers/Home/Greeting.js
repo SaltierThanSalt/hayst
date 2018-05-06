@@ -12,9 +12,9 @@ export default function Greeting() {
         align-items: center;
         font-size: 3rem;
         font-weight: bold;
-        border-bottom: 9px solid #000;
         color: rgb(300, 125, 40);
-        font-style: italic;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         transition-property: font-size;
         transition-duration: 2s;
         transition-delay: 0s;
@@ -23,7 +23,7 @@ export default function Greeting() {
         }
       `}
     >
-      Welcome to the official website of Hayst
+      Welcome to Hayst's Website
     </div>
   );
 }

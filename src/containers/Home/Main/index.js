@@ -43,7 +43,10 @@ export default class Preview extends Component {
           }
         `}
       >
-        <div>
+        <div
+          style={{
+            borderTop: "20px solid black"
+          }}>
           <Clock />
         </div>
         <div
@@ -51,7 +54,7 @@ export default class Preview extends Component {
             borderTop: "20px solid #000"
           }}
         >
-          <h2>Subcribe For:</h2>
+          <h2>Subcribe For</h2>
         </div>
         <div
           style={{
@@ -114,7 +117,7 @@ export default class Preview extends Component {
             <iframe
               width="680"
               height="415"
-              src="https://www.youtube.com/embed/ui2IiIwvcRE"
+              src="https://www.youtube.com/embed/KxM0NUNSLXs"
               frameBorder="0"
               allowFullScreen
             />
