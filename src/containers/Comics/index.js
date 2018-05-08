@@ -25,7 +25,7 @@ export default function Arts() {
         font-family:Impact, Charcoal, sens-sarif;
         
       `}>
-        HEROS
+        HEROES
       </div>
       <div className={css `
         margin-left: 2rem;
