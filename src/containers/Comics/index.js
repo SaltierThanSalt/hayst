@@ -5,6 +5,8 @@ import preview1 from "../../img/p1ofheroes.png";
 import preview2 from "../../img/p2ofheroes.png";
 import preview3 from "../../img/p3ofheroes.png";
 import cover from "../../img/newcover.png";
+import preview4 from "../../img/p4pfheroes.png";
+import preview5 from "../../img/p5ofheroes.png";
 import nextup__tfatb from "../../img/nextup.png";
 
 export default function Arts() {
@@ -71,6 +73,18 @@ export default function Arts() {
         padding-right: 6rem;
       `}>
         <Image src={preview3} />
+      </div>
+      <div className={css `
+        padding-left: 6rem;
+        padding-right: 6rem;
+      `}>
+        <Image src={preview4} />
+      </div>
+      <div className={css `
+        padding-left: 6rem;
+        padding-right: 6rem;
+      `}>
+        <Image src={preview5} />
       </div>
       <div
         className={css `
