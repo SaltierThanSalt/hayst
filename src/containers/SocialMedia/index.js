@@ -5,30 +5,34 @@ import { css } from "emotion";
 
 export default function SocialMedia() {
   return (
-    <div
-      style={{
-        backgroundColor: "black"
-      }}
-    >
-      <div>
-        <div
-          className="titleofsocialmedia"
-          style={{
-            color: "white",
-            fontStyle: "italic",
-            borderBottom: "5px solid white"
-          }}
-        >
-          Social Medias
-        </div>
+    <div style={{backgroundColor: "black"}}>
+          <div
+            style={{
+              position: 'relative',
+            }}
+          >
+            <div
+              className="titleofartsssss"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                borderBottom: "solid 5px white",
+                color: "white"
+              }}
+            > Social media
+            </div>
+          </div>
+
+        
         <div>
           <h1
             className="lolsocialmediamc"
             style={{
-              position: "center"
+              position: "center",
+              color: "white"
             }}
           >
-            Minecraft Username: Hayst
+            Minecraft Username: HypixelFanBoi
           </h1>
           <h1
             className={css`
@@ -54,7 +58,9 @@ export default function SocialMedia() {
             className="wassaphi"
             href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw"
             style={{
-              fontStyle: "Bold"
+              fontStyle: "Bold",
+              color: "white",
+
             }}
           >
             <h1>Click Here To Visit My</h1>
@@ -77,7 +83,7 @@ export default function SocialMedia() {
                 font-family: Impact, Charcoal, sans-serif;
               `}
             >
-              tube
+              Tube
             </h12>
           </a>
         </div>
@@ -100,6 +106,23 @@ export default function SocialMedia() {
           </a>
         </div>
         <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          fontSize: "15rem",
+          fontFamily: "Impact, Charcoal, sens-sarif",
+          color: "skyblue",
+          marginLeft: "9rem",
+          marginRight: "9rem",
+          borderTop: "1.2rem solid white",
+        }}>
+          <a
+            href="https://www.instagram.com/officialhayst/"
+          >
+            Instagram
+          </a>
+        </div>
+        <div
           style={{
             display: "flex",
             justifyContent: "center",
@@ -118,6 +141,5 @@ export default function SocialMedia() {
           All rights reserved.
         </div>
       </div>
-    </div>
   );
 }

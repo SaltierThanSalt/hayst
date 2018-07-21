@@ -11,7 +11,7 @@ export default function NavTabs() {
         <Link to="/socialmedia">📋 Social Media </Link>
       </li>
       <li>
-        <Link to="/uploads">▶ Recent Uploads </Link>
+        <Link to="/uploads">▶ Videos </Link>
       </li>
       <li>
         <Link to="/shop">🛍 Shop </Link>

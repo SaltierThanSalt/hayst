@@ -12,10 +12,10 @@ export default function myModal({onHide}) {
                 <h1>Recent Website Update</h1>
             </Modal.Header>
             <Modal.Body>
-                <h15>Update v 5.5 Is Out! (Better GUI)
+                <h15>Update v 6 Is Out! (Chats!)
                     <div>
                         <h15>
-                           Now there are cleaner GUIs.
+                           Now, you can chat with you friends. Write things like: "Hello! Nice To Meet You! - (yourname)".
                         </h15>
                     </div>
                 </h15>
@@ -30,7 +30,7 @@ export default function myModal({onHide}) {
                     </h16>
                 </div>
                 <div>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/d8rIVjIa9E4" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/2BUttFuNmqE" frameborder="0" allowfullscreen></iframe>
                 </div>
             </Modal.Body>
             <Modal.Footer>

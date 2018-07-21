@@ -1,12 +1,12 @@
 import React from "react";
 import { css } from "emotion";
 import Image from "../../components/Image";
-import preview1 from "../../img/p1ofheroes.png";
-import preview2 from "../../img/p2ofheroes.png";
-import preview3 from "../../img/p3ofheroes.png";
-import cover from "../../img/newcover.png";
-import preview4 from "../../img/p4pfheroes.png";
-import preview5 from "../../img/p5ofheroes.png";
+import preview1 from "../../img/heroesnewp1.png";
+import preview2 from "../../img/heroesnewp2.png";
+import preview3 from "../../img/heroesnewp3.png";
+import cover from "../../img/heroesnewcover.png";
+import preview4 from "../../img/heroesnewp4.png";
+import preview5 from "../../img/heroesnewp5.png";
 import nextup__tfatb from "../../img/nextup.png";
 
 export default function Arts() {
@@ -18,12 +18,15 @@ export default function Arts() {
         border-top: 2rem solid white;
         margin-left: 2rem;
         margin-right: 2rem;
+        transition-duration: 1.5s;
+        transition-delay: 0s;
         display: flex;
         justify-content: center;
         color: white;
         font-size: 12rem;
         font-family:Impact, Charcoal, sens-sarif;
-        
+        &:hover {
+          font-size: 15rem;
       `}>
         HEROES
       </div>

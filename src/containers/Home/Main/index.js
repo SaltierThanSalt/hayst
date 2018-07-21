@@ -46,7 +46,8 @@ export default class Preview extends Component {
         <div
           style={{
             borderTop: "20px solid black"
-          }}>
+          }}
+        >
           <Clock />
         </div>
         <div
@@ -78,9 +79,27 @@ export default class Preview extends Component {
             More Videos
           </h1>
         </div>
+
         <button onClick={this.onColorChange}>
           Click Me To Change The Text Above To Another Random Color
         </button>
+        <div style={{ borderTop: "10px solid black" }} />
+        <div
+          style={{
+            marginTop: "2rem",
+            marginBottom: "2rem"
+          }}
+          className="BetterVideo"
+        >
+          <iframe
+            width="680"
+            height="415"
+            src="https://www.youtube.com/embed/2BUttFuNmqE"
+            frameBorder="0"
+            allowFullScreen
+          />
+        </div>
+        <div style={{ borderTop: "10px solid black" }} />
         <div
           className={css`
             display: flex;
@@ -90,38 +109,14 @@ export default class Preview extends Component {
         >
           <div
             style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              borderTop: "20px solid #000",
-              borderLeft: "30px solid #474647",
-              borderBottom: "20px solid #000"
+              height: '60rem',
+              overflowY: 'scroll',
+              borderBottom: "90px solid ##000000",
             }}
           >
-            <Image src={banner_2} />
+            <MsgBoard />
           </div>
-          <MsgBoard />
-          <div
-            className={css`
-              border-top: 10px solid #000;
-              font-family: Impact, Charcoal, sans-serif;
-              font-size: 5rem;
-              display: flex;
-              justify-content: center;
-              margin-bottom: 1.5rem;
-            `}
-          >
-            Recent Video
-          </div>
-          <div className="BetterVideo">
-            <iframe
-              width="680"
-              height="415"
-              src="https://www.youtube.com/embed/KxM0NUNSLXs"
-              frameBorder="0"
-              allowFullScreen
-            />
-          </div>
+            </div>
           <div
             style={{
               borderTop: "90px solid #ffffff",
@@ -140,7 +135,6 @@ export default class Preview extends Component {
             All rights reserved.
           </div>
         </div>
-      </div>
     );
   }
 

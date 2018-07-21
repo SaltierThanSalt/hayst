@@ -11,7 +11,7 @@ export default function Home() {
         }}
       >
         <h16>
-        Minecraft New Year Skywars Special: THE JUMP 
+        School Moments Compilation
         </h16>
       </div>
       <div
@@ -22,7 +22,7 @@ export default function Home() {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/srckTnIj-q8"
+          src="https://www.youtube.com/embed/2BUttFuNmqE"
           frameBorder="0"
           allowFullScreen
         />
