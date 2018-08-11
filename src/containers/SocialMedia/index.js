@@ -32,7 +32,7 @@ export default function SocialMedia() {
               color: "white"
             }}
           >
-            Minecraft Username: HypixelFanBoi
+            Minecraft Username: OfficialHayst
           </h1>
           <h1
             className={css`

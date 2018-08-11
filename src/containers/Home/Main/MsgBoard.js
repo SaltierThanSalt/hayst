@@ -30,7 +30,7 @@ export default class MsgBoard extends Component {
         <input
           value={inputText}
           onChange={event => this.setState({ inputText: event.target.value })}
-          placeholder="Ex) Hello There! General Kenobi!"
+          placeholder="Ex) Hello There! General Kenobi! - Obiwan Kenobyee"
           style={{
             width: '50%',
             marginLeft: '25%',

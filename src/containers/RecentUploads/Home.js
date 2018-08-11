@@ -5,6 +5,26 @@ export default function Home() {
     <div>
       <h14
         className="lolh14">Recent Uploads</h14>
+        <div
+        style={{
+          borderTop: "2px solid #000"
+        }}
+      >
+        <h16>HOUSE OF THE SCORPION: Why is El Patron CORRUPTED? (CHASE)</h16>
+      </div>
+      <div
+        style={{
+          borderTop: "2px solid #000"
+        }}
+      >
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/RBT46OSvxAw"
+          frameBorder="0"
+          allowFullScreen
+        />
+      </div>
       <div
         style={{
           borderTop: "2px solid #000"
@@ -32,7 +52,7 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
-        <h16>Hayst Plays The Spectre In Front Of Class (AGAIN!!!) </h16>
+        <h16>Hayst Plays The Spectre In Front Of Class (AGAIN!) </h16>
       </div>
       <div
         style={{

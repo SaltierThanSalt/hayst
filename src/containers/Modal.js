@@ -12,11 +12,10 @@ export default function myModal({onHide}) {
                 <h1>Recent Website Update</h1>
             </Modal.Header>
             <Modal.Body>
-                <h15>Update v 6 Is Out! (Chats!)
+                <h15>Update v = 7 Is Out! (THE SECOND UI UPDATE!)
                     <div>
                         <h15>
-                           Now, you can chat with you friends. Write things like: "Hello! Nice To Meet You! - (yourname)".
-                        </h15>
+                           Now, you can chat with you friends. Write things like: "Hello! Nice To Meet You! - (yourname), also, the UI changed to something more preferable!</h15>
                     </div>
                 </h15>
                 <h1> Enjoy your time! :D </h1>

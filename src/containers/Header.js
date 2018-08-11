@@ -1,5 +1,5 @@
 import React from 'react'
-import GenerationImage from '../img/anotherbannerwoohoo.png';
+import GenerationImage from '../img/haystbanner.png';
 
 export default function Header() {
     return (
@@ -9,7 +9,7 @@ export default function Header() {
             backgroundImage: `url(${GenerationImage})`,
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            backgroundSize: '150rem',
+            backgroundSize: '110rem',
           }}
         >
             

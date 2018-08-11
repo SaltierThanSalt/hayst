@@ -20,8 +20,8 @@ export default class Preview extends Component {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          padding-left: 2rem;
-          padding-right: 2rem;
+          padding-left: 6rem;
+          padding-right: 6rem;
           h2 {
             font-weight: bold;
           }
@@ -33,7 +33,7 @@ export default class Preview extends Component {
             font-size: 1.7rem;
             color: #fff;
             background: rgb(0, 205, 249);
-            margin: 1rem 0;
+            margin: 3rem 0;
             border-radius: 10rem;
             border: 1px solid rgb(0, 205, 249);
             &:hover {
@@ -45,14 +45,14 @@ export default class Preview extends Component {
       >
         <div
           style={{
-            borderTop: "20px solid black"
+            borderTop: "20px solid gray"
           }}
         >
           <Clock />
         </div>
         <div
           style={{
-            borderTop: "20px solid #000"
+            borderTop: "20px solid gray"
           }}
         >
           <h2>Subcribe For</h2>
