@@ -12,6 +12,7 @@ import Shop from "./containers/Shop";
 import Information from "./containers/info";
 import Arts from "./containers/artstab";
 import Comics from "./containers/Comics";
+import News from "./containers/News";
 import { css } from "emotion";
 
 import { Route, Switch } from "react-router-dom";
@@ -67,6 +68,7 @@ class App extends Component {
             <Route path="/info" component={Information} />
             <Route path="/arts" component={Arts} />
             <Route path="/comics" component={Comics}/>
+            <Route path="/news" component={News}/>
           </Switch>
         </div>
       </div>
