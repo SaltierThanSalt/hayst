@@ -1,6 +1,4 @@
 import React from "react";
-import ytlogo from "../../img/yt.png";
-import Image from "../../components/Image";
 import { css } from "emotion";
 
 export default function SocialMedia() {
@@ -22,32 +20,7 @@ export default function SocialMedia() {
             > Social media
             </div>
           </div>
-
-        
-        <div>
-          <h1
-            className="lolsocialmediamc"
-            style={{
-              position: "center",
-              color: "white"
-            }}
-          >
-            Minecraft Username: OfficialHayst
-          </h1>
-          <h1
-            className={css`
-              display: flex;
-              justify-content: center;
-              position: center;
-              color: skyblue;
-              border-bottom: 5px solid white;
-              font-family: Impact, Charcoal, sens-sarif;
-              `}
-          >
-            Rank: MVP +
-          </h1>
-        </div>
-        <div
+          <div
           className={css`
             font-size: 2rem;
             display: flex;

@@ -52,14 +52,14 @@ export default function Information() {
           About Hayst
         </h1>
         <li className="liofinfo2">
-          Did You Know That I Used To Play AngryBirds When I was Young?
+          The very first video game I've ever played is AngryBirds.
         </li>
         <li className="liofinfo2">
-          Did You Know That I Was The First One To Upload A Minecraft StoryMode
-          Season 1 Episode 4 Gameplay?
+          I Was The First One To Upload A Minecraft StoryMode
+          Season 1 Episode 4 Gameplay.
         </li>
         <li className="liofinfo2">
-          Did You Know That I Used To Upload Minecraft PE Videos?
+          I Used To Upload Minecraft PE Videos.
         </li>
       </div>
       <div>

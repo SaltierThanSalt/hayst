@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import Video from "../../../components/Video";
-import banner_2 from "../../../img/Screenshot_2018-03-31-15-37-57.png";
-import Image from "../../../components/Image";
 import MsgBoard from "./MsgBoard";
-import Audio from "react-audioplayer";
 import Clock from "../Clock";
+import Image from "../../../components/Image";
+import title from "../../../img/background.png"
 import "../Clock.css";
 import { css } from "emotion";
 
@@ -45,15 +43,59 @@ export default class Preview extends Component {
       >
         <div
           style={{
-            borderTop: "20px solid gray"
+            borderTop: "20px solid gray",
+            borderBottom: "20px solid gray"
           }}
         >
           <Clock />
         </div>
-        <div
-          style={{
-            borderTop: "20px solid gray"
-          }}
+        <div class="container">
+          <Image
+            className={css`
+            size: 30%;
+          `}
+            src={title} />
+          <div class="centered">
+            <div
+              className={css`
+                  display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-content: center;
+                        align-items: center;
+                        font-size: 3rem;
+                        font-weight: bold;
+                        color: rgb(66, 134, 244);
+                        margin-top: 2rem;
+                        margin-bottom: 2rem;
+                        transition-property: font-size;
+                        transition-duration: 2s;
+                        transition-delay: 0s;
+                        &:hover {
+                          font-size: 4.5rem;
+                        }
+                      `}
+            >
+              H A Y S T
+            </div>
+          </div>
+          <div class="descriptionscentered">
+            <div>
+              <h1 className="oofingoof">
+                A Youtube Creator
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div className={css`
+          border-top: 100px solid black 
+          display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-content: center;
+                        align-items: center;
+                        border-top: 20px solid gray;
+        `}
         >
           <h2>Subcribe For</h2>
         </div>
@@ -66,7 +108,11 @@ export default class Preview extends Component {
         >
           <h1
             className={css`
+              display: flex;
+              width: 100;
+              flex-direction: column;
               font-size: 45px;
+              font-family: Impact, Charcoal, sans-serif;
               transition-property: font-size, color;
               transition-duration: 2s;
               transition-delay: 0s;
@@ -84,6 +130,33 @@ export default class Preview extends Component {
           Click Me To Change The Text Above To Another Random Color
         </button>
         <div style={{ borderTop: "10px solid black" }} />
+        <div
+          style={{
+            marginTop: "2rem"
+          }}
+          className="BetterVideo"
+        >
+        </div>
+        <div>
+            <h1 className={css`
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-content: center;
+              align-items: center;
+              font-size: 3rem;
+              font-family: Impact, Charcoal, sans-serif;
+              transition-property: font-size, color;
+              transition-duration: 2s;
+              transition-delay: 0s;
+              &:hover {
+                font-size: 50px;
+                color: rgb(100, 194, 231);
+              }
+            `}>
+              Recent Video
+            </h1>
+          </div>
         <div
           style={{
             marginTop: "2rem",
@@ -109,6 +182,7 @@ export default class Preview extends Component {
         >
           <div
             style={{
+              marginTop: "2rem",
               height: '60rem',
               overflowY: 'scroll',
               borderBottom: "90px solid ##000000",
@@ -116,25 +190,25 @@ export default class Preview extends Component {
           >
             <MsgBoard />
           </div>
-            </div>
-          <div
-            style={{
-              borderTop: "90px solid #ffffff",
-              display: "flex",
-              justifyContent: "center"
-            }}
-          >
-            © Copyright Hayst 2018
-          </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center"
-            }}
-          >
-            All rights reserved.
-          </div>
         </div>
+        <div
+          style={{
+            borderTop: "90px solid #ffffff",
+            display: "flex",
+            justifyContent: "center"
+          }}
+        >
+          © Copyright Hayst 2018
+          </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center"
+          }}
+        >
+          All rights reserved.
+          </div>
+      </div>
     );
   }
 

@@ -7,6 +7,7 @@ import preview3 from "../../img/heroesnewp3.png";
 import cover from "../../img/heroesnewcover.png";
 import preview4 from "../../img/heroesnewp4.png";
 import preview5 from "../../img/heroesnewp5.png";
+import preview6 from "../../img/heroesp6.png";
 import nextup__tfatb from "../../img/nextup.png";
 
 export default function Arts() {
@@ -88,6 +89,12 @@ export default function Arts() {
         padding-right: 6rem;
       `}>
         <Image src={preview5} />
+      </div>
+      <div className={css `
+        padding-left: 6rem;
+        padding-right: 6rem;
+      `}>
+        <Image src={preview6} />
       </div>
       <div
         className={css `
