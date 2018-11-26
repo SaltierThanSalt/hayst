@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import MsgBoard from "./MsgBoard";
 import Clock from "../Clock";
 import Image from "../../../components/Image";
-import title from "../../../img/background.png"
+import title from "../../../img/channelbanner1.png"
 import "../Clock.css";
 import { css } from "emotion";
 
@@ -145,6 +145,7 @@ export default class Preview extends Component {
               align-content: center;
               align-items: center;
               font-size: 3rem;
+              color:
               font-family: Impact, Charcoal, sans-serif;
               transition-property: font-size, color;
               transition-duration: 2s;
@@ -167,7 +168,7 @@ export default class Preview extends Component {
           <iframe
             width="680"
             height="415"
-            src="https://www.youtube.com/embed/2BUttFuNmqE"
+            src="https://www.youtube.com/embed/pmIDx_L4O0A"
             frameBorder="0"
             allowFullScreen
           />

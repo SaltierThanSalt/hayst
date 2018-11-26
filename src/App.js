@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
-import Modal from "./containers/Modal";
+import NewsModal from "./containers/NewsModal";
 import NavTabs from "./containers/NavTabs";
 import Header from "./containers/Header";
-import McCharLookingRight from "./img/mc_char_looking_right.png";
+import McCharLookingRight from "./img/favicon.png";
 import Home from "./containers/Home";
 import SocialMedia from "./containers/SocialMedia";
 import RecentUploads from "./containers/RecentUploads";
@@ -40,14 +40,14 @@ class App extends Component {
             className={css`
               background-image: url(${McCharLookingRight});
               background-color: black;
-              height: 12rem;
-              background-size: 12rem;
+              height: 16rem;
+              background-size: 40rem;
               background-repeat: no-repeat;
               background-position: center center;
             `}
           />
           {modalOn && (
-            <Modal onHide={() => this.setState({ modalOn: false })} />
+            <NewsModal onHide={() => this.setState({ modalOn: false })} />
           )}
           <div
             className="btn btn-default"

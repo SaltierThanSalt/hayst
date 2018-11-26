@@ -10,6 +10,28 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
+        <h16>
+        I single handedly killed my Wii. (And I got a Nintendo Switch)
+        </h16>
+      </div>
+      <div
+        style={{
+          borderTop: "2px solid #000"
+        }}
+      >
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/pmIDx_L4O0A"
+          frameBorder="0"
+          allowFullScreen
+        />
+      </div>
+        <div
+        style={{
+          borderTop: "2px solid #000"
+        }}
+      >
         <h16>HOUSE OF THE SCORPION: Why is El Patron CORRUPTED? (CHASE)</h16>
       </div>
       <div

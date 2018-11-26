@@ -2,20 +2,17 @@ import React from 'react';
 import { Modal } from 'react-bootstrap';
 import { Route, Switch, Link } from 'react-router-dom';
 
-export default function myModal({ onHide }) {
+export default function NewsModal({ onHide }) {
   return (
-    <Modal show onHide={onHide}>
+    <Modal show={true} onHide={onHide}>
       <Modal.Header>
         <h1>Recent Website Update</h1>
       </Modal.Header>
       <Modal.Body>
         <h15>
-          Update v = 7 Is Out! (THE SECOND UI UPDATE!)
+          Update v = 8 Is Out (The unessecary update that no one really wanted)
           <div>
             <h15>
-              Now, you can chat with you friends. Write things like: "Hello!
-              Nice To Meet You! - (yourname), also, the UI changed to something
-              more preferable!
             </h15>
           </div>
         </h15>
@@ -31,23 +28,20 @@ export default function myModal({ onHide }) {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/2BUttFuNmqE"
+            src="https://www.youtube.com/embed/pmIDx_L4O0A"
             frameborder="0"
             allowfullscreen
           />
         </div>
       </Modal.Body>
       <Modal.Footer>
-        <div className="btn btn-default">
-          <Link
-            style={{
-              color: 'black',
-              fontSize: '30px'
-            }}
-            to="/"
-          >
-            Alright! :D
-          </Link>
+        <div className="btn btn-default" style={{
+          color: 'black',
+          fontSize: '30px'
+        }}
+          onClick={onHide}
+        >
+          Alright! :D
         </div>
       </Modal.Footer>
     </Modal>
