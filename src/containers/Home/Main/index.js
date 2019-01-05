@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import MsgBoard from "./MsgBoard";
 import Clock from "../Clock";
 import Image from "../../../components/Image";
-import title from "../../../img/meatthe.png"
+import title from "../../../img/meatthe.png";
 import "../Clock.css";
 import { css } from "emotion";
 
@@ -53,43 +53,42 @@ export default class Preview extends Component {
         <div
           className={css`
             display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-content: center;
-              align-items: center;
-              font-size: 10rem;
-              font-weight: bold;
-          `}
-        >
-          About Hayst:
-        </div>
-        <div className={css`
-          display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-content: center;
             align-items: center;
+            font-size: 10rem;
+            font-weight: bold;
+          `}
+        >
+          About Hayst:
+        </div>
+        <div
+          className={css`
+            display: flex;
+            justify-content: center;
             font-size: 2.5rem;
             font-weight: bold;
             padding: 2rem;
-        `}
+          `}
         >
-          I upload videos in my Youtube channel only with a little more than 900 subscribers but I still make them for fun even though I think of quitting a lot. My real name is Alex Lee and I'm 12 years old and I really like Arts.
+          I upload videos in my Youtube channel only with a little more than 900
+          subscribers but I still make them for fun even though I think of
+          quitting a lot. My real name is Alex Lee and I'm 12 years old and I
+          really like Arts.
         </div>
         <div
           style={{
-            width: '100%',
-            diplay: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}>
-          <Image
-            style={{
-              width: '50%',
-            }}
-            src={title} />
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center"
+          }}
+        >
+          <Image style={{ width: "50%" }} src={title} />
         </div>
-        <div className={css`
+        <div
+          className={css`
           border-top: 100px solid black 
           display: flex;
           flex-direction: column;
@@ -111,7 +110,7 @@ export default class Preview extends Component {
               display: flex;
               width: 100;
               flex-direction: column;
-              font-size: 45px; 
+              font-size: 45px;
               font-family: Impact, Charcoal, sans-serif;
               transition-property: font-size, color;
               transition-duration: 2s;
@@ -135,10 +134,10 @@ export default class Preview extends Component {
             marginTop: "2rem"
           }}
           className="BetterVideo"
-        >
-        </div>
+        />
         <div>
-          <h1 className={css`
+          <h1
+            className={css`
               display: flex;
               flex-direction: column;
               justify-content: space-between;
@@ -154,9 +153,10 @@ export default class Preview extends Component {
                 font-size: 50px;
                 color: rgb(100, 194, 231);
               }
-            `}>
+            `}
+          >
             Recent Video
-            </h1>
+          </h1>
         </div>
         <div
           style={{
@@ -184,9 +184,9 @@ export default class Preview extends Component {
           <div
             style={{
               marginTop: "2rem",
-              height: '60rem',
-              overflowY: 'scroll',
-              borderBottom: "90px solid ##000000",
+              height: "60rem",
+              overflowY: "scroll",
+              borderBottom: "90px solid ##000000"
             }}
           >
             <MsgBoard />
@@ -200,7 +200,7 @@ export default class Preview extends Component {
           }}
         >
           © Copyright Hayst 2018
-          </div>
+        </div>
         <div
           style={{
             display: "flex",
@@ -208,7 +208,7 @@ export default class Preview extends Component {
           }}
         >
           All rights reserved.
-          </div>
+        </div>
       </div>
     );
   }
