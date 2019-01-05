@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import MsgBoard from "./MsgBoard";
 import Clock from "../Clock";
 import Image from "../../../components/Image";
-import title from "../../../img/channelbanner1.png"
+import title from "../../../img/meatthe.png"
 import "../Clock.css";
 import { css } from "emotion";
 
@@ -15,6 +15,7 @@ export default class Preview extends Component {
     return (
       <div
         className={css`
+          width: 100%;
           display: flex;
           flex-direction: column;
           justify-content: space-between;
@@ -43,58 +44,57 @@ export default class Preview extends Component {
       >
         <div
           style={{
-            borderTop: "20px solid gray",
+            borderTop: "10px solid gray",
             borderBottom: "20px solid gray"
           }}
         >
           <Clock />
         </div>
-        <div class="container">
-          <Image
-            className={css`
-            size: 30%;
+        <div
+          className={css`
+            display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-content: center;
+              align-items: center;
+              font-size: 10rem;
+              font-weight: bold;
           `}
+        >
+          About Hayst:
+        </div>
+        <div className={css`
+          display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            padding: 2rem;
+        `}
+        >
+          I upload videos in my Youtube channel only with a little more than 900 subscribers but I still make them for fun even though I think of quitting a lot. My real name is Alex Lee and I'm 12 years old and I really like Arts.
+        </div>
+        <div
+          style={{
+            width: '100%',
+            diplay: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}>
+          <Image
+            style={{
+              width: '50%',
+            }}
             src={title} />
-          <div class="centered">
-            <div
-              className={css`
-                  display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        align-content: center;
-                        align-items: center;
-                        font-size: 3rem;
-                        font-weight: bold;
-                        color: rgb(66, 134, 244);
-                        margin-top: 2rem;
-                        margin-bottom: 2rem;
-                        transition-property: font-size;
-                        transition-duration: 2s;
-                        transition-delay: 0s;
-                        &:hover {
-                          font-size: 4.5rem;
-                        }
-                      `}
-            >
-              H A Y S T
-            </div>
-          </div>
-          <div class="descriptionscentered">
-            <div>
-              <h1 className="oofingoof">
-                A Youtube Creator
-              </h1>
-            </div>
-          </div>
         </div>
         <div className={css`
           border-top: 100px solid black 
           display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        align-content: center;
-                        align-items: center;
-                        border-top: 20px solid gray;
+          flex-direction: column;
+          align-items: center;
+          border-top: 20px solid gray;
         `}
         >
           <h2>Subcribe For</h2>
@@ -111,7 +111,7 @@ export default class Preview extends Component {
               display: flex;
               width: 100;
               flex-direction: column;
-              font-size: 45px;
+              font-size: 45px; 
               font-family: Impact, Charcoal, sans-serif;
               transition-property: font-size, color;
               transition-duration: 2s;
@@ -138,7 +138,7 @@ export default class Preview extends Component {
         >
         </div>
         <div>
-            <h1 className={css`
+          <h1 className={css`
               display: flex;
               flex-direction: column;
               justify-content: space-between;
@@ -155,9 +155,9 @@ export default class Preview extends Component {
                 color: rgb(100, 194, 231);
               }
             `}>
-              Recent Video
+            Recent Video
             </h1>
-          </div>
+        </div>
         <div
           style={{
             marginTop: "2rem",

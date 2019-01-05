@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Image({src, style }) {
+export default function Image({src, style, className }) {
   return (
       <img
         src={src}
@@ -8,6 +8,7 @@ export default function Image({src, style }) {
           width: "100%",
           ...style
         }}
+        className={className}
         rel=""
       />
   );

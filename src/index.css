@@ -179,12 +179,14 @@ li {
 .centered {
   position: absolute;
   top: 15%;
-  left: 80%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 .oofingoof {
+  font-size: 1.4rem;
   position: absolute;
-  top: 19%;
-  left: 68%;
-  color: lightblue;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(34, 116, 143);
 }

@@ -25,7 +25,7 @@ export default class MsgBoard extends Component {
             margin-top: 1rem;
           `}
         >
-          Here Is A Place You Can Chat.{' '}
+          General Chat{' '}
         </h1>
         <input
           value={inputText}

@@ -4,5 +4,6 @@
   font-weight: 100;
   font-size: 80px;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
