@@ -1,6 +1,5 @@
 import React from "react";
 import { Modal } from "react-bootstrap";
-import { Route, Switch, Link } from "react-router-dom";
 
 export default function NewsModal({ onHide }) {
   return (
@@ -25,6 +24,7 @@ export default function NewsModal({ onHide }) {
         </div>
         <div>
           <iframe
+            title="recentvideotitle"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/pmIDx_L4O0A"

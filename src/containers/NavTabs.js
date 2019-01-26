@@ -17,16 +17,36 @@ export default function NavTabs() {
         <Link to="/shop">🛍 Shop </Link>
       </li>
       <li>
-        <Link to="/info">ℹ️ Infos </Link>
+        <Link to="/info">
+          <span role="img" aria-label="info">
+            ℹ️
+          </span>{" "}
+          Infos{" "}
+        </Link>
       </li>
       <li>
-        <Link to="/arts">🎨 Arts </Link>
+        <Link to="/arts">
+          <span role="img" aria-label="art">
+            🎨
+          </span>
+          Arts{" "}
+        </Link>
       </li>
       <li>
-        <Link to="/comics">📰 Comics </Link>
+        <Link to="/comics">
+          <span role="img" aria-label="comics">
+            📰
+          </span>
+          Comics{" "}
+        </Link>
       </li>
       <li>
-        <Link to="/news">🗞 News </Link>
+        <Link to="/news">
+          <span role="img" aria-label="news">
+            🗞
+          </span>
+          News{" "}
+        </Link>
       </li>
     </ul>
   );

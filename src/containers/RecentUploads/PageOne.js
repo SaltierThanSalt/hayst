@@ -10,6 +10,7 @@ export default function PageOne() {
         }}
       >
         <iframe
+          title="roleplay"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/RIMFxN3djMA"
@@ -24,6 +25,7 @@ export default function PageOne() {
         }}
       >
         <iframe
+          title="nockemmontage"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/d8rIVjIa9E4"

@@ -1,39 +1,37 @@
-import React from 'react'
-import Image from '../../components/Image';
-import blender_preview_duh from '../../img/yeah.jpg'
+import React from "react";
 
 export default function Shop() {
   return (
     <div
-      className = "shopmain"
+      className="shopmain"
       style={{
-        fontStyle: 'italic',
-        backgroundColor: 'black',
-        marginBottom: "2rem",
+        fontStyle: "italic",
+        backgroundColor: "black",
+        marginBottom: "2rem"
       }}
     >
-        <div>
-          <h1>
-            Shop down till next update.
-          </h1>
-        </div>
-        <div
-          style={{
-            borderTop:"90px solid black",
-            display: 'flex',
-            justifyContent: 'center',
-            color:'white'
-          }}>
-          Copyright Hayst 2018
-        </div>
-        <div
-          style={{
-              display: 'flex',
-              justifyContent: 'center',
-              color:'white'
-          }}>
-          All rights reserved.
-        </div> 
+      <div>
+        <h1>Shop down till next update.</h1>
       </div>
-  )
+      <div
+        style={{
+          borderTop: "90px solid black",
+          display: "flex",
+          justifyContent: "center",
+          color: "white"
+        }}
+      >
+        Copyright Hayst 2018
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          color: "white"
+        }}
+      >
+        All rights reserved.
+      </div>
+    </div>
+  );
 }

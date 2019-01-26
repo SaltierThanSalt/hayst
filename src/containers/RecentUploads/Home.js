@@ -19,6 +19,7 @@ export default function Home() {
         }}
       >
         <iframe
+          title="singlehandwii"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/pmIDx_L4O0A"
@@ -39,6 +40,7 @@ export default function Home() {
         }}
       >
         <iframe
+          title="hotselpatron"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/RBT46OSvxAw"
@@ -59,6 +61,7 @@ export default function Home() {
         }}
       >
         <iframe
+          title="schoolcompilation"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/2BUttFuNmqE"
@@ -79,6 +82,7 @@ export default function Home() {
         }}
       >
         <iframe
+          title="spectreclassshow"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/ST6JzA-U7S8"
@@ -99,6 +103,7 @@ export default function Home() {
         }}
       >
         <iframe
+          title="ophypixelbedwars"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/QlIWtKEaBkA"
@@ -119,6 +124,7 @@ export default function Home() {
         }}
       >
         <iframe
+          title="shapeofyoulaunchpad"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/wq2qE1cFt64"
