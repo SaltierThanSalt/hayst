@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import MsgBoard from "./MsgBoard";
 import Clock from "../Clock";
 import Image from "../../../components/Image";
-import title from "../../../img/meatthe.png";
+import title from "../../../img/haystinfo.png";
 import "../Clock.css";
 import { css } from "emotion";
 
@@ -21,6 +21,7 @@ export default class Preview extends Component {
           justify-content: space-between;
           padding-left: 6rem;
           padding-right: 6rem;
+          border-top: 20px solid gray;
           h2 {
             font-weight: bold;
           }
@@ -33,7 +34,7 @@ export default class Preview extends Component {
             color: #fff;
             background: rgb(0, 205, 249);
             margin: 3rem 0;
-            border-radius: 10rem;
+            border-radius: 5rem;
             border: 1px solid rgb(0, 205, 249);
             &:hover {
               background: rgb(0, 184, 250);
@@ -42,50 +43,86 @@ export default class Preview extends Component {
           }
         `}
       >
-        <div
-          style={{
-            borderTop: "10px solid gray",
-            borderBottom: "20px solid gray"
-          }}
-        >
-          <Clock />
-        </div>
-        <div
-          className={css`
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-content: center;
-            align-items: center;
-            font-size: 10rem;
-            font-weight: bold;
-          `}
-        >
-          About Hayst:
-        </div>
-        <div
-          className={css`
-            display: flex;
-            justify-content: center;
-            font-size: 2.5rem;
-            font-weight: bold;
-            padding: 2rem;
-          `}
-        >
-          I upload videos in my Youtube channel only with a little more than 900
-          subscribers but I still make them for fun even though I think of
-          quitting a lot. My real name is Alex Lee and I'm 12 years old and I
-          really like Arts.
+        <div>
+          <div
+            className={css`
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-content: center;
+              align-items: center;
+              font-size: 6rem;
+              font-weight: bold;
+              padding-top: 4rem;
+            `}
+          >
+            ABOUT HAYST
+          </div>
+          <div
+            className={css`
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-content: center;
+              align-items: center;
+              font-size: 2rem;
+              font-weight: bold;
+              padding: 5rem;
+              margin-left: 10rem;
+              margin-right: 10rem;
+            `}
+          >
+            I upload videos in my Youtube channel only with a little more than
+            900 subscribers but I still make them for fun even though I think of
+            quitting a lot. My real name is Alex Lee and I'm 12 years old and I
+            really like Arts.
+          </div>
         </div>
         <div
           style={{
             width: "100%",
+            paddingBottom: "2rem",
             display: "flex",
             justifyContent: "center",
             alignItems: "center"
           }}
         >
           <Image style={{ width: "50%" }} src={title} />
+        </div>
+        <div
+          className={css`
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 6rem;
+            padding-right: 6rem;
+            button {
+            padding: 2rem;
+            font-size: 1.7rem;
+            color: #fff;
+            background: rgb(0, 205, 249);
+            margin: 3rem 0;
+            border-radius: 5rem;
+            border: 1px solid rgb(0, 205, 249);
+            &:hover {
+              background: rgb(0, 184, 250);
+              border-color: rgb(24, 184, 250);
+            }
+          `}
+        >
+          <button>
+            <a
+              className="wassaphi"
+              href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw"
+              style={{
+                fontStyle: "Bold",
+                color: "white"
+              }}
+            >
+              VISIT THE CHANNEL
+            </a>
+          </button>
         </div>
         <div
           className={css`
@@ -102,7 +139,9 @@ export default class Preview extends Component {
           style={{
             fontSize: "3rem",
             fontFamily: "Impact, Charcoal, sans-serif",
-            color: titleColor
+            color: titleColor,
+            display: "flex",
+            flexDirection: "column"
           }}
         >
           <h1
@@ -173,7 +212,15 @@ export default class Preview extends Component {
             allowFullScreen
           />
         </div>
-        <div style={{ borderTop: "10px solid black" }} />
+        <div
+          style={{
+            borderTop: "10px solid gray",
+            borderBottom: "20px solid gray"
+          }}
+        >
+          <Clock />
+        </div>
+        <div />
         <div
           className={css`
             display: flex;

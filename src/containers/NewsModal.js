@@ -1,6 +1,6 @@
-import React from 'react';
-import { Modal } from 'react-bootstrap';
-import { Route, Switch, Link } from 'react-router-dom';
+import React from "react";
+import { Modal } from "react-bootstrap";
+import { Route, Switch, Link } from "react-router-dom";
 
 export default function NewsModal({ onHide }) {
   return (
@@ -12,14 +12,13 @@ export default function NewsModal({ onHide }) {
         <h15>
           Update v = 8 Is Out (The unessecary update that no one really wanted)
           <div>
-            <h15>
-            </h15>
+            <h15 />
           </div>
         </h15>
         <h1> Enjoy your time! :D </h1>
         <div
           style={{
-            borderTop: '2px solid #000'
+            borderTop: "2px solid #000"
           }}
         >
           <h16>My Recent Video!</h16>
@@ -35,10 +34,12 @@ export default function NewsModal({ onHide }) {
         </div>
       </Modal.Body>
       <Modal.Footer>
-        <div className="btn btn-default" style={{
-          color: 'black',
-          fontSize: '30px'
-        }}
+        <div
+          className="btn btn-default"
+          style={{
+            color: "black",
+            fontSize: "30px"
+          }}
           onClick={onHide}
         >
           Alright! :D

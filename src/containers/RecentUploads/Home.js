@@ -3,15 +3,14 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <h14
-        className="lolh14">Recent Uploads</h14>
-        <div
+      <h14 className="lolh14">Recent Uploads</h14>
+      <div
         style={{
           borderTop: "2px solid #000"
         }}
       >
         <h16>
-        I single handedly killed my Wii. (And I got a Nintendo Switch)
+          I single handedly killed my Wii. (And I got a Nintendo Switch)
         </h16>
       </div>
       <div
@@ -27,7 +26,7 @@ export default function Home() {
           allowFullScreen
         />
       </div>
-        <div
+      <div
         style={{
           borderTop: "2px solid #000"
         }}
@@ -52,9 +51,7 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
-        <h16>
-        School Moments Compilation
-        </h16>
+        <h16>School Moments Compilation</h16>
       </div>
       <div
         style={{
