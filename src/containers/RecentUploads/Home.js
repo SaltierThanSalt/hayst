@@ -95,7 +95,7 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
-        <h16>Minecraft: "OP??" [Hypixel Bedwars]</h16>
+        <h16>{`Minecraft: "OP??" [Hypixel Bedwars]`}</h16>
       </div>
       <div
         style={{

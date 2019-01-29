@@ -72,10 +72,10 @@ export default class Preview extends Component {
               margin-right: 10rem;
             `}
           >
-            I upload videos in my Youtube channel only with a little more than
+            {`I upload videos in my Youtube channel only with a little more than
             900 subscribers but I still make them for fun even though I think of
             quitting a lot. My real name is Alex Lee and I'm 12 years old and I
-            really like Arts.
+            really like Arts.`}
           </div>
         </div>
         <div
@@ -98,16 +98,17 @@ export default class Preview extends Component {
             padding-left: 6rem;
             padding-right: 6rem;
             button {
-            padding: 2rem;
-            font-size: 1.7rem;
-            color: #fff;
-            background: rgb(0, 205, 249);
-            margin: 3rem 0;
-            border-radius: 5rem;
-            border: 1px solid rgb(0, 205, 249);
-            &:hover {
-              background: rgb(0, 184, 250);
-              border-color: rgb(24, 184, 250);
+              padding: 2rem;
+              font-size: 1.7rem;
+              color: #fff;
+              background: rgb(0, 205, 249);
+              margin: 3rem 0;
+              border-radius: 5rem;
+              border: 1px solid rgb(0, 205, 249);
+              &:hover {
+                background: rgb(0, 184, 250);
+                border-color: rgb(24, 184, 250);
+              }
             }
           `}
         >
@@ -116,7 +117,7 @@ export default class Preview extends Component {
               className="wassaphi"
               href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw"
               style={{
-                fontStyle: "Bold",
+                fontWeight: "bold",
                 color: "white"
               }}
             >
@@ -205,6 +206,7 @@ export default class Preview extends Component {
           className="BetterVideo"
         >
           <iframe
+            title="bettervid"
             width="680"
             height="415"
             src="https://www.youtube.com/embed/pmIDx_L4O0A"

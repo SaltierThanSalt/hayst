@@ -30,9 +30,7 @@ export default function Information() {
             float: "right"
           }}
         >
-          <Image 
-            className="thingyt"
-            src={randomimage1} />
+          <Image className="thingyt" src={randomimage1} />
         </div>
         <li className="liofinfo2">This Website Is Made Using React</li>
         <li className="liofinfo2">
@@ -52,15 +50,13 @@ export default function Information() {
           About Hayst
         </h1>
         <li className="liofinfo2">
-          The very first video game I've ever played is AngryBirds.
+          {`The very first video game I've ever played is AngryBirds.`}
         </li>
         <li className="liofinfo2">
-          I Was The First One To Upload A Minecraft StoryMode
-          Season 1 Episode 4 Gameplay.
+          I Was The First One To Upload A Minecraft StoryMode Season 1 Episode 4
+          Gameplay.
         </li>
-        <li className="liofinfo2">
-          I Used To Upload Minecraft PE Videos.
-        </li>
+        <li className="liofinfo2">I Used To Upload Minecraft PE Videos.</li>
       </div>
       <div>
         <h1

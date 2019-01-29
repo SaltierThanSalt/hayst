@@ -24,7 +24,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Hayst's Art Section
+        {`Hayst's Art Section`}
       </h2>
       <h1
         className="Anything"

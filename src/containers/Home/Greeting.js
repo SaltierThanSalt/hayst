@@ -1,6 +1,5 @@
 import React from "react";
 import { css } from "emotion";
-import { location } from "react-router-dom";
 
 export default function Greeting() {
   return (

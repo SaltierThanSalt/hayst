@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import Button from './Button'; // Import a component from another file
+import React, { Component } from "react";
+import Button from "./Button"; // Import a component from another file
 
-class Button extends Component {
+class RecentUploadsButton extends Component {
   render() {
     return <Button color="red" />;
   }
 }
 
-export default Button;
+export default RecentUploadsButton;

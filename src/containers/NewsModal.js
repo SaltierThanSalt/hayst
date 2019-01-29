@@ -1,6 +1,10 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Modal } from "react-bootstrap";
 
+NewsModal.propTypes = {
+  onHide: PropTypes.func.isRequired
+};
 export default function NewsModal({ onHide }) {
   return (
     <Modal show={true} onHide={onHide}>
@@ -28,8 +32,8 @@ export default function NewsModal({ onHide }) {
             width="560"
             height="315"
             src="https://www.youtube.com/embed/pmIDx_L4O0A"
-            frameborder="0"
-            allowfullscreen
+            frameBorder="0"
+            allowFullScreen
           />
         </div>
       </Modal.Body>

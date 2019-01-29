@@ -5,16 +5,28 @@ export default function NavTabs() {
   return (
     <ul className="nav nav-tabs">
       <li>
-        <Link to="/">🏠 Home </Link>
+        <Link to="/">
+          <span role="img" aria-label="home">
+            🏠
+          </span>{" "}
+          Home{" "}
+        </Link>
       </li>
       <li>
-        <Link to="/socialmedia">📋 Social Media </Link>
+        <Link to="/socialmedia">
+          <span role="img" aria-label="social-media">
+            📋
+          </span>{" "}
+          Social Media{" "}
+        </Link>
       </li>
       <li>
         <Link to="/uploads">▶ Videos </Link>
       </li>
       <li>
-        <Link to="/shop">🛍 Shop </Link>
+        <Link to="/shop">
+          <span role="img">🛍</span> Shop{" "}
+        </Link>
       </li>
       <li>
         <Link to="/info">
