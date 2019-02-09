@@ -5,6 +5,14 @@ import art2 from "../../img/miles.png";
 import art3 from "../../img/yasanoobss.png";
 import art4 from "../../img/thanosbyhayst.png";
 import art5 from "../../img/milesxgwenpic.png";
+import art6 from "../../img/colordrawing.jpg";
+import art7 from "../../img/venom.jpg";
+import art8 from "../../img/pikapikamuthertruckaszzz.jpg";
+import art9 from "../../img/freddymercurai.jpg";
+import art10 from "../../img/linkofbethofdewild.jpg";
+import art11 from "../../img/ruburtdawnyjuniur.jpg";
+import art12 from "../../img/milezmuralez.jpg";
+import art13 from "../../img/leunardudadolly.jpg";
 import { css } from "emotion";
 
 export default function Arts() {
@@ -32,6 +40,146 @@ export default function Arts() {
           color: "white"
         }}
       >
+        The Colorful Heaven
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art6}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Venom
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art7}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Iron Man From Infinity War
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art11}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Pikachu
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art8}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Leonardo Da Vinci
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art13}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Freedy Mercury
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art9}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Miles Morales Spider-man
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art12}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
         Miles Morales x Gwen Stacy
       </h1>
       <div
@@ -44,6 +192,26 @@ export default function Arts() {
             size: 30%;
           `}
           src={art5}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Link Of BOTW
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art10}
         />
       </div>
       <h1
