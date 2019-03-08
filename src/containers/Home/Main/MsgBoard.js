@@ -1,78 +1,69 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import { css } from "emotion";
 import request from "axios";
 import URL from "../../../constants/URL";
 
-export default class MsgBoard extends Component {
-  state = {
-    inputText: "",
-    msgs: []
-  };
+export default function MsgBoard() {
+  const [inputText, setInputText] = useState("");
+  const [msgs, setMsgs] = useState([]);
 
-  async componentDidMount() {
-    const { data } = await request.get(`${URL}/posts`);
-    this.setState({
-      msgs: data
-    });
-  }
+  useEffect(() => {
+    init();
+    async function init() {
+      const { data } = await request.get(`${URL}/posts`);
+      setMsgs(data);
+    }
+  }, []);
 
-  render() {
-    const { inputText, msgs } = this.state;
-    return (
-      <div style={{ textAlign: "center" }}>
-        <h1
-          className={css`
-            margin-top: 1rem;
-          `}
-        >
-          General Chat{" "}
-        </h1>
-        <input
-          value={inputText}
-          onChange={event => this.setState({ inputText: event.target.value })}
-          placeholder="Ex) Hello There! General Kenobi! - Obiwan Kenobyee"
-          style={{
-            width: "50%",
-            marginLeft: "25%",
-            marginTop: "2em"
-          }}
-          onKeyUp={event => {
-            if (event.key === "Enter") {
-              this.onSubmit();
-            }
-          }}
-          className="form-control"
-        />
-        <div
-          className={css`
-            padding: 1rem;
-            font-size: 2.5rem;
-          `}
-        >
-          {msgs.map(msg => (
-            <div key={msg.id}>
-              {msg.content}{" "}
-              <button onClick={() => this.onDelete(msg.id)}>delete</button>
-            </div>
-          ))}
-        </div>
+  return (
+    <div style={{ textAlign: "center" }}>
+      <h1
+        className={css`
+          margin-top: 1rem;
+        `}
+      >
+        Message Board
+      </h1>
+      <input
+        value={inputText}
+        onChange={event => setInputText(event.target.value)}
+        placeholder="Ex) Hello There! General Kenobi! - Obiwan Kenobyee"
+        style={{
+          width: "50%",
+          marginLeft: "25%",
+          marginTop: "2em"
+        }}
+        onKeyUp={event => {
+          if (event.key === "Enter") {
+            onSubmit();
+          }
+        }}
+        className="form-control"
+      />
+      <div
+        className={css`
+          padding: 1rem;
+          font-size: 2.5rem;
+        `}
+      >
+        {msgs.map(msg => (
+          <div key={msg.id}>
+            {msg.content}{" "}
+            <button onClick={() => onDelete(msg.id)}>delete</button>
+          </div>
+        ))}
       </div>
-    );
+    </div>
+  );
+
+  async function onDelete(postId) {
+    await request.delete(`${URL}/posts?id=${postId}`);
+    setMsgs(msgs.filter(msg => msg.id !== postId));
   }
 
-  onDelete = async postId => {
-    await request.delete(`${URL}/posts?id=${postId}`);
-    this.setState(state => ({
-      msgs: state.msgs.filter(msg => msg.id !== postId)
-    }));
-  };
-
-  onSubmit = async() => {
-    const { inputText } = this.state;
+  async function onSubmit() {
     const { data } = await request.post(`${URL}/posts`, { post: inputText });
-    this.setState(state => ({
-      inputText: "",
-      msgs: state.msgs.concat(data)
-    }));
-  };
+    setInputText("");
+    setMsgs(msgs.concat(data));
+  }
 }
