@@ -1,9 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { css } from "emotion";
 
 export default function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
+    <ul
+      className={css`
+        list-style: none;
+        display: flex;
+        > li {
+          margin-right: 1.5rem;
+          > a {
+            color: #000;
+            text-decoration: none;
+            &:hover {
+              color: #525360;
+              transition: color 0.5s;
+            }
+          }
+        }
+      `}
+    >
       <li>
         <Link to="/">
           <span role="img" aria-label="home">

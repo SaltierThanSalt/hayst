@@ -19,8 +19,6 @@ export default class Preview extends Component {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          padding-left: 6rem;
-          padding-right: 6rem;
           border-top: 20px solid gray;
           h2 {
             font-weight: bold;
@@ -43,7 +41,7 @@ export default class Preview extends Component {
           }
         `}
       >
-        <div>
+        <div style={{ padding: "5rem" }}>
           <div
             className={css`
               display: flex;
@@ -67,9 +65,6 @@ export default class Preview extends Component {
               align-items: center;
               font-size: 2rem;
               font-weight: bold;
-              padding: 5rem;
-              margin-left: 10rem;
-              margin-right: 10rem;
             `}
           >
             {`I upload videos in my Youtube channel only with a little more than
@@ -95,8 +90,6 @@ export default class Preview extends Component {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding-left: 6rem;
-            padding-right: 6rem;
             button {
               padding: 2rem;
               font-size: 1.7rem;
@@ -112,18 +105,20 @@ export default class Preview extends Component {
             }
           `}
         >
-          <button>
-            <a
-              className="wassaphi"
-              href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw"
-              style={{
-                fontWeight: "bold",
-                color: "white"
-              }}
-            >
-              VISIT THE CHANNEL
-            </a>
-          </button>
+          <div style={{ padding: "3rem" }}>
+            <button style={{ width: "100%" }}>
+              <a
+                className="wassaphi"
+                href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw"
+                style={{
+                  fontWeight: "bold",
+                  color: "white"
+                }}
+              >
+                VISIT THE CHANNEL
+              </a>
+            </button>
+          </div>
         </div>
         <div
           className={css`

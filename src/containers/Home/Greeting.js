@@ -6,6 +6,7 @@ export default function Greeting() {
     <div>
       <div
         className={css`
+          width: 100%;
           display: flex;
           flex-direction: column;
           justify-content: space-between;
