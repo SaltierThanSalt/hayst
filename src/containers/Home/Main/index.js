@@ -20,6 +20,7 @@ export default class Preview extends Component {
           flex-direction: column;
           justify-content: space-between;
           border-top: 20px solid gray;
+          font-family: sans-serif;
           h2 {
             font-weight: bold;
           }
@@ -28,7 +29,6 @@ export default class Preview extends Component {
           }
           button {
             padding: 2rem;
-            font-size: 1.7rem;
             color: #fff;
             background: rgb(0, 205, 249);
             margin: 3rem 0;
@@ -41,36 +41,44 @@ export default class Preview extends Component {
           }
         `}
       >
-        <div style={{ padding: "5rem" }}>
+        <div style={{ marginTop: "3rem" }}>
           <div
             className={css`
+              color: #333;
               display: flex;
               flex-direction: column;
               justify-content: space-between;
               align-content: center;
               align-items: center;
-              font-size: 6rem;
               font-weight: bold;
-              padding-top: 4rem;
+              font-size: 6rem;
             `}
           >
             ABOUT HAYST
           </div>
           <div
-            className={css`
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-content: center;
-              align-items: center;
-              font-size: 2rem;
-              font-weight: bold;
-            `}
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "5rem"
+            }}
           >
-            {`I upload videos in my Youtube channel only with a little more than
+            <div
+              className={css`
+                display: flex;
+                width: 50%;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 2rem;
+                font-weight: bold;
+              `}
+            >
+              {`I upload videos in my Youtube channel only with a little more than
             900 subscribers but I still make them for fun even though I think of
             quitting a lot. My real name is Alex Lee and I'm 12 years old and I
             really like Arts.`}
+            </div>
           </div>
         </div>
         <div
@@ -105,39 +113,43 @@ export default class Preview extends Component {
             }
           `}
         >
-          <div style={{ padding: "3rem" }}>
-            <button style={{ width: "100%" }}>
-              <a
-                className="wassaphi"
-                href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw"
-                style={{
-                  fontWeight: "bold",
-                  color: "white"
-                }}
-              >
-                VISIT THE CHANNEL
-              </a>
-            </button>
-          </div>
+          <button
+            style={{
+              width: "CALC(100% - 6rem)",
+              marginLeft: "3rem",
+              marginRight: "3rem",
+              cursor: "pointer",
+              fontWeight: "bold",
+              color: "white"
+            }}
+            onClick={() =>
+              window.open(
+                "https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw",
+                "_blank"
+              )
+            }
+          >
+            VISIT THE CHANNEL
+          </button>
         </div>
+        <div style={{ borderBottom: "20px solid gray" }} />
         <div
           className={css`
-          border-top: 100px solid black 
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          border-top: 20px solid gray;
-        `}
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-top: 2rem;
+          `}
         >
-          <h2>Subcribe For</h2>
+          Subcribe For
         </div>
         <div
           style={{
-            fontSize: "3rem",
             fontFamily: "Impact, Charcoal, sans-serif",
             color: titleColor,
-            display: "flex",
-            flexDirection: "column"
+            textAlign: "center"
           }}
         >
           <h1
@@ -145,13 +157,13 @@ export default class Preview extends Component {
               display: flex;
               width: 100;
               flex-direction: column;
-              font-size: 45px;
+              font-size: 4.5rem;
               font-family: Impact, Charcoal, sans-serif;
               transition-property: font-size, color;
               transition-duration: 2s;
               transition-delay: 0s;
               &:hover {
-                font-size: 50px;
+                font-size: 7rem;
                 color: rgb(100, 194, 231);
               }
             `}
@@ -159,46 +171,48 @@ export default class Preview extends Component {
             More Videos
           </h1>
         </div>
-
-        <button onClick={this.onColorChange}>
+        <button
+          style={{
+            width: "CALC(100% - 6rem)",
+            margin: "2rem 3rem 2rem 3rem",
+            cursor: "pointer",
+            fontSize: "2rem"
+          }}
+          onClick={this.onColorChange}
+        >
           Click Me To Change The Text Above To Another Random Color
         </button>
         <div style={{ borderTop: "10px solid black" }} />
         <div
-          style={{
-            marginTop: "2rem"
-          }}
-          className="BetterVideo"
-        />
-        <div>
-          <h1
-            className={css`
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-content: center;
-              align-items: center;
-              font-size: 3rem;
-              color:
-              font-family: Impact, Charcoal, sans-serif;
-              transition-property: font-size, color;
-              transition-duration: 2s;
-              transition-delay: 0s;
-              &:hover {
-                font-size: 50px;
-                color: rgb(100, 194, 231);
-              }
-            `}
-          >
-            Recent Video
-          </h1>
+          className={css`
+            margin-top: 2rem;
+            display: flex;
+            font-weight: bold;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            font-size: 3.5rem;
+            color:
+            font-family: Impact, Charcoal, sans-serif;
+            transition-property: font-size, color;
+            transition-duration: 2s;
+            transition-delay: 0s;
+            &:hover {
+              font-size: 5rem;
+              color: rgb(100, 194, 231);
+            }
+          `}
+        >
+          Recent Video
         </div>
         <div
           style={{
             marginTop: "2rem",
-            marginBottom: "2rem"
+            marginBottom: "2rem",
+            display: "flex",
+            justifyContent: "center"
           }}
-          className="BetterVideo"
         >
           <iframe
             title="bettervid"
@@ -236,22 +250,24 @@ export default class Preview extends Component {
             <MsgBoard />
           </div>
         </div>
-        <div
-          style={{
-            borderTop: "90px solid #ffffff",
-            display: "flex",
-            justifyContent: "center"
-          }}
-        >
-          © Copyright Hayst 2018
-        </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center"
-          }}
-        >
-          All rights reserved.
+        <div style={{ paddingBottom: "1.5rem" }}>
+          <div
+            style={{
+              borderTop: "90px solid #ffffff",
+              display: "flex",
+              justifyContent: "center"
+            }}
+          >
+            © Copyright Hayst 2018
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center"
+            }}
+          >
+            All rights reserved.
+          </div>
         </div>
       </div>
     );
@@ -259,7 +275,6 @@ export default class Preview extends Component {
 
   onColorChange = () => {
     // Math.random() gives a random number between 0 and 1 (0.32321 0.111 0.99999)
-    // Math.floor(2123.434324324324) equals 13
     // const colors = ['pink', 'blue', 'red'] then colors[0] === 'pink' colors[1] === 'blue'
     const colors = [
       "pink",

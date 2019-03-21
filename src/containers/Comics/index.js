@@ -27,11 +27,7 @@ export default function Arts() {
           display: flex;
           justify-content: center;
           color: white;
-          font-size: 12rem;
           font-family: Impact, Charcoal, sens-sarif;
-          &:hover {
-            font-size: 15rem;
-          }
         `}
       >
         HEROES
@@ -44,7 +40,6 @@ export default function Arts() {
           display: flex;
           justify-content: center;
           color: white;
-          font-size: 7rem;
           font-family: Impact, Charcoal, sens-sarif;
         `}
       >
@@ -57,7 +52,6 @@ export default function Arts() {
           display: flex;
           justify-content: center;
           color: grey;
-          font-size: 5rem;
           font-family: Impact, Charcoal, sens-sarif;
         `}
       >
@@ -127,7 +121,6 @@ export default function Arts() {
           display: flex;
           justify-content: center;
           color: white;
-          font-size: 4rem;
           font-family: Impact, Charcoal, sens-sarif;
         `}
       >
@@ -146,7 +139,6 @@ export default function Arts() {
           display: flex;
           justify-content: center;
           color: white;
-          font-size: 12rem;
           font-family: Impact, Charcoal, sens-sarif;
         `}
       >
@@ -160,7 +152,6 @@ export default function Arts() {
           display: flex;
           justify-content: center;
           color: white;
-          font-size: 7rem;
           font-family: Impact, Charcoal, sens-sarif;
         `}
       >

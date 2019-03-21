@@ -3,15 +3,15 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <h14 className="lolh14">Recent Uploads</h14>
+      <span style={{ fontWeight: "bold", fontSize: "3.5rem", lineHeight: 2 }}>
+        Recent Uploads
+      </span>
       <div
         style={{
           borderTop: "2px solid #000"
         }}
       >
-        <h16>
-          I single handedly killed my Wii. (And I got a Nintendo Switch)
-        </h16>
+        <p>I single handedly killed my Wii. (And I got a Nintendo Switch)</p>
       </div>
       <div
         style={{
@@ -20,7 +20,7 @@ export default function Home() {
       >
         <iframe
           title="singlehandwii"
-          width="560"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/pmIDx_L4O0A"
           frameBorder="0"
@@ -32,7 +32,7 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
-        <h16>HOUSE OF THE SCORPION: Why is El Patron CORRUPTED? (CHASE)</h16>
+        <p>HOUSE OF THE SCORPION: Why is El Patron CORRUPTED? (CHASE)</p>
       </div>
       <div
         style={{
@@ -41,7 +41,7 @@ export default function Home() {
       >
         <iframe
           title="hotselpatron"
-          width="560"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/RBT46OSvxAw"
           frameBorder="0"
@@ -53,7 +53,7 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
-        <h16>School Moments Compilation</h16>
+        <p>School Moments Compilation</p>
       </div>
       <div
         style={{
@@ -62,7 +62,7 @@ export default function Home() {
       >
         <iframe
           title="schoolcompilation"
-          width="560"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/2BUttFuNmqE"
           frameBorder="0"
@@ -74,7 +74,7 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
-        <h16>Hayst Plays The Spectre In Front Of Class (AGAIN!) </h16>
+        <p>Hayst Plays The Spectre In Front Of Class (AGAIN!) </p>
       </div>
       <div
         style={{
@@ -83,7 +83,7 @@ export default function Home() {
       >
         <iframe
           title="spectreclassshow"
-          width="560"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/ST6JzA-U7S8"
           frameBorder="0"
@@ -95,7 +95,7 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
-        <h16>{`Minecraft: "OP??" [Hypixel Bedwars]`}</h16>
+        <p>{`Minecraft: "OP??" [Hypixel Bedwars]`}</p>
       </div>
       <div
         style={{
@@ -104,7 +104,7 @@ export default function Home() {
       >
         <iframe
           title="ophypixelbedwars"
-          width="560"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/QlIWtKEaBkA"
           frameBorder="0"
@@ -116,7 +116,7 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
-        <h16>Hayst Plays Shape Of You Ellis Remix On A Launchpad (Mini)</h16>
+        <p>Hayst Plays Shape Of You Ellis Remix On A Launchpad (Mini)</p>
       </div>
       <div
         style={{
@@ -125,7 +125,7 @@ export default function Home() {
       >
         <iframe
           title="shapeofyoulaunchpad"
-          width="560"
+          width="100%"
           height="315"
           src="https://www.youtube.com/embed/wq2qE1cFt64"
           frameBorder="0"

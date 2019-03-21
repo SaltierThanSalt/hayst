@@ -4,7 +4,7 @@ import Main from "./Main";
 
 export default function Home() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <Greeting />
       <Main />
     </div>

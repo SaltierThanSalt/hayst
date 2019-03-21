@@ -3,62 +3,62 @@ import { css } from "emotion";
 
 export default function SocialMedia() {
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div style={{ backgroundColor: "black", width: "100%" }}>
       <div
         style={{
-          position: "relative"
+          display: "flex",
+          justifyContent: "center",
+          position: "relative",
+          width: "100%"
         }}
       >
         <div
-          className="titleofartsssss"
           style={{
-            display: "flex",
-            justifyContent: "center",
+            width: "100%",
+            padding: "0.5rem",
+            fontSize: "4rem",
+            textAlign: "center",
             borderBottom: "solid 5px white",
             color: "white"
           }}
         >
-          {" "}
-          Social media
+          Social Media
         </div>
       </div>
       <div
         className={css`
-          font-size: 2rem;
           display: flex;
-          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          font-size: 10rem;
+          color: #fff;
         `}
       >
         <a
-          className="wassaphi"
           href="https://www.youtube.com/channel/UCZWCelWub5JK_6J3qZOiFAw"
           style={{
             fontStyle: "Bold",
             color: "white"
           }}
         >
-          <h1>Click Here To Visit My</h1>
-          <h12
+          <span
             className={css`
               position: center;
               color: red;
-              font-size: 7rem;
-              padding-left: 9rem;
               font-family: Impact, Charcoal, sans-serif;
             `}
           >
             You
-          </h12>
-          <h12
+          </span>
+          <span
             className={css`
               position: center;
               color: white;
-              font-size: 7rem;
               font-family: Impact, Charcoal, sans-serif;
             `}
           >
             Tube
-          </h12>
+          </span>
         </a>
       </div>
       <div
@@ -66,47 +66,54 @@ export default function SocialMedia() {
         style={{
           display: "flex",
           justifyContent: "center",
-          fontSize: "15rem",
           fontFamily: "Impact, Charcoal, sens-sarif",
-          color: "skyblue",
+          fontSize: "10rem",
           marginLeft: "9rem",
           marginRight: "9rem",
           borderTop: "1.2rem solid white"
         }}
       >
-        <a href="https://twitter.com/Hayter_YT">Twitter</a>
+        <a style={{ color: "#fff" }} href="https://twitter.com/Hayter_YT">
+          Twitter
+        </a>
       </div>
       <div
         style={{
           display: "flex",
           justifyContent: "center",
-          fontSize: "15rem",
           fontFamily: "Impact, Charcoal, sens-sarif",
-          color: "skyblue",
+          fontSize: "10rem",
           marginLeft: "9rem",
           marginRight: "9rem",
           borderTop: "1.2rem solid white"
         }}
       >
-        <a href="https://www.instagram.com/officialhayst/">Instagram</a>
+        <a
+          style={{ color: "#fff" }}
+          href="https://www.instagram.com/officialhayst/"
+        >
+          Instagram
+        </a>
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          color: "white"
-        }}
-      >
-        © Copyright Hayst 2018
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          color: "white"
-        }}
-      >
-        All rights reserved.
+      <div style={{ paddingBottom: "2rem" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            color: "white"
+          }}
+        >
+          © Copyright Hayst 2018
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            color: "white"
+          }}
+        >
+          All rights reserved.
+        </div>
       </div>
     </div>
   );

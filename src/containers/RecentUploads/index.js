@@ -1,55 +1,50 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Home from "./Home";
 import PageOne from "./PageOne";
-import { Route, Switch, Link } from "react-router-dom";
+import Button from "../../components/Button";
+import { Route, Switch } from "react-router-dom";
 
-export default function RecentUploads() {
+RecentUploads.propTypes = {
+  history: PropTypes.object.isRequired
+};
+
+export default function RecentUploads({ history }) {
   return (
-    <div className="recentupload">
+    <div style={{ width: "40%" }}>
       <Switch>
         <Route exact path="/uploads/" component={Home} />
         <Route path="/uploads/1" component={PageOne} />
       </Switch>
-      <h30>
-        <div className="btn btn-success">
-          <Link
-            style={{
-              color: "white",
-              fontSize: "30px"
-            }}
-            to="/uploads"
-          >
-            To Page One
-          </Link>
-        </div>
-        <div className="btn btn-success">
-          <Link
-            style={{
-              color: "white",
-              fontSize: "30px"
-            }}
-            to="/uploads/1"
-          >
-            To Page Two
-          </Link>
-        </div>
-      </h30>
       <div
-        style={{
-          borderTop: "90px solid #ffffff",
-          display: "flex",
-          justifyContent: "center"
-        }}
+        style={{ display: "flex", marginTop: "1rem", justifyContent: "center" }}
       >
-        Copyright Hayst 2018
+        <Button onClick={() => history.push("/uploads")}>To Page One</Button>
+        <Button
+          style={{ marginLeft: "1rem" }}
+          onClick={() => history.push("/uploads/1")}
+        >
+          To Page Two
+        </Button>
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center"
-        }}
-      >
-        All rights reserved.
+      <div style={{ paddingBottom: "2rem" }}>
+        <div
+          style={{
+            borderTop: "90px solid #ffffff",
+            display: "flex",
+            justifyContent: "center"
+          }}
+        >
+          Copyright Hayst 2018
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center"
+          }}
+        >
+          All rights reserved.
+        </div>
       </div>
     </div>
   );

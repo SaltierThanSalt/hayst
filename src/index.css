@@ -1,192 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  font-size: 10px;
+}
+
+#root {
+  width: 100%;
+}
+
 body {
+  width: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
-p {
-  font-size: 1.1rem;
-  font-family: Palatino, "Palatino Linotype", serif;
+  font-size: 1.5rem;
+  font-family: sans-serif, Arial, Helvetica;
+  line-height: 1.5;
 }
 
-img {
-  size: 20px;
-}
-
-li {
-  color: rgb(0, 0, 0);
-}
-
-li {
-  font-size: 2vw;
-}
-
-.btn btn-success {
-  font-size: 50px;
-  background-color: #8064A2 !important;
-}
-.storelinks {
-  font-size: 50px;
-}
-
-.Hello {
-  color: #ffffff;
-}
-.wassaphi {
-  color: #ffffff;
-}
-.btn btn-success {
-  background-color: blue;
-}
-
-.headerofinfo1 {
-  color: black;
-  font-family: "Times New Roman", Georgia, Serif;
-  background-color: rgb(67, 163, 253);
-  transition-property: font-size;
-  transition-duration: 2s;
-  transition-delay: 0s;
-}
-.headerofinfo1:hover {
-  font-size: 65px;
-}
-.liofinfo1 {
-  font-size: 2vw;
-}
-.liofinfo2 {
-  font-size: 1vw;
-}
-.Anything {
-  font-family: "Times New Roman", Georgia, Serif;
-}
-.titleofartsssss {
-  font-size: 36px;
-  transition-property: font-size;
-  transition-duration: 2s;
-  transition-delay: 0s;
-}
-.titleofartsssss:hover {
-  font-size: 50px;
-}
-.btn-default:hover {
-  font-size: 20px;
-}
-.btn-default {
-  color:"white";
-  background-color:"black"; 
-  font-size: 15px;
-  transition-property: font-size;
-  transition-duration: 2s;
-  transition-delay: 0s;
-}
-.btn-default:hover {
-  font-size: 20px;
-}
-.lolh14 {
-  font-size: 40px;
-  transition-property: font-size;
-  transition-duration: 2s;
-  transition-delay: 0s;
-}
-.lolh14:hover {
-  font-size: 60px;
-}
-.titleofsocialmedia {
-  font-size: 35px;
-  transition-property: font-size;
-  transition-duration: 1.789876s;
-  transition-delay: 0s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.titleofsocialmedia:hover {
-  font-size: 55px;
-}
-.lolsocialmediamc {
-  position: center;
-  color: white;
-  font-family: "Times New Roman", Georgia, Serif;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.lolsocialmediamcrank {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.VideoStuff {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.BetterVideo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Navigation {
-  display: flex;
-  flex-flow: row wrap;
-  /* This aligns items to the end line on main-axis */
-  justify-content: flex-end;
-}
-.Channelyaysm {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.recentupload {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.shopmain {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.5rem;
-}
-.artsmain {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 2rem;  
-}
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.centered {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.oofingoof {
-  font-size: 1.4rem;
-  position: absolute;
-  top: 18%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(34, 116, 143);
+a {
+  text-decoration: none;
 }

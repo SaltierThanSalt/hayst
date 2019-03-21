@@ -16,40 +16,54 @@ export default function MsgBoard() {
   }, []);
 
   return (
-    <div style={{ textAlign: "center" }}>
-      <h1
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+        width: "100%"
+      }}
+    >
+      <div
         className={css`
+          font-size: 3.5rem;
+          font-weight: bold;
           margin-top: 1rem;
         `}
       >
         Message Board
-      </h1>
-      <input
-        value={inputText}
-        onChange={event => setInputText(event.target.value)}
-        placeholder="Ex) Hello There! General Kenobi! - Obiwan Kenobyee"
-        style={{
-          width: "50%",
-          marginLeft: "25%",
-          marginTop: "2em"
-        }}
-        onKeyUp={event => {
-          if (event.key === "Enter") {
-            onSubmit();
-          }
-        }}
-        className="form-control"
-      />
-      <div
-        className={css`
-          padding: 1rem;
-          font-size: 2.5rem;
-        `}
-      >
+      </div>
+      <div style={{ width: "100%" }}>
+        <input
+          value={inputText}
+          onChange={event => setInputText(event.target.value)}
+          placeholder="Ex) Hello There! General Kenobi! - Obiwan Kenobyee"
+          style={{
+            width: "50%",
+            marginLeft: "25%",
+            marginTop: "2rem",
+            fontSize: "2rem",
+            padding: "1rem"
+          }}
+          onKeyUp={event => {
+            if (event.key === "Enter") {
+              onSubmit();
+            }
+          }}
+        />
+      </div>
+      <div>
         {msgs.map(msg => (
-          <div key={msg.id}>
-            {msg.content}{" "}
-            <button onClick={() => onDelete(msg.id)}>delete</button>
+          <div style={{ display: "flex", alignItems: "center" }} key={msg.id}>
+            <span style={{ fontSize: "2.5rem", marginRight: "1.5rem" }}>
+              {msg.content}
+            </span>
+            <button
+              style={{ cursor: "pointer", fontSize: "2rem" }}
+              onClick={() => onDelete(msg.id)}
+            >
+              delete
+            </button>
           </div>
         ))}
       </div>

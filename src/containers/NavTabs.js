@@ -1,81 +1,100 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { css } from "emotion";
 
 export default function NavTabs() {
   return (
     <ul
       className={css`
+        margin: 1.5rem 0 0 0;
+        padding: 0 3rem 0 3rem;
+        width: 100%;
         list-style: none;
         display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 3rem;
+        font-family: sans-serif;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #ddd;
         > li {
           margin-right: 1.5rem;
           > a {
             color: #000;
             text-decoration: none;
             &:hover {
-              color: #525360;
+              color: #424bf4;
               transition: color 0.5s;
             }
+            &.active {
+              color: #424bf4;
+            }
+          }
+        }
+
+        @media (max-width: 965px) {
+          .label {
+            display: none;
           }
         }
       `}
     >
       <li>
-        <Link to="/">
-          <span role="img" aria-label="home">
+        <NavLink exact to="/" activeClassName="active">
+          <span style={{ marginRight: "1rem" }} role="img" aria-label="home">
             🏠
-          </span>{" "}
-          Home{" "}
-        </Link>
+          </span>
+          <span className="label">Home</span>
+        </NavLink>
       </li>
       <li>
-        <Link to="/socialmedia">
-          <span role="img" aria-label="social-media">
+        <NavLink to="/socialmedia" activeClassName="active">
+          <span
+            style={{ marginRight: "1rem" }}
+            role="img"
+            aria-label="social-media"
+          >
             📋
-          </span>{" "}
-          Social Media{" "}
-        </Link>
+          </span>
+          <span className="label">Social Media</span>
+        </NavLink>
       </li>
       <li>
-        <Link to="/uploads">▶ Videos </Link>
+        <NavLink to="/uploads" activeClassName="active">
+          ▶ <span className="label">Videos</span>
+        </NavLink>
       </li>
       <li>
-        <Link to="/shop">
-          <span role="img">🛍</span> Shop{" "}
-        </Link>
-      </li>
-      <li>
-        <Link to="/info">
-          <span role="img" aria-label="info">
+        <NavLink to="/info" activeClassName="active">
+          <span style={{ marginRight: "1rem" }} role="img" aria-label="info">
             ℹ️
-          </span>{" "}
-          Infos{" "}
-        </Link>
+          </span>
+          <span className="label">Infos</span>
+        </NavLink>
       </li>
       <li>
-        <Link to="/arts">
-          <span role="img" aria-label="art">
+        <NavLink to="/arts" activeClassName="active">
+          <span style={{ marginRight: "1rem" }} role="img" aria-label="art">
             🎨
           </span>
-          Arts{" "}
-        </Link>
+          <span className="label">Arts</span>
+        </NavLink>
       </li>
       <li>
-        <Link to="/comics">
-          <span role="img" aria-label="comics">
+        <NavLink to="/comics" activeClassName="active">
+          <span style={{ marginRight: "1rem" }} role="img" aria-label="comics">
             📰
           </span>
-          Comics{" "}
-        </Link>
+          <span className="label">Comics</span>
+        </NavLink>
       </li>
       <li>
-        <Link to="/news">
-          <span role="img" aria-label="news">
+        <NavLink to="/news" activeClassName="active">
+          <span style={{ marginRight: "1rem" }} role="img" aria-label="news">
             🗞
           </span>
-          News{" "}
-        </Link>
+          <span className="label">News</span>
+        </NavLink>
       </li>
     </ul>
   );
