@@ -18,14 +18,19 @@ import { css } from "emotion";
 export default function Arts() {
   return (
     <div
-      className="artsmain"
       style={{
-        backgroundColor: "black"
+        fontFamily: "Charcoal, sans-serif",
+        backgroundColor: "black",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center"
       }}
     >
-      <h2
-        className="titleofartsssss"
+      <span
         style={{
+          fontSize: "3.5rem",
+          padding: "1rem",
           display: "flex",
           justifyContent: "center",
           borderBottom: "solid 5px white",
@@ -33,7 +38,7 @@ export default function Arts() {
         }}
       >
         {`Hayst's Art Section`}
-      </h2>
+      </span>
       <h1
         className="Anything"
         style={{

@@ -15,44 +15,49 @@ export default function Arts() {
     <div
       className={css`
         background-color: black;
+        font-family: Impact, Charcoal, "Helvetica Neue";
+        font-weight: bold;
       `}
     >
       <div
         className={css`
-          border-top: 2rem solid white;
+          padding-top: 1rem;
           margin-left: 2rem;
           margin-right: 2rem;
-          transition-duration: 1.5s;
-          transition-delay: 0s;
           display: flex;
           justify-content: center;
           color: white;
-          font-family: Impact, Charcoal, sens-sarif;
+          font-size: 10rem;
+          line-height: 1;
+          transition: font-size 2s;
+          &:hover {
+            font-size: 15rem;
+          }
         `}
       >
         HEROES
       </div>
       <div
         className={css`
-          margin-left: 2rem;
-          margin-right: 2rem;
+          line-height: 2;
+          font-size: 2.5rem;
           border-bottom: 2rem solid white;
           display: flex;
           justify-content: center;
           color: white;
-          font-family: Impact, Charcoal, sens-sarif;
         `}
       >
         Made By MX KM & Hayst
       </div>
       <div
         className={css`
+          line-height: 2;
+          font-size: 3rem;
           margin-left: 2rem;
           margin-right: 2rem;
           display: flex;
           justify-content: center;
           color: grey;
-          font-family: Impact, Charcoal, sens-sarif;
         `}
       >
         (Preview)
@@ -121,7 +126,6 @@ export default function Arts() {
           display: flex;
           justify-content: center;
           color: white;
-          font-family: Impact, Charcoal, sens-sarif;
         `}
       >
         {`Story: The Main Character Is Searching For The Strongest Weapon In The
@@ -139,7 +143,6 @@ export default function Arts() {
           display: flex;
           justify-content: center;
           color: white;
-          font-family: Impact, Charcoal, sens-sarif;
         `}
       >
         NEXT UP...
@@ -152,7 +155,6 @@ export default function Arts() {
           display: flex;
           justify-content: center;
           color: white;
-          font-family: Impact, Charcoal, sens-sarif;
         `}
       >
         The Fall And The Beginning

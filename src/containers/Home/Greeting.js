@@ -11,7 +11,6 @@ export default function Greeting() {
         justify-content: space-between;
         align-content: center;
         align-items: center;
-        font-family: sans-serif;
         font-size: 2.4rem;
         font-weight: bold;
         color: rgb(300, 125, 40);

@@ -7,23 +7,23 @@ export default function RecentUploads() {
     <div
       className={css`
         background-color: black;
+        font-family: Impact, Charcoal, sens-sarif;
       `}
     >
       <div
         className={css`
-        border-top: 2rem solid white;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        transition-duration: 1.5s;
-        transition-delay: 0s;
-        display: flex;
-        justify-content: center;
-        color: white;
-        font-size: 6rem;
-        font-family:Impact, Charcoal, sens-sarif;
-        &:hover {
-          font-size: 9rem;
-      `}
+          margin-left: 2rem;
+          margin-right: 2rem;
+          transition-duration: 1.5s;
+          transition-delay: 0s;
+          display: flex;
+          justify-content: center;
+          color: white;
+          font-size: 6rem;
+          &:hover {
+            font-size: 9rem;
+          }
+        `}
       >
         MC MAZERUNNER THE DEATH CURE
       </div>
@@ -36,7 +36,6 @@ export default function RecentUploads() {
           justify-content: center;
           color: white;
           font-size: 7rem;
-          font-family: Impact, Charcoal, sens-sarif;
         `}
       >
         Made By Hayst
@@ -49,7 +48,6 @@ export default function RecentUploads() {
           justify-content: center;
           color: grey;
           font-size: 5rem;
-          font-family: Impact, Charcoal, sens-sarif;
         `}
       >
         (Previews)
@@ -71,7 +69,6 @@ export default function RecentUploads() {
           justify-content: center;
           color: white;
           font-size: 4rem;
-          font-family: Impact, Charcoal, sens-sarif;
         `}
       >
         Story: Immunes are placed in the third trial and even if the group
@@ -88,7 +85,6 @@ export default function RecentUploads() {
           justify-content: center;
           color: white;
           font-size: 7rem;
-          font-family: Impact, Charcoal, sens-sarif;
         `}
       >
         DO YOU WANT TO WATCH THE PART 0.5 EARLY?
@@ -102,7 +98,6 @@ export default function RecentUploads() {
           justify-content: center;
           color: white;
           font-size: 5rem;
-          font-family: Impact, Charcoal, sens-sarif;
         `}
       >
         Be the first to watch it on Instagram! (Instagram in social medias)
