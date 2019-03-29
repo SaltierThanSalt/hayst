@@ -6,6 +6,10 @@ export default function NavTabs() {
   return (
     <ul
       className={css`
+        background: #fff;
+        z-index: 30;
+        top: 0;
+        position: sticky;
         margin: 1.5rem 0 0 0;
         padding: 0 3rem 0 3rem;
         width: 100%;
