@@ -53,7 +53,7 @@ export default function MsgBoard() {
         />
       </div>
       <div>
-        {msgs.map(msg => (
+        {(msgs || []).map(msg => (
           <div style={{ display: "flex", alignItems: "center" }} key={msg.id}>
             <span style={{ fontSize: "2.5rem", marginRight: "1.5rem" }}>
               {msg.content}
