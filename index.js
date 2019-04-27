@@ -8,6 +8,7 @@ require("greenlock-express")
     configDir: "~/.config/acme",
     server: "https://acme-v02.api.letsencrypt.org/directory",
     approveDomains: ["www.hayst.net"],
+    agreeTos: true,
     email: "jihwan.alex.lee@gmail.com",
     app
   })
