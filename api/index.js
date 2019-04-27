@@ -1,7 +1,36 @@
-const app = require('./app')
-const http = require('http').Server(app);
-const PORT = 3500;
+require("dotenv").config();
+const app = require("./app");
+const https = require("https");
+const http = require("http");
 
-http.listen(PORT, function () {
-  console.log('Server listening on api port:', PORT);
-})
+const lex = require("greenlock-express").create({
+  version: "draft-12",
+  server: "https://acme-v02.api.letsencrypt.org/directory",
+  email: "jihwan.alex.lee@gmail.com",
+  agreeTos: true,
+  approveDomains: ["api.hayst.xyz"],
+  challenges: {
+    "http-01": require("le-challenge-fs").create({
+      webrootPath: "/tmp/acme-challenges"
+    })
+  }
+});
+
+const PORT = process.env.PORT || 3500;
+
+const server =
+  process.env.NODE_ENV === "production"
+    ? https.createServer(lex.httpsOptions, lex.middleware(app))
+    : http.Server(app);
+
+server.listen(PORT, function() {
+  console.log("Server listening on port:", PORT);
+});
+
+if (process.env.NODE_ENV === "production") {
+  require("http")
+    .createServer(lex.middleware(require("redirect-https")()))
+    .listen(80, function() {
+      console.log("Server listening on port:", 80);
+    });
+}
