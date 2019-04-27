@@ -11,8 +11,7 @@ export default function MsgBoard() {
     init();
     async function init() {
       const { data } = await request.get(`${URL}/posts`);
-      console.log(data);
-      setMsgs([]);
+      setMsgs(data);
     }
   }, []);
 
