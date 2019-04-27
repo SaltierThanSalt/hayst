@@ -10,8 +10,9 @@ export default function MsgBoard() {
   useEffect(() => {
     init();
     async function init() {
-      const { data = [] } = await request.get(`${URL}/posts`);
-      setMsgs(data);
+      const { data } = await request.get(`${URL}/posts`);
+      console.log(data);
+      setMsgs([]);
     }
   }, []);
 
