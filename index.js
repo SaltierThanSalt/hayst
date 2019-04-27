@@ -7,16 +7,8 @@ require("greenlock-express")
     version: "draft-12",
     configDir: "~/.config/acme",
     server: "https://acme-v02.api.letsencrypt.org/directory",
-    approveDomains: function approveDomains(opts, certs, cb) {
-      if (certs) {
-        opts.domains = certs.altnames;
-      } else {
-        opts.email = "jihwan.alex.lee@gmail.com";
-        opts.agreeTos = true;
-      }
-
-      cb(null, { options: opts, certs });
-    },
+    approveDomains: ["www.hayst.net"],
+    email: "jihwan.alex.lee@gmail.com",
     app
   })
   .listen(80, 443);
