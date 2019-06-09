@@ -8,7 +8,6 @@ import cover from "../../img/heroesnewcover.png";
 import preview4 from "../../img/heroesnewp4.png";
 import preview5 from "../../img/heroesnewp5.png";
 import preview6 from "../../img/heroesp6.png";
-import nextupTfatb from "../../img/nextup.png";
 
 export default function Arts() {
   return (
@@ -135,31 +134,6 @@ export default function Arts() {
         Keeping The Uni-Pearl Safe, But As They Go Through Some Hardships, Some
         Death Came Along The Journey...`}
       </div>
-      <div
-        className={css`
-          border-top: 2rem solid white;
-          margin-left: 2rem;
-          margin-right: 2rem;
-          display: flex;
-          justify-content: center;
-          color: white;
-        `}
-      >
-        NEXT UP...
-      </div>
-      <div
-        className={css`
-          margin-left: 2rem;
-          margin-right: 2rem;
-          border-bottom: 2rem solid white;
-          display: flex;
-          justify-content: center;
-          color: white;
-        `}
-      >
-        The Fall And The Beginning
-      </div>
-      <Image src={nextupTfatb} />
       <div>
         <div
           style={{

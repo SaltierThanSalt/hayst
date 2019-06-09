@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import MsgBoard from "./MsgBoard";
 import Clock from "../Clock";
 import Image from "../../../components/Image";
-import title from "../../../img/haystinfo.png";
+import title from "../../../img/channelstatus.png";
 import "../Clock.css";
 import { css } from "emotion";
 
@@ -20,6 +20,8 @@ export default class Preview extends Component {
           flex-direction: column;
           justify-content: space-between;
           border-top: 20px solid gray;
+          border-left: 10px solid silver;
+          padding-left: 5rem;
           font-family: sans-serif;
           h2 {
             font-weight: bold;
@@ -218,7 +220,7 @@ export default class Preview extends Component {
             title="bettervid"
             width="680"
             height="415"
-            src="https://www.youtube.com/embed/pmIDx_L4O0A"
+            src="https://www.youtube.com/embed/3_BrGzriVQg"
             frameBorder="0"
             allowFullScreen
           />

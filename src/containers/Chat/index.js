@@ -2,18 +2,18 @@ import React, { useState } from "react";
 
 export default function Chat() {
   const [messages] = useState([
-    { id: 1, userId: 1, username: "mikey", message: "blabababa" },
-    { id: 2, userId: 2, username: "hayst", message: "bla??" },
-    { id: 3, userId: 1, username: "mikey", message: "blabababa" },
-    { id: 4, userId: 2, username: "hayst", message: "bla???" },
-    { id: 5, userId: 1, username: "mikey", message: "blabababa" }
+    { id: 1, userId: 1, username: "mikey", message: "hi" },
+    { id: 2, userId: 2, username: "hayst", message: "yee??" },
+    { id: 3, userId: 1, username: "mikey", message: "hi" },
+    { id: 4, userId: 2, username: "hayst", message: "yee???" },
+    { id: 5, userId: 1, username: "mikey", message: "hi" }
   ]);
   return (
     <div
       style={{ display: "flex", border: "1px solid green", height: "55rem" }}
     >
       <div style={{ border: "1px solid red", width: "25rem" }}>
-        this is the left menu
+        this is the left menu (chatrooms)
       </div>
       <div
         style={{
@@ -39,7 +39,7 @@ export default function Chat() {
           }}
         >
           <input
-            placeholder="Enter some text so this place does not look so empty"
+            placeholder="Enter some text so this place does not look so empty so yea"
             style={{
               width: "100%",
               height: "5rem",

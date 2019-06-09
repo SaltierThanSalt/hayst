@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import NavTabs from "./containers/NavTabs";
-import McCharLookingRight from "./img/favicon.png";
+import McCharLookingRight from "./img/favicon.jpg";
 import Home from "./containers/Home";
 import SocialMedia from "./containers/SocialMedia";
 import RecentUploads from "./containers/RecentUploads";
 import Information from "./containers/info";
 import Arts from "./containers/artstab";
 import Comics from "./containers/Comics";
-import News from "./containers/News";
+import Portfolio from "./containers/Portfolio";
 import Chat from "./containers/Chat";
 import Button from "./components/Button";
 import { css } from "emotion";
@@ -24,7 +24,7 @@ export default function App() {
           background-color: black;
           width: 100%;
           height: 16rem;
-          background-size: 40rem;
+          background-size: 15rem;
           background-repeat: no-repeat;
           background-position: center center;
         `}
@@ -58,7 +58,7 @@ export default function App() {
             <Route path="/info" component={Information} />
             <Route path="/arts" component={Arts} />
             <Route path="/comics" component={Comics} />
-            <Route path="/news" component={News} />
+            <Route path="/portfolio" component={Portfolio} />
           </Switch>
         </div>
       )}

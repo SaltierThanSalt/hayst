@@ -93,11 +93,15 @@ export default function NavTabs() {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/news" activeClassName="active">
-          <span style={{ marginRight: "1rem" }} role="img" aria-label="news">
-            🗞
+        <NavLink exact to="/portfolio" activeClassName="active">
+          <span
+            style={{ marginRight: "1rem" }}
+            role="img"
+            aria-label="portfolio"
+          >
+            ✏️
           </span>
-          <span className="label">News</span>
+          <span className="label">Portfolio</span>
         </NavLink>
       </li>
     </ul>

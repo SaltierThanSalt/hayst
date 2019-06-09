@@ -11,6 +11,30 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
+        <p>
+          SIS 6th Grade Overnight Field Trip 2019 to Choon-Chun! (Filmed and
+          Edited by Alex Lee)
+        </p>
+      </div>
+      <div
+        style={{
+          borderTop: "2px solid #000"
+        }}
+      >
+        <iframe
+          title="singlehandwii"
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/3_BrGzriVQg"
+          frameBorder="0"
+          allowFullScreen
+        />
+      </div>
+      <div
+        style={{
+          borderTop: "2px solid #000"
+        }}
+      >
         <p>I single handedly killed my Wii. (And I got a Nintendo Switch)</p>
       </div>
       <div
@@ -86,48 +110,6 @@ export default function Home() {
           width="100%"
           height="315"
           src="https://www.youtube.com/embed/ST6JzA-U7S8"
-          frameBorder="0"
-          allowFullScreen
-        />
-      </div>
-      <div
-        style={{
-          borderTop: "2px solid #000"
-        }}
-      >
-        <p>{`Minecraft: "OP??" [Hypixel Bedwars]`}</p>
-      </div>
-      <div
-        style={{
-          borderTop: "2px solid #000"
-        }}
-      >
-        <iframe
-          title="ophypixelbedwars"
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/QlIWtKEaBkA"
-          frameBorder="0"
-          allowFullScreen
-        />
-      </div>
-      <div
-        style={{
-          borderTop: "2px solid #000"
-        }}
-      >
-        <p>Hayst Plays Shape Of You Ellis Remix On A Launchpad (Mini)</p>
-      </div>
-      <div
-        style={{
-          borderTop: "2px solid #000"
-        }}
-      >
-        <iframe
-          title="shapeofyoulaunchpad"
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/wq2qE1cFt64"
           frameBorder="0"
           allowFullScreen
         />

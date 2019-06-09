@@ -14,7 +14,6 @@ export default function Greeting() {
         font-size: 2.4rem;
         font-weight: bold;
         color: rgb(300, 125, 40);
-        margin-top: 2rem;
         margin-bottom: 2rem;
         transition: font-size 2s;
         &:hover {

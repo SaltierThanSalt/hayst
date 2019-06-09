@@ -2,7 +2,6 @@ import React from "react";
 import Image from "../../components/Image";
 import art1 from "../../img/spiderham.png";
 import art2 from "../../img/miles.png";
-import art3 from "../../img/yasanoobss.png";
 import art4 from "../../img/thanosbyhayst.png";
 import art5 from "../../img/milesxgwenpic.png";
 import art6 from "../../img/colordrawing.jpg";
@@ -13,6 +12,11 @@ import art10 from "../../img/linkofbethofdewild.jpg";
 import art11 from "../../img/ruburtdawnyjuniur.jpg";
 import art12 from "../../img/milezmuralez.jpg";
 import art13 from "../../img/leunardudadolly.jpg";
+import art14 from "../../img/Thorendgame.jpg";
+import art15 from "../../img/spidermanfarfromhome.png";
+import art16 from "../../img/Tonyendgame.jpg";
+import art17 from "../../img/Thanosendgame.jpg";
+import art18 from "../../img/Blackwidowendgame.jpg";
 import { css } from "emotion";
 
 export default function Arts() {
@@ -29,7 +33,7 @@ export default function Arts() {
     >
       <span
         style={{
-          fontSize: "3.5rem",
+          fontSize: "4.5rem",
           padding: "1rem",
           display: "flex",
           justifyContent: "center",
@@ -37,7 +41,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        {`Hayst's Art Section`}
+        {`Hayst's Creative Art Section`}
       </span>
       <h1
         className="Anything"
@@ -58,47 +62,7 @@ export default function Arts() {
           `}
           src={art6}
         />
-      </div>
-      <h1
-        className="Anything"
-        style={{
-          color: "white"
-        }}
-      >
-        Venom
-      </h1>
-      <div
-        style={{
-          width: "50%"
-        }}
-      >
-        <Image
-          className={css`
-            size: 30%;
-          `}
-          src={art7}
-        />
-      </div>
-      <h1
-        className="Anything"
-        style={{
-          color: "white"
-        }}
-      >
-        Iron Man From Infinity War
-      </h1>
-      <div
-        style={{
-          width: "50%"
-        }}
-      >
-        <Image
-          className={css`
-            size: 30%;
-          `}
-          src={art11}
-        />
-      </div>
+      </div>{" "}
       <h1
         className="Anything"
         style={{
@@ -165,46 +129,6 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Miles Morales Spider-man
-      </h1>
-      <div
-        style={{
-          width: "50%"
-        }}
-      >
-        <Image
-          className={css`
-            size: 30%;
-          `}
-          src={art12}
-        />
-      </div>
-      <h1
-        className="Anything"
-        style={{
-          color: "white"
-        }}
-      >
-        Miles Morales x Gwen Stacy
-      </h1>
-      <div
-        style={{
-          width: "50%"
-        }}
-      >
-        <Image
-          className={css`
-            size: 30%;
-          `}
-          src={art5}
-        />
-      </div>
-      <h1
-        className="Anything"
-        style={{
-          color: "white"
-        }}
-      >
         Link Of BOTW
       </h1>
       <div
@@ -219,25 +143,32 @@ export default function Arts() {
           src={art10}
         />
       </div>
+      <span
+        style={{
+          fontSize: "4.5rem",
+          padding: "1rem",
+          display: "flex",
+          justifyContent: "center",
+          borderBottom: "solid 5px white",
+          color: "white"
+        }}
+      >
+        {`Hayst's Marvel Section`}
+      </span>
       <h1
         className="Anything"
         style={{
           color: "white"
         }}
       >
-        Spider-Ham from Spiderman: Into the Spider-verse
+        Spider-man Far From Home Black And Red Suit
       </h1>
       <div
         style={{
           width: "50%"
         }}
       >
-        <Image
-          className={css`
-            size: 30%;
-          `}
-          src={art1}
-        />
+        <Image src={art15} />
       </div>
       <h1
         className="Anything"
@@ -245,14 +176,59 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Max Drawing Drawn With A Mouse
+        Thanos Endgame Drawing
       </h1>
       <div
         style={{
           width: "50%"
         }}
       >
-        <Image src={art3} />
+        <Image src={art17} />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Tony Stark Endgame Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image src={art16} />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Black Widow Endgame Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image src={art18} />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Thor Endgame Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image src={art14} />
       </div>
       <h1
         className="Anything"
@@ -283,6 +259,106 @@ export default function Arts() {
         }}
       >
         <Image src={art4} />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Venom
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art7}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Miles Morales Spider-man
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art12}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Iron Man From Infinity War
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art11}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Spider-Ham from Spiderman: Into the Spider-verse
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art1}
+        />
+      </div>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Miles Morales x Gwen Stacy
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art5}
+        />
       </div>
       <div
         style={{
