@@ -1,24 +1,24 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const { poolQuery } = require('../helpers');
-const { requireAuth } = require('../auth');
+const { poolQuery } = require("../helpers");
+const { requireAuth } = require("../auth");
 
-router.get('/', async (req, res) => {
-  const rows = await poolQuery('SELECT id, content FROM posts');
+router.get("/", async(req, res) => {
+  const rows = await poolQuery("SELECT id, content FROM posts");
   res.send(rows);
 });
 
-router.post('/', async (req, res) => {
+router.post("/", async(req, res) => {
   const { post } = req.body;
-  const { insertId } = await poolQuery('INSERT INTO posts SET ?', {
+  const { insertId } = await poolQuery("INSERT INTO posts SET ?", {
     content: post
   });
   res.send({ id: insertId, content: post });
 });
 
-router.delete('/', async (req, res) => {
+router.delete("/", async(req, res) => {
   const { id } = req.query;
-  await poolQuery('DELETE FROM posts WHERE id = ?', id);
+  await poolQuery("DELETE FROM posts WHERE id = ?", id);
   res.send({ success: true });
 });
 
