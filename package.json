@@ -33,6 +33,7 @@
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
     "react-native-awesome-button": "^1.8.2",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0"
   },
