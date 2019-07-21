@@ -4,14 +4,13 @@ import art1 from "../../img/spiderham.png";
 import art2 from "../../img/miles.png";
 import art4 from "../../img/thanosbyhayst.png";
 import art5 from "../../img/milesxgwenpic.png";
-import art6 from "../../img/colordrawing.jpg";
+import art6 from "../../img/thomas.jpg";
 import art7 from "../../img/venom.jpg";
-import art8 from "../../img/pikapikamuthertruckaszzz.jpg";
-import art9 from "../../img/freddymercurai.jpg";
-import art10 from "../../img/linkofbethofdewild.jpg";
+import art9 from "../../img/spidermanedith.jpg";
+import art10 from "../../img/pikapikamotherfucker.jpg";
 import art11 from "../../img/ruburtdawnyjuniur.jpg";
 import art12 from "../../img/milezmuralez.jpg";
-import art13 from "../../img/leunardudadolly.jpg";
+import art13 from "../../img/spidermanburiedalive.jpg";
 import art14 from "../../img/Thorendgame.jpg";
 import art15 from "../../img/spidermanfarfromhome.png";
 import art16 from "../../img/Tonyendgame.jpg";
@@ -32,14 +31,16 @@ export default function Arts() {
       }}
     >
       <span
-        style={{
-          fontSize: "4.5rem",
-          padding: "1rem",
-          display: "flex",
-          justifyContent: "center",
-          borderBottom: "solid 5px white",
-          color: "white"
-        }}
+        className={css`
+          padding-top: 2rem;
+          margin: 0;
+          color: white;
+          font-size: 5rem;
+          transition: font-size 2s;
+          &:hover {
+            font-size: 7rem;
+          }
+        `}
       >
         {`Hayst's Creative Art Section`}
       </span>
@@ -49,7 +50,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        The Colorful Heaven
+        Thomas from "The Maze Runner: The Death Cure"
       </h1>
       <div
         style={{
@@ -69,27 +70,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Pikachu
-      </h1>
-      <div
-        style={{
-          width: "50%"
-        }}
-      >
-        <Image
-          className={css`
-            size: 30%;
-          `}
-          src={art8}
-        />
-      </div>
-      <h1
-        className="Anything"
-        style={{
-          color: "white"
-        }}
-      >
-        Leonardo Da Vinci
+        "Spider-Man Buried Alive" Tom Holland Spider-Man Remake
       </h1>
       <div
         style={{
@@ -109,7 +90,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Freedy Mercury
+        Spider-Man With Edith Glasses From "Spider-Man: Far From Home"
       </h1>
       <div
         style={{
@@ -129,7 +110,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Link Of BOTW
+        Pikachu from "Detective Pikachu"
       </h1>
       <div
         style={{

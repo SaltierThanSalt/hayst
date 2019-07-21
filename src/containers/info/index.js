@@ -36,12 +36,8 @@ export default function Information() {
             >
               About This Website
             </h1>
-            <li>This Website Is Made Using React</li>
-            <li>This Website Is Made By A 5th Grader (2017)</li>
-            <li>
-              Did You Know That This Website Was Made Originally For My Novel
-              Book?
-            </li>
+            <li>This Website Is Made Using React JS</li>
+            <li>This Website Is Mainly Used For Portfolio, Youtube, And Art</li>
           </div>
           <div>
             <h1
@@ -51,6 +47,14 @@ export default function Information() {
               }}
             >
               About Hayst
+            </h1>
+            <h1
+              style={{
+                fontStyle: "italic",
+                fontSize: "2rem"
+              }}
+            >
+              Why I draw
             </h1>
             <li>{`The very first video game I've ever played is AngryBirds.`}</li>
             <li>
