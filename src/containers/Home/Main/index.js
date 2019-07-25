@@ -260,7 +260,7 @@ export default class Preview extends Component {
               justifyContent: "center"
             }}
           >
-            © Copyright Hayst 2018
+            © Copyright Hayst 2019
           </div>
           <div
             style={{

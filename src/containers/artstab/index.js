@@ -11,11 +11,11 @@ import art10 from "../../img/pikapikamotherfucker.jpg";
 import art11 from "../../img/ruburtdawnyjuniur.jpg";
 import art12 from "../../img/milezmuralez.jpg";
 import art13 from "../../img/spidermanburiedalive.jpg";
-import art14 from "../../img/Thorendgame.jpg";
-import art15 from "../../img/spidermanfarfromhome.png";
-import art16 from "../../img/Tonyendgame.jpg";
-import art17 from "../../img/Thanosendgame.jpg";
-import art18 from "../../img/Blackwidowendgame.jpg";
+import art14 from "../../img/johnwickdrawing.jpg";
+import art15 from "../../img/spidermanglide.jpg";
+import art16 from "../../img/ironspider.jpg";
+import art17 from "../../img/thanossword.jpg";
+import art18 from "../../img/cutedogdrawing.jpg";
 import { css } from "emotion";
 
 export default function Arts() {
@@ -42,7 +42,7 @@ export default function Arts() {
           }
         `}
       >
-        {`Hayst's Creative Art Section`}
+        {`Hayst's Art Section`}
       </span>
       <h1
         className="Anything"
@@ -124,18 +124,6 @@ export default function Arts() {
           src={art10}
         />
       </div>
-      <span
-        style={{
-          fontSize: "4.5rem",
-          padding: "1rem",
-          display: "flex",
-          justifyContent: "center",
-          borderBottom: "solid 5px white",
-          color: "white"
-        }}
-      >
-        {`Hayst's Marvel Section`}
-      </span>
       <h1
         className="Anything"
         style={{
@@ -172,7 +160,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Tony Stark Endgame Drawing
+        The Iron Spider From "Spider-Man: Far From Home"
       </h1>
       <div
         style={{
@@ -187,7 +175,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Black Widow Endgame Drawing
+        Cute Poodle Drawing
       </h1>
       <div
         style={{
@@ -202,7 +190,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Thor Endgame Drawing
+        John Wick From "John Wick Chapter 2"
       </h1>
       <div
         style={{
@@ -349,7 +337,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Copyright Hayst 2018
+        Copyright Hayst 2019
       </div>
       <div
         style={{

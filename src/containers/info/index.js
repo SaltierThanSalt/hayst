@@ -1,5 +1,5 @@
 import React from "react";
-import randomimage1 from "../../img/mc_char_looking_left.png";
+import randomimage1 from "../../img/favicon.jpg";
 import Image from "../../components/Image";
 import { css } from "emotion";
 
@@ -54,14 +54,24 @@ export default function Information() {
                 fontSize: "2rem"
               }}
             >
-              Why I draw
+              Why I Like Drawing
             </h1>
-            <li>{`The very first video game I've ever played is AngryBirds.`}</li>
+            <li>{`This is a very often spoken answer, but it's true. 
+            Drawing is mostly done for hobby, and I draw because it helps me get away with anything upsetting that happens.`}</li>
+            <h1
+              style={{
+                fontStyle: "italic",
+                fontSize: "2rem"
+              }}
+            >
+              My Youtube
+            </h1>
+            <li>I Started My Youtube In August Of 2015.</li>
             <li>
-              I Was The First One To Upload A Minecraft StoryMode Season 1
-              Episode 4 Gameplay.
+              Fun (not) Fact: I got reported for including "violence" in my
+              Minecraft Hide And Seek Video. This lead to my channel getting
+              banned for 2 months in 2016.
             </li>
-            <li>I Used To Upload Minecraft PE Videos.</li>
           </div>
           <div>
             <h1
@@ -69,10 +79,10 @@ export default function Information() {
                 fontStyle: "Italic"
               }}
             >
-              About How You Should Use Shop Materials
+              About The Use Of My Arts
             </h1>
             <li>
-              All Rights Belongs To Hayst. These Materials Should Not Be Abused.
+              You may use my arts. However, it is necessary to give credits.
             </li>
           </div>
         </div>
@@ -87,7 +97,7 @@ export default function Information() {
             justifyContent: "center"
           }}
         >
-          Copyright Hayst 2018
+          Copyright Hayst 2019
         </div>
         <div
           style={{
