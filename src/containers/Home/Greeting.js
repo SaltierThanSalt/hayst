@@ -21,7 +21,7 @@ export default function Greeting() {
         }
       `}
     >
-      H A Y T E R S I T E . C O M
+      H A Y S T . X Y Z
     </div>
   );
 }

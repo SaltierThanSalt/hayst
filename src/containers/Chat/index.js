@@ -5,7 +5,7 @@ export default function Chat() {
     { id: 1, userId: 1, username: "mikey", message: "hi" },
     { id: 2, userId: 2, username: "hayst", message: "yee??" },
     { id: 3, userId: 1, username: "mikey", message: "hi" },
-    { id: 4, userId: 2, username: "hayst", message: "yee???" },
+    { id: 4, userId: 2, username: "hayst", message: "yee??" },
     { id: 5, userId: 1, username: "mikey", message: "hi" }
   ]);
   return (

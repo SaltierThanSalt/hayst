@@ -9,12 +9,14 @@ import Arts from "./containers/artstab";
 import Comics from "./containers/Comics";
 import Portfolio from "./containers/Portfolio";
 import Chat from "./containers/Chat";
+import Login from "./containers/login";
 import Button from "./components/Button";
 import { css } from "emotion";
 import { Route, Switch } from "react-router-dom";
 
 export default function App() {
   const [chatOpened, setChatOpened] = useState(false);
+  const [loginOpened, setLoginOpened] = useState(false);
   return (
     <div style={{ width: "100%" }}>
       <div
@@ -38,8 +40,18 @@ export default function App() {
       >
         Chat
       </Button>
-      <div />
-      {chatOpened ? (
+      <Button
+        style={{
+          marginTop: "1rem",
+          marginLeft: "1rem"
+        }}
+        onClick={() => setLoginOpened(!loginOpened)}
+      >
+        Login
+      </Button>
+      {loginOpened ? (
+        <Login />
+      ) : chatOpened ? (
         <Chat />
       ) : (
         <div
