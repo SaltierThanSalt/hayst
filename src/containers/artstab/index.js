@@ -16,6 +16,7 @@ import art15 from "../../img/spidermanglide.jpg";
 import art16 from "../../img/ironspider.jpg";
 import art17 from "../../img/thanossword.jpg";
 import art18 from "../../img/cutedogdrawing.jpg";
+import art19 from "../../img/pewdiepie.jpg";
 import { css } from "emotion";
 
 export default function Arts() {
@@ -44,6 +45,40 @@ export default function Arts() {
       >
         {`Hayst's Art Section`}
       </span>
+      <span
+        className={css`
+          padding-top: 2rem;
+          margin: 0;
+          color: grey;
+          font-size: 3rem;
+          transition: font-size 1.5s;
+          &:hover {
+            font-size: 4rem;
+          }
+        `}
+      >
+        {`More in Instagram`}
+      </span>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Felix Kjelburg "Pewdiepie"
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art19}
+        />
+      </div>{" "}
       <h1
         className="Anything"
         style={{
