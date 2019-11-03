@@ -17,6 +17,15 @@ import art16 from "../../img/ironspider.jpg";
 import art17 from "../../img/thanossword.jpg";
 import art18 from "../../img/cutedogdrawing.jpg";
 import art19 from "../../img/pewdiepie.jpg";
+import art20 from "../../img/rots.jpg";
+import art21 from "../../img/jakegyllenhaal.jpg";
+import art22 from "../../img/dunnybucky.jpg";
+import art23 from "../../img/camilia.jpg";
+import art24 from "../../img/cutee.jpg";
+import art25 from "../../img/platypus.jpg";
+import art26 from "../../img/lisa.jpg";
+import art27 from "../../img/jokerr.jpg";
+import art28 from "../../img/genjidrawing.jpg";
 import { css } from "emotion";
 
 export default function Arts() {
@@ -65,6 +74,166 @@ export default function Arts() {
           color: "white"
         }}
       >
+        Bunny and Ducky from Toy Story 4 Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art22}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Jake Gyllenhaal Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art21}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Platypus laying on Floor Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art25}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Lisa from Blackpink Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art26}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Rey from Rise Of The Skywalker Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art20}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Camila Cabello Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art23}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Platypus in Box Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art24}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Joker Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art27}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
         Felix Kjelburg "Pewdiepie"
       </h1>
       <div
@@ -77,6 +246,26 @@ export default function Arts() {
             size: 30%;
           `}
           src={art19}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Genji Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art28}
         />
       </div>{" "}
       <h1

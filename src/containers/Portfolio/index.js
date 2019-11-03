@@ -28,7 +28,7 @@ export default function Portfolio() {
           }
         `}
       >
-        Portfolio
+        Life
       </div>
       <div style={{ fontSize: "3rem", marginTop: "3rem" }}>Why I draw.</div>
       <div
@@ -65,7 +65,8 @@ export default function Portfolio() {
         express my emotions and anything I have in my head to the blank sheet of
         paper in a matter of either minutes, hours, or days. However, after the
         long time I spend on a drawing, the final result most of the time is
-        absolutely worth it.
+        absolutely worth it. Now I'm trying to apply for art related events and
+        competitions like scholastic.
       </div>
       <div style={{ fontSize: "3rem", marginTop: "3rem" }}>
         Why I Make Youtube Videos.
@@ -88,7 +89,8 @@ export default function Portfolio() {
         amazing videos that took up my whole childhood. Over about 5 years, I've
         tried to find which type of content really suits me. I've tried to draw,
         play games, play MIDI instruments, and even reviews. Now I'm trying to
-        start all over again back with Minecraft.
+        start all over again back with Minecraft and sometimes post school
+        related posts.
       </div>
     </div>
   );
