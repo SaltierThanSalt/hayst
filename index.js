@@ -2,7 +2,7 @@
 
 const app = require("./app");
 
-require("greenlock-express")
+require("@root/greenlock")
   .create({
     version: "draft-12",
     configDir: "~/.config/acme",
