@@ -1,11 +1,16 @@
 "use strict";
 
-const app = require("./app");
-
-require("@root/greenlock")
-  .create({
-    packageRoot: __dirname,
-    maintainerEmail: "jihwan.alex.lee@gmail.com",
-    app
+require("greenlock-express")
+  .init(function() {
+    return {
+      greenlock: require("@root/greenlock").create({
+        packageRoot: __dirname,
+        maintainerEmail: "jihwan.alex.lee@gmail.com"
+      }),
+      cluster: false
+    };
   })
-  .listen(80, 443);
+  .ready(function(glx) {
+    const app = require("./app");
+    glx.serveApp(app);
+  });
