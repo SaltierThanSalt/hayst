@@ -1,16 +1,20 @@
-"use strict";
+const app = require("./app");
 
 require("greenlock-express")
-  .init(function() {
-    return {
-      greenlock: require("@root/greenlock").create({
-        packageRoot: __dirname,
-        maintainerEmail: "jihwan.alex.lee@gmail.com"
-      }),
-      cluster: false
-    };
+  .create({
+    version: "draft-12",
+    configDir: "~/.config/acme",
+    server: "https://acme-v02.api.letsencrypt.org/directory",
+    approveDomains: function approveDomains(opts, certs, cb) {
+      if (certs) {
+        opts.domains = certs.altnames;
+      } else {
+        opts.email = "jihwan.alex.lee@gmail.com";
+        opts.agreeTos = true;
+      }
+
+      cb(null, { options: opts, certs });
+    },
+    app
   })
-  .ready(function(glx) {
-    const app = require("./app");
-    glx.serveApp(app);
-  });
+  .listen(80, 443);
