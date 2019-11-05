@@ -65,8 +65,8 @@ export default function Portfolio() {
         express my emotions and anything I have in my head to the blank sheet of
         paper in a matter of either minutes, hours, or days. However, after the
         long time I spend on a drawing, the final result most of the time is
-        absolutely worth it. Now I'm trying to apply for art related events and
-        competitions like scholastic.
+        absolutely worth it. Now {`I'm`} trying to apply for art related events
+        and competitions like scholastic.
       </div>
       <div style={{ fontSize: "3rem", marginTop: "3rem" }}>
         Why I Make Youtube Videos.
@@ -86,11 +86,12 @@ export default function Portfolio() {
         When I started Youtube back on August of 2015, I started just to post my
         Minecraft videos like how most people started with. I was mainly
         inspired by Youtubers such as DanTDM and StampyLongHead, who made
-        amazing videos that took up my whole childhood. Over about 5 years, I've
-        tried to find which type of content really suits me. I've tried to draw,
-        play games, play MIDI instruments, and even reviews. Now I'm trying to
-        start all over again back with Minecraft and sometimes post school
-        related posts.
+        amazing videos that took up my whole childhood. Over about 5 years,{" "}
+        {`I've`}
+        tried to find which type of content really suits me. {`I've`} tried to
+        draw, play games, play MIDI instruments, and even reviews. Now {`I'm`}{" "}
+        trying to start all over again back with Minecraft and sometimes post
+        school related posts.
       </div>
     </div>
   );
