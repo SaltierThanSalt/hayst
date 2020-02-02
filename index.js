@@ -1,5 +1,3 @@
-"use strict";
-
 const app = require("./app");
 
 require("greenlock-express")
@@ -7,9 +5,16 @@ require("greenlock-express")
     version: "draft-12",
     configDir: "~/.config/acme",
     server: "https://acme-v02.api.letsencrypt.org/directory",
-    approveDomains: ["www.hayst.xyz"],
-    agreeTos: true,
-    email: "jihwan.alex.lee@gmail.com",
+    approveDomains: function approveDomains(opts, certs, cb) {
+      if (certs) {
+        opts.domains = certs.altnames;
+      } else {
+        opts.email = "jihwan.alex.lee@gmail.com";
+        opts.agreeTos = true;
+      }
+
+      cb(null, { options: opts, certs });
+    },
     app
   })
   .listen(80, 443);
