@@ -90,7 +90,7 @@ export default function SocialMedia() {
       >
         <a
           style={{ color: "#fff" }}
-          href="https://www.instagram.com/officialhayst/"
+          href="https://www.instagram.com/jihwanalexlee/"
         >
           Instagram
         </a>

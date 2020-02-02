@@ -34,7 +34,7 @@ export default function Arts() {
           }
         `}
       >
-        HEROES
+        고구규 (adding logo later)
       </div>
       <div
         className={css`
@@ -46,7 +46,7 @@ export default function Arts() {
           color: white;
         `}
       >
-        Made By MX KM & Hayst
+        고구규 is a korean webtoon comic that my friends and I made that centers around a boy and a girl and how they get closer. However, somethings weird about their connection. They can communicate through their minds.  
       </div>
       <div
         className={css`

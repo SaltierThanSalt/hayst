@@ -77,8 +77,8 @@ export default class Preview extends Component {
               `}
             >
               {`I upload videos in my Youtube channel only with a little more than
-            900 subscribers but I still make them for fun even though I think of
-            quitting a lot. My real name is Alex Lee and I'm 12 years old and I
+            1000 subscribers but I still make them for fun even though I think of
+            quitting a lot. My real name is Alex Lee and I'm 13 years old and I
             really like Arts.`}
             </div>
           </div>
