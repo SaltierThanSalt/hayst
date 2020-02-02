@@ -1,14 +1,5 @@
 import React from "react";
 import { css } from "emotion";
-import Image from "../../components/Image";
-import preview1 from "../../img/heroesnewp1.png";
-import preview2 from "../../img/heroesnewp2.png";
-import preview3 from "../../img/heroesnewp3.png";
-import cover from "../../img/heroesnewcover.png";
-import preview4 from "../../img/heroesnewp4.png";
-import preview5 from "../../img/heroesnewp5.png";
-import preview6 from "../../img/heroesp6.png";
-
 export default function Arts() {
   return (
     <div
@@ -46,7 +37,9 @@ export default function Arts() {
           color: white;
         `}
       >
-        고구규 is a korean webtoon comic that my friends and I made that centers around a boy and a girl and how they get closer. However, somethings weird about their connection. They can communicate through their minds.  
+        고구규 is a korean webtoon comic that my friends and I made that centers
+        around a boy and a girl and how they get closer. However, somethings
+        weird about their connection. They can communicate through their minds.
       </div>
       <div
         className={css`
@@ -63,62 +56,6 @@ export default function Arts() {
       </div>
       <div
         className={css`
-          padding-left: 6rem;
-          padding-right: 6rem;
-        `}
-      >
-        <Image src={cover} />
-      </div>
-      <div
-        className={css`
-          padding-left: 6rem;
-          padding-right: 6rem;
-        `}
-      >
-        <Image src={preview1} />
-      </div>
-      <div
-        className={css`
-          padding-left: 6rem;
-          padding-right: 6rem;
-        `}
-      >
-        <Image src={preview2} />
-      </div>
-      <div
-        className={css`
-          padding-left: 6rem;
-          padding-right: 6rem;
-        `}
-      >
-        <Image src={preview3} />
-      </div>
-      <div
-        className={css`
-          padding-left: 6rem;
-          padding-right: 6rem;
-        `}
-      >
-        <Image src={preview4} />
-      </div>
-      <div
-        className={css`
-          padding-left: 6rem;
-          padding-right: 6rem;
-        `}
-      >
-        <Image src={preview5} />
-      </div>
-      <div
-        className={css`
-          padding-left: 6rem;
-          padding-right: 6rem;
-        `}
-      >
-        <Image src={preview6} />
-      </div>
-      <div
-        className={css`
           border-bottom: 12rem solid black;
           margin-left: 10rem;
           margin-right: 10rem;
@@ -127,12 +64,7 @@ export default function Arts() {
           color: white;
         `}
       >
-        {`Story: The Main Character Is Searching For The Strongest Weapon In The
-        World For The Military Of StickVille, His Home. But As He Meets A Group
-        Of Super Heros With Their Own Particular Powers, He Starts To Think Of
-        Jo ining The Group To Help Keep Peace In The Alternative-Verses By
-        Keeping The Uni-Pearl Safe, But As They Go Through Some Hardships, Some
-        Death Came Along The Journey...`}
+        {`Story: The main character starts to have telepathic connections with a girl that he formaly knew in middle school, and they realize they're going to end up in the exact place where they left each other. Heartbroken.`}
       </div>
       <div>
         <div

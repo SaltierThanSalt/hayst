@@ -3,6 +3,7 @@ import MsgBoard from "./MsgBoard";
 import Clock from "../Clock";
 import Image from "../../../components/Image";
 import title from "../../../img/channelstatus.png";
+import heartsforeunbin from "../../../img/pink-emoji-hearts.png";
 import "../Clock.css";
 import { css } from "emotion";
 
@@ -77,9 +78,8 @@ export default class Preview extends Component {
               `}
             >
               {`I upload videos in my Youtube channel only with a little more than
-            1000 subscribers but I still make them for fun even though I think of
-            quitting a lot. My real name is Alex Lee and I'm 13 years old and I
-            really like Arts.`}
+            1000 subscribers. I'm 13 years old and I
+            really like drawing.`}
             </div>
           </div>
         </div>
@@ -246,10 +246,53 @@ export default class Preview extends Component {
               marginTop: "2rem",
               height: "60rem",
               overflowY: "scroll",
-              borderBottom: "90px solid ##000000"
+              borderBottom: "20px solid grey"
             }}
           >
             <MsgBoard />
+          </div>
+        </div>
+        <div>
+          <div
+            className={css`
+              display: flex;
+              width: 100;
+              flex-direction: column;
+              align-items: center;
+              font-size: 5rem;
+              margin-top: 1rem;
+            `}
+          >
+            D-25
+          </div>
+          <div
+            className={css`
+              display: flex;
+              width: 100%;
+              font-size: 3rem;
+              flex-direction: column;
+              align-items: center;
+              font-style: italic;
+              font-weight: sans;
+            `}
+          >
+            ilyttmab
+          </div>
+          <div
+            className={css`
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              padding-bottom: 20px;
+              border-bottom: 20px solid grey;
+            `}
+          >
+            <Image
+              style={{
+                width: "20rem"
+              }}
+              src={heartsforeunbin}
+            />
           </div>
         </div>
         <div style={{ paddingBottom: "1.5rem" }}>

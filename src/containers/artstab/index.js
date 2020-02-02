@@ -234,7 +234,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Felix Kjelburg "Pewdiepie"
+        Felix Kjelburg Pewdiepie
       </h1>
       <div
         style={{
@@ -274,7 +274,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Thomas from "The Maze Runner: The Death Cure"
+        Thomas from The Maze Runner: The Death Cure
       </h1>
       <div
         style={{
@@ -294,7 +294,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        "Spider-Man Buried Alive" Tom Holland Spider-Man Remake
+        Spider-Man Buried Alive Tom Holland Spider-Man Remake
       </h1>
       <div
         style={{
@@ -314,7 +314,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Spider-Man With Edith Glasses From "Spider-Man: Far From Home"
+        Spider-Man With Edith Glasses From Spider-Man: Far From Home
       </h1>
       <div
         style={{
@@ -334,7 +334,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Pikachu from "Detective Pikachu"
+        Pikachu from Detective Pikachu
       </h1>
       <div
         style={{
@@ -384,7 +384,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        The Iron Spider From "Spider-Man: Far From Home"
+        The Iron Spider From Spider-Man: Far From Home
       </h1>
       <div
         style={{
@@ -414,7 +414,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        John Wick From "John Wick Chapter 2"
+        John Wick From John Wick Chapter 2
       </h1>
       <div
         style={{
