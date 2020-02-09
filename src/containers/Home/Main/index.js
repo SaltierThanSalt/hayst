@@ -13,6 +13,10 @@ export default class Preview extends Component {
   };
   render() {
     const { titleColor } = this.state;
+    let today = Math.floor(Date.now() / 1000);
+    const date = new Date("January 9, 2020");
+    const theDay = Math.floor(date.getTime() / 1000);
+
     return (
       <div
         className={css`
@@ -263,7 +267,7 @@ export default class Preview extends Component {
               margin-top: 1rem;
             `}
           >
-            D-25
+            D+{Math.floor((today - theDay) / (60 * 60 * 24))}
           </div>
           <div
             className={css`
