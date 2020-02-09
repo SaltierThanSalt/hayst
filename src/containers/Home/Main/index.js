@@ -14,7 +14,7 @@ export default class Preview extends Component {
   render() {
     const { titleColor } = this.state;
     let today = Math.floor(Date.now() / 1000);
-    const date = new Date("January 9, 2020");
+    const date = new Date("January 8, 2020");
     const theDay = Math.floor(date.getTime() / 1000);
 
     return (
