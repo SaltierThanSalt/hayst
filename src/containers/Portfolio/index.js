@@ -65,11 +65,11 @@ export default function Portfolio() {
         express my emotions and anything I have in my head to the blank sheet of
         paper in a matter of either minutes, hours, or days. However, after the
         long time I spend on a drawing, the final result most of the time is
-        absolutely worth it. Now {`I'm`} trying to apply for art related events
-        and competitions like scholastic.
+        absolutely worth it. Now {`I'm`} working on a comic/webtoon series with
+        some of my friends.
       </div>
       <div style={{ fontSize: "3rem", marginTop: "3rem" }}>
-        Why I Make Youtube Videos.
+        Why I Made Youtube Videos.
       </div>
       <div
         className={css`

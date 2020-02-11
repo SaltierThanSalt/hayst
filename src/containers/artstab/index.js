@@ -26,6 +26,12 @@ import art25 from "../../img/platypus.jpg";
 import art26 from "../../img/lisa.jpg";
 import art27 from "../../img/jokerr.jpg";
 import art28 from "../../img/genjidrawing.jpg";
+import art29 from "../../img/lukesky.png";
+import art30 from "../../img/hansol.png";
+import art31 from "../../img/joker.png";
+import art32 from "../../img/dogaccom.png";
+import art33 from "../../img/kendrick.png";
+import art34 from "../../img/hiironman.jpg";
 import { css } from "emotion";
 
 export default function Arts() {
@@ -68,6 +74,126 @@ export default function Arts() {
       >
         {`More in Instagram`}
       </span>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Iron Man Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art34}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Kendrick Lamar DAMN. Album Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art33}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        A Dogs Accomplishment
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art32}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Joker
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art31}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Harrison Ford Portrait Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art30}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Luke Skywalker Drawing from The Last Jedi
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art29}
+        />
+      </div>{" "}
       <h1
         className="Anything"
         style={{
@@ -561,7 +687,7 @@ export default function Arts() {
           color: "white"
         }}
       >
-        Copyright Hayst 2019
+        Copyright Hayst 2020
       </div>
       <div
         style={{

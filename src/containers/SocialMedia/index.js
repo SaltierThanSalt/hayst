@@ -103,7 +103,7 @@ export default function SocialMedia() {
             color: "white"
           }}
         >
-          © Copyright Hayst 2018
+          © Copyright Hayst 2020
         </div>
         <div
           style={{

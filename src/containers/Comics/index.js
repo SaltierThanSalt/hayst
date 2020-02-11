@@ -74,7 +74,7 @@ export default function Arts() {
             justifyContent: "center"
           }}
         >
-          © Copyright Hayst 2018
+          © Copyright Hayst 2020
         </div>
         <div
           style={{

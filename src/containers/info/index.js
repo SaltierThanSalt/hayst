@@ -97,7 +97,7 @@ export default function Information() {
             justifyContent: "center"
           }}
         >
-          Copyright Hayst 2019
+          Copyright Hayst 2020
         </div>
         <div
           style={{
