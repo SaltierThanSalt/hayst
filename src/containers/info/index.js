@@ -1,6 +1,4 @@
 import React from "react";
-import randomimage1 from "../../img/favicon.jpg";
-import Image from "../../components/Image";
 import { css } from "emotion";
 
 export default function Information() {
@@ -38,6 +36,7 @@ export default function Information() {
             </h1>
             <li>This Website Is Made Using React JS</li>
             <li>This Website Is Mainly Used For Portfolio, Youtube, And Art</li>
+            <li>This Website Is Made by Alex Lee and Mikey</li>
           </div>
           <div>
             <h1
@@ -46,7 +45,7 @@ export default function Information() {
                 fontStyle: "Italic"
               }}
             >
-              About Hayst
+              About Art Commissions
             </h1>
             <h1
               style={{
@@ -54,24 +53,9 @@ export default function Information() {
                 fontSize: "2rem"
               }}
             >
-              Why I Like Drawing
+              For any art commissions, please submit them to:
             </h1>
-            <li>{`This is a very often spoken answer, but it's true. 
-            Drawing is mostly done for hobby, and I draw because it helps me get away with anything upsetting that happens.`}</li>
-            <h1
-              style={{
-                fontStyle: "italic",
-                fontSize: "2rem"
-              }}
-            >
-              My Youtube
-            </h1>
-            <li>I Started My Youtube In August Of 2015.</li>
-            <li>
-              Fun (not) Fact: I got reported for including "violence" in my
-              Minecraft Hide And Seek Video. This lead to my channel getting
-              banned for 2 months in 2016.
-            </li>
+            <li>{`jihwan.alex.lee@gmail.com`}</li>
           </div>
           <div>
             <h1
@@ -82,12 +66,9 @@ export default function Information() {
               About The Use Of My Arts
             </h1>
             <li>
-              You may use my arts. However, it is necessary to give credits.
+              You may feature my arts. However, it is necessary to give credits.
             </li>
           </div>
-        </div>
-        <div>
-          <Image className="thingyt" src={randomimage1} />
         </div>
       </div>
       <div style={{ paddingBottom: "2rem" }}>

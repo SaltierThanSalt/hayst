@@ -28,7 +28,7 @@ export default function Portfolio() {
           }
         `}
       >
-        Life
+        Life So Far
       </div>
       <div style={{ fontSize: "3rem", marginTop: "3rem" }}>Why I draw.</div>
       <div
@@ -66,7 +66,7 @@ export default function Portfolio() {
         paper in a matter of either minutes, hours, or days. However, after the
         long time I spend on a drawing, the final result most of the time is
         absolutely worth it. Now {`I'm`} working on a comic/webtoon series with
-        some of my friends.
+        some of my friends and possibly a new Youtube channel.
       </div>
       <div style={{ fontSize: "3rem", marginTop: "3rem" }}>
         Why I Made Youtube Videos.
@@ -86,12 +86,10 @@ export default function Portfolio() {
         When I started Youtube back on August of 2015, I started just to post my
         Minecraft videos like how most people started with. I was mainly
         inspired by Youtubers such as DanTDM and StampyLongHead, who made
-        amazing videos that took up my whole childhood. Over about 5 years,{" "}
-        {`I've`}
-        tried to find which type of content really suits me. {`I've`} tried to
-        draw, play games, play MIDI instruments, and even reviews. Now {`I'm`}{" "}
-        trying to start all over again back with Minecraft and sometimes post
-        school related posts.
+        amazing videos that took up the majority of my childhood. Over about 5
+        years, I tried to find which type of content really suits me. I tried to
+        draw, play games, play MIDI instruments, and even make reviews. Now{" "}
+        {`I'm`} trying to start all over again back with possibly music or arts.
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ export default function Greeting() {
         align-items: center;
         font-size: 2.4rem;
         font-weight: bold;
-        color: rgb(300, 125, 40);
+        color: rgb(51, 153, 255);
         margin-bottom: 2rem;
         transition: font-size 2s;
         &:hover {

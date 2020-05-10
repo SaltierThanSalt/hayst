@@ -32,6 +32,11 @@ import art31 from "../../img/joker.png";
 import art32 from "../../img/dogaccom.png";
 import art33 from "../../img/kendrick.png";
 import art34 from "../../img/hiironman.jpg";
+import art35 from "../../img/thumbnailmaythe4th.jpg";
+import art36 from "../../img/eleven.jpg";
+import art37 from "../../img/gongyoodrawing.jpg";
+import art38 from "../../img/james.jpg";
+import art39 from "../../img/rdjportrait.jpg";
 import { css } from "emotion";
 
 export default function Arts() {
@@ -74,6 +79,106 @@ export default function Arts() {
       >
         {`More in Instagram`}
       </span>
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Tony Stark Endgame Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art39}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Darth Vader Drawing (May 4th Special)
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art35}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        James From The End Of The Fucking World
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art38}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Eleven Drawing From Stranger Things
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art36}
+        />
+      </div>{" "}
+      <h1
+        className="Anything"
+        style={{
+          color: "white"
+        }}
+      >
+        Gongyoo (공유) Drawing
+      </h1>
+      <div
+        style={{
+          width: "50%"
+        }}
+      >
+        <Image
+          className={css`
+            size: 30%;
+          `}
+          src={art37}
+        />
+      </div>{" "}
       <h1
         className="Anything"
         style={{

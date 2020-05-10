@@ -4,7 +4,7 @@ export default function Arts() {
   return (
     <div
       className={css`
-        background-color: black;
+        background-color: white;
         font-family: Impact, Charcoal, "Helvetica Neue";
         font-weight: bold;
       `}
@@ -16,7 +16,7 @@ export default function Arts() {
           margin-right: 2rem;
           display: flex;
           justify-content: center;
-          color: white;
+          color: black;
           font-size: 10rem;
           line-height: 1;
           transition: font-size 2s;
@@ -25,7 +25,7 @@ export default function Arts() {
           }
         `}
       >
-        고구규 (adding logo later)
+        Again & Again
       </div>
       <div
         className={css`
@@ -34,12 +34,11 @@ export default function Arts() {
           border-bottom: 2rem solid white;
           display: flex;
           justify-content: center;
-          color: white;
+          color: black;
         `}
       >
-        고구규 is a korean webtoon comic that my friends and I made that centers
-        around a boy and a girl and how they get closer. However, somethings
-        weird about their connection. They can communicate through their minds.
+        Again & Again is a webtoon series in progress in the Webtoon comic
+        website.
       </div>
       <div
         className={css`
@@ -56,20 +55,20 @@ export default function Arts() {
       </div>
       <div
         className={css`
-          border-bottom: 12rem solid black;
+          border-bottom: 12rem solid white;
           margin-left: 10rem;
           margin-right: 10rem;
           display: flex;
           justify-content: center;
-          color: white;
+          color: black;
         `}
       >
-        {`Story: The main character starts to have telepathic connections with a girl that he formaly knew in middle school, and they realize they're going to end up in the exact place where they left each other. Heartbroken.`}
+        {`Synopsis: Two assholes trying to socialize until the pain repeats.`}
       </div>
       <div>
         <div
           style={{
-            color: "white",
+            color: "black",
             display: "flex",
             justifyContent: "center"
           }}

@@ -26,7 +26,7 @@ export default function App() {
           background-color: black;
           width: 100%;
           height: 16rem;
-          background-size: 15rem;
+          background-size: 150rem;
           background-repeat: no-repeat;
           background-position: center center;
         `}

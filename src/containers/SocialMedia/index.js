@@ -30,7 +30,7 @@ export default function SocialMedia() {
           display: flex;
           align-items: center;
           flex-direction: column;
-          font-size: 10rem;
+          font-size: 8rem;
           color: #fff;
         `}
       >
@@ -48,7 +48,7 @@ export default function SocialMedia() {
               font-family: Impact, Charcoal, sans-serif;
             `}
           >
-            You
+            YOU
           </span>
           <span
             className={css`
@@ -57,7 +57,7 @@ export default function SocialMedia() {
               font-family: Impact, Charcoal, sans-serif;
             `}
           >
-            Tube
+            TUBE
           </span>
         </a>
       </div>
@@ -67,14 +67,14 @@ export default function SocialMedia() {
           display: "flex",
           justifyContent: "center",
           fontFamily: "Impact, Charcoal, sens-sarif",
-          fontSize: "10rem",
+          fontSize: "8rem",
           marginLeft: "9rem",
           marginRight: "9rem",
           borderTop: "1.2rem solid white"
         }}
       >
         <a style={{ color: "#fff" }} href="https://twitter.com/Hayter_YT">
-          Twitter
+          TWITTER
         </a>
       </div>
       <div
@@ -82,7 +82,7 @@ export default function SocialMedia() {
           display: "flex",
           justifyContent: "center",
           fontFamily: "Impact, Charcoal, sens-sarif",
-          fontSize: "10rem",
+          fontSize: "8rem",
           marginLeft: "9rem",
           marginRight: "9rem",
           borderTop: "1.2rem solid white"
@@ -92,7 +92,7 @@ export default function SocialMedia() {
           style={{ color: "#fff" }}
           href="https://www.instagram.com/jihwanalexlee/"
         >
-          Instagram
+          INSTAGRAM
         </a>
       </div>
       <div style={{ paddingBottom: "2rem" }}>

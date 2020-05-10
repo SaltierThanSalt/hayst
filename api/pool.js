@@ -1,5 +1,5 @@
-const config = require('./config');
-const mysql = require('mysql');
+const config = require("./config");
+const mysql = require("mysql");
 const pool = mysql.createPool({
   connectionLimit: 10,
   host: config.mysqlHost,
@@ -8,7 +8,7 @@ const pool = mysql.createPool({
   database: config.mysqlDatabase,
   supportBigNumbers: true,
   bigNumberStrings: true,
-  charset: 'utf8mb4',
+  charset: "utf8mb4",
   debug: false
 });
 

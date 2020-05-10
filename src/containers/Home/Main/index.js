@@ -3,20 +3,15 @@ import MsgBoard from "./MsgBoard";
 import Clock from "../Clock";
 import Image from "../../../components/Image";
 import title from "../../../img/channelstatus.png";
-import heartsforeunbin from "../../../img/pink-emoji-hearts.png";
 import "../Clock.css";
 import { css } from "emotion";
 
 export default class Preview extends Component {
   state = {
-    titleColor: "rgb(237, 125, 40)"
+    titleColor: "rgb(51, 153, 255)"
   };
   render() {
     const { titleColor } = this.state;
-    let today = Math.floor(Date.now() / 1000);
-    const date = new Date("January 8, 2020");
-    const theDay = Math.floor(date.getTime() / 1000);
-
     return (
       <div
         className={css`
@@ -224,7 +219,7 @@ export default class Preview extends Component {
             title="bettervid"
             width="680"
             height="415"
-            src="https://www.youtube.com/embed/3_BrGzriVQg"
+            src="https://www.youtube.com/embed/A-hwSMN6scg"
             frameBorder="0"
             allowFullScreen
           />
@@ -254,49 +249,6 @@ export default class Preview extends Component {
             }}
           >
             <MsgBoard />
-          </div>
-        </div>
-        <div>
-          <div
-            className={css`
-              display: flex;
-              width: 100;
-              flex-direction: column;
-              align-items: center;
-              font-size: 5rem;
-              margin-top: 1rem;
-            `}
-          >
-            D+{Math.floor((today - theDay) / (60 * 60 * 24))}
-          </div>
-          <div
-            className={css`
-              display: flex;
-              width: 100%;
-              font-size: 3rem;
-              flex-direction: column;
-              align-items: center;
-              font-style: italic;
-              font-weight: sans;
-            `}
-          >
-            ilyttmab
-          </div>
-          <div
-            className={css`
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              padding-bottom: 20px;
-              border-bottom: 20px solid grey;
-            `}
-          >
-            <Image
-              style={{
-                width: "20rem"
-              }}
-              src={heartsforeunbin}
-            />
           </div>
         </div>
         <div style={{ paddingBottom: "1.5rem" }}>
