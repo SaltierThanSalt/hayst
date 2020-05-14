@@ -20,8 +20,9 @@ export default class Preview extends Component {
           flex-direction: column;
           justify-content: space-between;
           border-top: 20px solid gray;
+          border-bottom: 20px solid gray;
           border-left: 10px solid silver;
-          padding-left: 5rem;
+          border-right: 10px solid silver;
           font-family: sans-serif;
           h2 {
             font-weight: bold;
@@ -130,7 +131,7 @@ export default class Preview extends Component {
               )
             }
           >
-            VISIT THE CHANNEL
+            SUPPORT THE CHANNEL
           </button>
         </div>
         <div style={{ borderBottom: "20px solid gray" }} />
@@ -159,7 +160,7 @@ export default class Preview extends Component {
               width: 100;
               flex-direction: column;
               font-size: 4.5rem;
-              font-family: Impact, Charcoal, sans-serif;
+              font-family: Arial, Charcoal, sans-serif;
               transition-property: font-size, color;
               transition-duration: 2s;
               transition-delay: 0s;

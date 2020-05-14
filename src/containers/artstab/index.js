@@ -77,7 +77,12 @@ export default function Arts() {
           }
         `}
       >
-        {`More in Instagram`}
+        <a
+          style={{ color: "#A9A9A9" }}
+          href="https://www.instagram.com/jihwanalexlee/"
+        >
+          More In Instagram
+        </a>
       </span>
       <h1
         className="Anything"

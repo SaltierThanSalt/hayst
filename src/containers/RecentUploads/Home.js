@@ -11,7 +11,9 @@ export default function Home() {
           borderTop: "2px solid #000"
         }}
       >
-        <p>small changes</p>
+        <p>
+          Darth Vader Speed Draw (Star Wars Day Special) - Hayst (Jihwanalexlee)
+        </p>
       </div>
       <div
         style={{
@@ -22,7 +24,7 @@ export default function Home() {
           title="singlehandwii"
           width="100%"
           height="315"
-          src="https://www.youtube.com/embed/Jg-ZGw2mNq4"
+          src="https://www.youtube.com/embed/P3BPtx1dsRU"
           frameBorder="0"
           allowFullScreen
         />

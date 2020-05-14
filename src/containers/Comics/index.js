@@ -1,5 +1,7 @@
 import React from "react";
 import { css } from "emotion";
+import Image from "../../components/Image";
+import art39 from "../../img/coverofwebtoon.jpg";
 export default function Arts() {
   return (
     <div
@@ -14,14 +16,18 @@ export default function Arts() {
           padding-top: 1rem;
           margin-left: 2rem;
           margin-right: 2rem;
+          padding-bottom: 3rem;
           display: flex;
           justify-content: center;
           color: black;
           font-size: 10rem;
           line-height: 1;
-          transition: font-size 2s;
+          transition-property: font-size, color;
+          transition-duration: 2s;
+          transition-delay: 0s;
           &:hover {
             font-size: 15rem;
+            color: #7ed957;
           }
         `}
       >
@@ -39,6 +45,24 @@ export default function Arts() {
       >
         Again & Again is a webtoon series in progress in the Webtoon comic
         website.
+      </div>
+      <div>
+        <div
+          style={{
+            width: "100%",
+            size: "100",
+            flexDirection: "column",
+            alignItems: "center",
+            display: "flex"
+          }}
+        >
+          <a
+            style={{ color: "#A9A9A9" }}
+            href="https://www.webtoons.com/en/challenge/again-again-h/list?title_no=435648"
+          >
+            <Image src={art39} />
+          </a>
+        </div>{" "}
       </div>
       <div
         className={css`
@@ -63,7 +87,7 @@ export default function Arts() {
           color: black;
         `}
       >
-        {`Synopsis: Two assholes trying to socialize until the pain repeats.`}
+        {`Synopsis: Three teenagers trying to socialize with the world.`}
       </div>
       <div>
         <div

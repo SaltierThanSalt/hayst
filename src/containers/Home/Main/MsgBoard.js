@@ -37,7 +37,7 @@ export default function MsgBoard() {
         <input
           value={inputText}
           onChange={event => setInputText(event.target.value)}
-          placeholder="Ex) Hello There! General Kenobi! - Obiwan Kenobyee"
+          placeholder="Ex) Hello There! General Kenobi!"
           style={{
             width: "50%",
             marginLeft: "25%",
