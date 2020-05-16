@@ -1,7 +1,7 @@
 import React from "react";
 import { css } from "emotion";
 import Image from "../../components/Image";
-import art39 from "../../img/coverofwebtoon.jpg";
+import art39 from "../../img/maincover.jpg";
 export default function Arts() {
   return (
     <div
@@ -27,7 +27,7 @@ export default function Arts() {
           transition-delay: 0s;
           &:hover {
             font-size: 15rem;
-            color: #7ed957;
+            color: #ffcce5;
           }
         `}
       >
@@ -67,7 +67,7 @@ export default function Arts() {
       <div
         className={css`
           line-height: 2;
-          font-size: 3rem;
+          font-size: 5rem;
           margin-left: 2rem;
           margin-right: 2rem;
           display: flex;
@@ -75,11 +75,12 @@ export default function Arts() {
           color: grey;
         `}
       >
-        (Preview)
+        (Still In Progress)
       </div>
       <div
         className={css`
           border-bottom: 12rem solid white;
+          font-size: 3rem;
           margin-left: 10rem;
           margin-right: 10rem;
           display: flex;
@@ -87,7 +88,7 @@ export default function Arts() {
           color: black;
         `}
       >
-        {`Synopsis: Three teenagers trying to socialize with the world.`}
+        {`Synopsis: A story about three teenagers coming together to form a strong bond with each other.`}
       </div>
       <div>
         <div

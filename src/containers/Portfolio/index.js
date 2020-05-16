@@ -44,10 +44,9 @@ export default function Portfolio() {
         `}
       >
         I started drawing since I was little, and with the help of my dad,{" "}
-        {`I've`}
-        learned many necessities for drawings like modeling the bones and
-        appropriate pencils or tools to use when either sketching, coloring, or
-        even sculpting. I used to go to an art lesson at the street across my
+        {`I've`} learned many necessities for drawings like modeling the bones
+        and appropriate pencils or tools to use when either sketching, coloring,
+        or even sculpting. I used to go to an art lesson at the street across my
         apartment since when I was 5 or 6, and these lessons taught me shading,
         coloring, gradaition, and much more. However, I stopped taking these
         lessons about 2 years after. During those years, I still practiced to
