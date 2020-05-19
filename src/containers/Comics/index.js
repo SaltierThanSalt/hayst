@@ -58,7 +58,7 @@ export default function Arts() {
         >
           <a
             style={{ color: "#A9A9A9" }}
-            href="https://www.webtoons.com/en/challenge/again-again-h/list?title_no=435648"
+            href="https://www.webtoons.com/en/challenge/again-again/list?title_no=440262"
           >
             <Image src={art39} />
           </a>
